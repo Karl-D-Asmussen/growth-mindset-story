@@ -1,69 +1,70 @@
 
-Labour:
-  Body:
-    Athletics
-    Acrobatics
-    Meditation
-  Tools:
-    Breweing
-    Calligraphy
-    ...
-  Vehicles:
-    Wagons
-    Automobiles
-    Gyroplanes
-    Airplanes
-    Boats
-    Ships
+Labor 0.32
+Labor→Body 0.10
+Labor→Body→Athletics 0.10
+Labor→Body→Acrobatics
+Labor→Body→Control
+Labor→Tools
+Labor→Tools→Breweing
+Labor→Tools→Calligraphy
+Labor→Tools→...
+Labor→Vehicles
+Labor→Vehicles→Wagons
+Labor→Vehicles→Automobiles
+Labor→Vehicles→Helicopters
+Labor→Vehicles→Gyrocopters
+Labor→Vehicles→Airplanes
+Labor→Vehicles→Boats
+Labor→Vehicles→Ships
 
-Fighting:
-  Armed:
-    Un-
-    Improvised
-    Simple
-    Short
-    Long
-    Heavy
-    Exotic
-  Aimed:
-    Ballistics
-    Archery
-    Launching
-  General:
-    Dodge
-    Gauge
-    Psych
+Fighting 0.04
+Fighting→Armed 0.02
+Fighting→Armed→Un- 0.01
+Fighting→Armed→Improvised
+Fighting→Armed→Simple
+Fighting→Armed→Short
+Fighting→Armed→Long
+Fighting→Armed→Heavy
+Fighting→Armed→Exotic
+Fighting→Aimed
+Fighting→Aimed→Ballistics 0.04
+Fighting→Aimed→Archery
+Fighting→Aimed→Launching
+Fighting→General
+Fighting→General→Dodge
+Fighting→General→Gauge
+Fighting→General→Psych
 
-Artisty:
-  Space:
-    Sculpture
-    Painting
-    Architecture
-    Fashion
-  Time:
-    Music
-    Poetry
-    Prose
-  Body:
-    Dance
-    Cosmetics
+Artistry 
+Artistry→Space
+Artistry→Space→Sculpture
+Artistry→Space→Painting
+Artistry→Space→Architecture
+Artistry→Space→Fashion
+Artistry→Time
+Artistry→Time→Music
+Artistry→Time→Poetry
+Artistry→Time→Prose
+Artistry→Body
+Artistry→Body→Dance
+Artistry→Body→Cosmetics
 
-Knowledge:
-  Politics:
-  Science:
-    Mathematics
-    Arcana
-    Appraisal
-    ...
-  History:
-    ...
+Knowledge
+Knowledge→  Politics
+Knowledge→  Science
+Knowledge→    Mathematics
+Knowledge→    Arcana
+Knowledge→    Appraisal
+Knowledge→    ...
+Knowledge→  History
+Knowledge→    ...
 
-Thinking:
-  Learning:
+Thinking
+  Learning
     Observation
     Experimentation
 
-  Reasoning:
+  Reasoning
     Algorism
     Syllogism
     Yomi
@@ -72,7 +73,7 @@ Thinking:
     Mental Hygeine
     Narrativism
 
-  Recall:
+  Recall
     Menmonics
     Visual
     Audial
@@ -82,8 +83,8 @@ Thinking:
     Spatial
     [Languages]
 
-Socializing:
-  Rhethoric:
+Socializing
+  Rhethoric
     Persuasion
     Diplomacy
     Subtext
@@ -91,12 +92,12 @@ Socializing:
     Humor
     Sarcasm
 
-  Manipulation:
+  Manipulation
     Modeling
     Deception
     Sincerity
 
-  Empathy:
+  Empathy
     Sympathy
     Acquainting
     Modesty
