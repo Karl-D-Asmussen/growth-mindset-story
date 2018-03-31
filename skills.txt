@@ -1,0 +1,102 @@
+
+Labour:
+  Body:
+    Athletics
+    Acrobatics
+    Meditation
+  Tools:
+    Breweing
+    Calligraphy
+    ...
+  Vehicles:
+    Wagons
+    Automobiles
+    Gyroplanes
+    Airplanes
+    Boats
+    Ships
+
+Fighting:
+  Armed:
+    Un-
+    Improvised
+    Simple
+    Short
+    Long
+    Heavy
+    Exotic
+  Aimed:
+    Ballistics
+    Archery
+    Launching
+  General:
+    Dodge
+    Gauge
+    Psych
+
+Artisty:
+  Space:
+    Sculpture
+    Painting
+    Architecture
+    Fashion
+  Time:
+    Music
+    Poetry
+    Prose
+  Body:
+    Dance
+    Cosmetics
+
+Knowledge:
+  Politics:
+  Science:
+    Mathematics
+    Arcana
+    Appraisal
+    ...
+  History:
+    ...
+
+Thinking:
+  Learning:
+    Observation
+    Experimentation
+
+  Reasoning:
+    Algorism
+    Syllogism
+    Yomi
+    Criticism
+    Humility
+    Mental Hygeine
+    Narrativism
+
+  Recall:
+    Menmonics
+    Visual
+    Audial
+    Olfactory
+    Tactile
+    Temporal
+    Spatial
+    [Languages]
+
+Socializing:
+  Rhethoric:
+    Persuasion
+    Diplomacy
+    Subtext
+    Bombast
+    Humor
+    Sarcasm
+
+  Manipulation:
+    Modeling
+    Deception
+    Sincerity
+
+  Empathy:
+    Sympathy
+    Acquainting
+    Modesty

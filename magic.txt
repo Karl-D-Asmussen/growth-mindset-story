@@ -1,0 +1,177 @@
+
+Abjuration:
+  Banishment:
+    Aspect: Power
+    Examples:
+      - Counterspell
+      - Dispel Magic
+      - Restoration
+      - Banishment
+
+  Intervention:
+    Aspect: Finesse
+    Examples:
+      - Ceremony
+      - Aid
+      - Resistance
+      - Freedom of Movement
+
+  Warding:
+    Aspect: Resistance
+    Examples:
+      - Magic Circle
+      - Blade Ward
+
+Animation:
+  Awakening:
+    Aspect: Power
+    Examples:
+      - Awaken
+      - Raise Dead
+      - Spare the Dying
+      - Ressurection
+
+  Directing:
+    Aspect: Finesse
+    Examples:
+      - Spirit Guardian
+      - Helaing Spirit
+      - Turn Undead
+      - Commune with Dead
+      - Animate Object
+
+  Stilling:
+    Aspect: Resistance
+    Examples:
+      - Gentle Repose
+      - Ennervation
+      - Soul Jar
+      - Feign Dead
+      - Killing Word
+
+Conjuration:
+  Ex Nihilo:
+    Aspect: Power
+    Examples:
+      - Wish
+      - Conjure Volley
+      - Mighty Fortress
+
+  Ex Alio:
+    Aspect: Finesse
+    Examples:
+      - Summon Demon
+      - Teleportation
+
+  Ex Animo:
+    Aspect: Resistance
+    Examples:
+      - Unseen Servant
+      - Mage Hand
+      - Secret Chest
+      - Tiny Hut
+      - Demiplane
+      - Maze
+
+Divination:
+  Future:
+    Aspect: Power
+    Examples:
+      - Augury
+      - Foresight
+
+  Present:
+    Aspect: Finesse
+    Examples:
+      - Scrying 
+      - Detect Poison and Disease
+      - See Invisibility
+
+  Past:
+    Aspect: Resistance 
+    Examples:
+      - Legend Lore
+      - Find Path
+      - Locate Object
+      - Identify
+
+Evocation:
+  Create:
+    Aspect: Power
+    Examples:
+      - Wall of Fire
+
+  Master:
+    Aspect: Finesse
+    Examples:
+      - Shape Stone
+
+  Destroy:
+    Aspect: Resistance
+    Examples:
+      - Sphere of Annihilation
+      - Eldrich Blast
+
+Fascination:
+  Geas:
+    Aspect: Power
+    Examples:
+      - Command
+      - Geas
+
+  Enchanting:
+    Aspect: Finesse
+    Examples:
+      - Charm Person
+      - Suggestion
+  
+  Telepathy:
+    Aspect: Resistance
+    Examples:
+      - Detect Thoughts
+      - Sending
+
+Illusion:
+  Presence:
+    Aspect: Power
+    Examples:
+      - Silent Image
+      - Disguise Self
+
+  Experience:
+    Aspect: Finesse
+    Examples:
+      - Phantasmal Killer
+      - Fear
+  
+  Absence:
+    Aspect: Finesse
+    Examples:
+      - Invisibility
+
+Transmutation:
+  Alteration:
+    Aspect: Power
+    Examples:
+      - Regeneration
+      - Stone Shape
+      - Fabricate
+      - Disintegrate
+      - Mending
+
+  Alchemy:
+    Aspect: Finesse
+    Examples:
+      - Flesh to Stone
+      - Alter Self
+      - Shapechange
+      - Polymorph
+
+  Alakazam:
+    Aspect: Resistance
+      - Time Stop
+      - Sequester
+      - Shillelagh
+      - Spider Climb
+      - Fly
+      - Reverse Gravity
