@@ -52,6 +52,7 @@ Artistry→Body→Cosmetics
 Knowledge
 Knowledge→  Politics
 Knowledge→  Science
+Knowledge→    Economics
 Knowledge→    Mathematics
 Knowledge→    Arcana
 Knowledge→    Appraisal
@@ -63,6 +64,7 @@ Thinking
   Learning
     Observation
     Experimentation
+    Hypothesizing
 
   Reasoning
     Algorism
@@ -84,20 +86,23 @@ Thinking
     [Languages]
 
 Socializing
-  Rhethoric
+  Communication
     Persuasion
-    Diplomacy
     Subtext
     Bombast
     Humor
     Sarcasm
+    Intimidation
+    Haptics
 
   Manipulation
+    Negotiation
     Modeling
     Deception
     Sincerity
+    Intimidation
 
   Empathy
-    Sympathy
     Acquainting
     Modesty
+    Profiling

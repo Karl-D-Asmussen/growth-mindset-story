@@ -79,7 +79,7 @@ forest. There was no sign of danger, so I took some more time to think.
 That this was some sort of D&D world was frankly ludicrous. As a partial joke,
 I wondered if I had a Strength score.
 
-- _Strength 8.00 = 8.00 (base)_
+> _Strength 8.00 = 8.00 (base)_
 
 I stood there, dumbfounded at the intrusive thought --- like it was just a hard fact
 in my brain, available for recall.
@@ -90,23 +90,23 @@ Constitution, Intelligence, and Charisma.
 In lieu of thinking of each, I got a number; except with Dexterity and
 Intelligence. Did I have it wrong?
 
-- _Constitution 8.00 = 8.00 (base)_
-- _Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)_
-- _Wisdom 9.00 = 8.00 (base) + 1.00 (feature)_
+> _Constitution 8.00 = 8.00 (base)  
+> Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)  
+> Wisdom 9.00 = 8.00 (base) + 1.00 (feature)_
 
 I tried a few synonyms and found the missing two.
 
-- _Agility 8.00 = 8.00 (base)_
-- _Intellect 10.00 = 8.00 (base) + 1.00 (racial) + 1.00 (feature)_
+> _Agility 8.00 = 8.00 (base)  
+> Intellect 10.00 = 8.00 (base) + 1.00 (racial) + 1.00 (feature)_
 
 Then I realized I could get them all by thinking about ability scores.
 
-- _Strength 8.00 = 8.00 (base)_
-- _Agility 8.00 = 8.00 (base)_
-- _Constitution 8.00 = 8.00 (base)_
-- _Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)_
-- _Wisdom 9.00 = 8.00 (base) + 1.00 (feature)_
-- _Intellect 10.00 = 8.00 (base) + 1.00 (racial) + 1.00 (feature)_
+> _Strength 8.00 = 8.00 (base)  
+> Agility 8.00 = 8.00 (base)  
+> Constitution 8.00 = 8.00 (base)  
+> Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)  
+> Wisdom 9.00 = 8.00 (base) + 1.00 (feature)  
+> Intellect 10.00 = 8.00 (base) + 1.00 (racial) + 1.00 (feature)_
 
 I knew what each did, not just from inference, but in the same innate manner of
 knowledge. Strength governed physcal prowess, Agility governed motorical coordination, Constitution
@@ -157,8 +157,9 @@ words of nonfiction per word of fiction.
 My first question was what the ability scores signified. Given their two-digit decimal fraction,
 I was reluctant to belive they translated to bonuses to a twenty-sided die roll in some fashion.
 
-The answer readily presented itself: _roll below, drawn from log-normal distribution
-with mean 10 and log standard deviation 1._
+The answer readily presented itself:
+
+> _Roll below, drawn from log-normal distribution with mean 10 and log standard deviation 1._
 
 Doing some quick mental maths --- it had been a while since I had done introductory statistics
 --- it would seem that a 10 in an ability score was a 50% chance of success, while 20 was roughly 75%;
@@ -171,12 +172,12 @@ nature of the numbers sowed doubt as to whether it would be in discrete incremen
 
 I went over them again, considering my options:
 
-- _Strength 8.00 = 8.00 (base)_
-- _Agility 8.00 = 8.00 (base)_
-- _Constitution 8.00 = 8.00 (base)_
-- _Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)_
-- _Wisdom 9.00 = 8.00 (base) + 1.00 (feature)_
-- _Intellect 10.01 = 8.01 (base) + 1.00 (racial) + 1.00 (feature)_
+> _Strength 8.00 = 8.00 (base)  
+> Agility 8.00 = 8.00 (base)  
+> Constitution 8.00 = 8.00 (base)  
+> Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)  
+> Wisdom 9.00 = 8.00 (base) + 1.00 (feature)  
+> Intellect 10.01 = 8.01 (base) + 1.00 (racial) + 1.00 (feature)_
 
 And noticed that Intellect had increased by 0.01. Was that from all the considering I had
 just done? I still had 56 points available; so it stood to reason.
@@ -195,7 +196,7 @@ that very string. A pendulum would do.
 Starting it out at a fourty-five degree angle, I counted my pulse by the carotid artery until it
 stilled.
 
-- _Constitution 15.00 = 15.00 (base)_
+> _Constitution 15.00 = 15.00 (base)_
 
 Counting again, my resting pulse had dropped by about 10%, which was tremendously interesting.
 
@@ -207,17 +208,17 @@ tree and tried my hand at throwing. First ten had abysmal accuracy, so I sunk on
 agility and tried again, which gave me a small improvement. I didn't throw the rest, but elected
 to raise both Strength and <s>Dexterity</s>Agility to 10.
 
-- _Strength 10.00 = 10.00 (base)_
-- _Agility 10.00 = 10.00 (base)_
+> _Strength 10.00 = 10.00 (base)  
+> Agility 10.00 = 10.00 (base)_
 
 Already I felt limberer, and lighter on my feet. A sluggishness I had unwittingly chalked up
 to being a _different race_ all of a sudden.
 
 That left me with 45 points to spend. I did the smart thing; literally.
 
-- _Charisma 25.00 = 22.00 (base) + 2.00 (racial) + 1.00 (feature)_
-- _Wisdom 25.00 = 24.00 (base) + 1.00 (feature)_
-- _Intellect 25.01 = 23.01 (base) + 1.00 (racial) + 1.00 (feature)_
+> _Charisma 25.00 = 22.00 (base) + 2.00 (racial) + 1.00 (feature)  
+> Wisdom 25.00 = 24.00 (base) + 1.00 (feature)  
+> Intellect 25.01 = 23.01 (base) + 1.00 (racial) + 1.00 (feature)_
 
 As soon as I had made that decision, everything felt into stark relief. First; the clearing itself
 became suspicious almost immediately: something was very clearly not right. It was too sunny, too
@@ -227,90 +228,82 @@ since I'd misjudged my abilities at mental math a little.
 Oh well. You had to work with what you got; no undo button presented itself. Then, the equations
 governing the scores disappeared, and I was left with:
 
-- _Strength 10.00_
-- _Agility 10.00_
-- _Constitution 15.00_
-- _Charisma 25.00_
-- _Wisdom 25.00_
-- _Intellect 25.01_
+> _Strength 10.00
+> Agility 10.00
+> Constitution 15.00
+> Charisma 25.00
+> Wisdom 25.00
+> Intellect 25.01_
 
-And a new fact: _35.00 Don't-Get-Hit Points, 75.00 Don't-Go-Mad Points._ 
+And a new fact presented itself:
+
+> _35.00 Don't-Get-Hit Points, 75.00 Don't-Go-Mad Points._ 
 
 So, hit points and... Sanity? But where the don't-get-hit points had a clear relation to
 the 'HP' abbreviation, going by the same principle, my sanity meter would be named 'MP,'
 which implied magic points. The hit points were the sum of Strength through Constitution,
 while the mad points were the sum of the rest --- this was another thing I _knew_.
 I wondered what would happen if I took a hit.
-
+Stilling
 Then the numbers started rolling in my mind: _Initiative 8.75, Reaction 8.75, Willpower 10.00 ._
 
 These were --- I knew again --- derived from Strength and Charisma, Agility and Wisdom, and Constitution and
 Intellect, by a quotient of four.
 
-Lastly: _Body Speed 10.00,  Mind Speed 10.00, Beauty X+8.33._
+> _Body Speed 10.00, Mind Speed 10.00, Beauty X+8.33._
 
 And these were race-specific. Foot speed was a third of the sum of a constant
 and the higher of my Strength and Agility, Cleverness the same but with
 Wisdom/Intellect instead. Beauty was a third of my Charisma, since Constitution was lower,
 and would be added to some unknown constat; possibly in the eye of the beholder.
 
-- _Skill tree_
-- _Feature tree_
-- _Trick tree_
-- _Afflictions tree_
+> _Skill: Thinking 0.01  
+> Skill: Thinking→Reason 0.01  
+> Skill: Thinking→Reason→Epistemic Hygeine 0.01
+> Skill: Thinking→Reason→Algorism 0.01
+> Feature: Psychopathy 1.00
+> Condition: Heartless X.XX
+> Feature: Infernal Legacy X.XX 
+> Feature: Infernal Legacy→Dark Gifts X.XX
+> Skill: Willworking→…→… 0.01  
+> Feature: Infernal Legacy→Hellish Endurance 1.50  
+> Condition: Displaced X.XX_
 
-These two opened up --- they weren't numbers in my head, but something else; a train of thought perhaps.
-I tried the second, which seemed less daunting.
+I began inspecting the components of this deluge by name. Epistemic Hygeine was the skill that
+apparently governed things like making sure everything wasn't a dream, while Algorism was mental
+arithmetic, more or less. Psychopathy was what had given me a boost to charisma, wisdom and intellect,
+and Heartless was the downside which I was already comfortable living with.
 
-- _Psychopathy is a feature which can only be chosen at creation. Increases all mental abilities,
-and gives an aptitude in social and observational skills, but renders you permanently cold-hearted. X.XX_
-
-The cold-hearted led into the affliction like a mental hyperlink.
-
-- _Cold-hearted renders you unable to sympathetically emphasize with others, or experience
-the full gamut of emotions. X.XX_
+Infernal legacy was the Tiefling part.
 
 That, I didn't mind. I jumped back to the features.
 
-- _Infernal Legacy is a feature inherent to the Tiefling race. X.XX_
-  - _Dark Gifts is a feature which grants greater-than-average aptitude in willworking. X.XX_
-  - _Hellish Resistance is a feature which grans you resistance to fire and freezing damage. X.XX_
+> _Feature: Infernal Legacy X.XX
+> (Tiefling only)  
+> An ancestor of yours was a devil or demon._
 
-- _From Another World is a feature which can only be chosen at creation. Grants
-certain skill proficiencies._
+I found that unlikely, since it seemed this body had been made from whole cloth.
 
-All of them had a slot for numerics, but none utilized it.
+> _Feature: Infernal Legacy→Dark Gifts X.XX
+> Grants greater-than-average aptitude in willworking._
 
-Willworking led to the skills.
+That was useful.
 
-- _Willworking is the skill of imposing one's will on reality directly. 1.00_
-  - _Abjuration... 0.00_
-  - _Animation... 0.00_
-  - _Conjuration... 0.00_
-  - _Divination... 0.00_
-  - _Evocation... 0.00_
-  - _Fascination... 0.00_
-  - _Illusion... 0.00_
-  - _Transmutation... 0.00_
+> _Feature: Infernal Legacy→Hellish Endurance 1.50
+> You have greater ease resisting fire and freezing damage._
 
-I wondered whether 1.00 in Willworking was a greater than average number, and
-also if Animation and Fascination corresponded to Necromancy and Enchantment.
-I had again that virtual certanity that skills added to the ability scores when 'rolling'.
+Also good to have.
 
-Backing up, the 'top level' of skills, I found a subdivision:
+The real prize was honestly the unlocked willworking.
 
-- _Labor is the skill of manual work, tool usage, and physical exercise. 0.32_
-- _Artistry the skill oftry is the skill of creative endeavors, taste, and applied aesthetics. 0.11_
-- _Fighting is the skill of agressive action, weapon usage, and survival. 0.04_
-- _Thinking is the skill of reasoning, learning, recall, and purely mental skills. 1.77_
-- _Knowing is the skill of object knowledge, abstraction, and all things factual. 0.00_
-- _Socializing is the skill of politicking, talking, and empathizing with others. 1.24_
+> _Skill: Willworking 0.01  
+> The ability to directly influence the world by will alone._
 
-Each had at least three levels of subdivisions which I glossed over. There didn't seem to be a clear
-correlation between the toplevel number and the subskills.
+Animation and Fascination corresponded to Necromancy and Enchantment, respectively.
+I had again that virtual certanity now telling me that skills added to the ability scores when 'rolling'.
 
-Fortunately there wasn't underwater basket weaving, but there _was_ basket weaving. I was
-also suspect of the fact that I seemingly had no skills despite the feat that said otherwise.
+I sincerely hoped that the skill system was well-designed enough not to have 'underwater basket weaving'
+when it had things like epistemic hygeine.
 
 I was brought out of my reverie --- literally just staring at the patch of sand I had arrived in 
 while imagining numbers in my head --- by the notion that I was burning daylight. No doubt my 25 Wisdom speaking.
@@ -319,15 +312,23 @@ I was thirsty. 48 hours was the usual time it took to pass out from dehydration.
 know if Tieflings were any better, or if my 15 constitution made any difference, but I was
 potentially very far from civilization.
 
+> _Skill: Thinking→Knowledge→Wilderness Survival 0.01_
+
 I began walking. Really, walking in any direction would
 do, since I didn't know where I might find civilization. If I was somewhere comparable to
 the Canadian wilderness, I might die well before coming across another person, so my first
 goal was to climb a tree and have a look around; and I could see a nice big towering one
 just beyond the edge of the trees.
 
-By the time I had reached the top, my Agility was 10.01. That was interesting.
+> _Skill: Labor→Body→Athletics 0.1_
+
+By the time I had reached the top, that skill was at 0.07. That was interesting.
 
 From the top --- relatively; there was a barren trunk further up in the old oak
---- I beheld a forest that gave way to a prarie of sorts, all of it in a valley
+--- I beheld a forest that gave way to a meadow of sorts, all of it in a valley
 between very gradually sloping mountains. Closer by, there was a clearing which
-I estimated to be of similar size. Perhaps I was not alone.
+I estimated to be of similar size; and beyond that, another. Perhaps I was not alone.
+
+> _Skill: Thinking→Learning→Hypothesizing 0.01_
+
+I wrapped my tail around my waist, and set off.

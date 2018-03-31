@@ -1,23 +1,24 @@
 In the other clearing, I found a patch of sand, and by every other measure, it looked just like where
-I had ended up. Looking about I saw no one, but whomever had been here had probably been here recently,
-or so an intellect check told me.
+I had ended up. Looking about I saw no one, but whomever had been here had probably been here recently.
+Yet, I had a creeping feeling I was being watched.
 
-_Reconstructive investigation is the skill of piecing together a chain of events based
-on physical evidence. See forensic examination, divination, and tracking. 0.21_
+> _Skill: Thinking→Learning→Observation 0.01_
 
-Then, I felt as if someone was looking at me, and knew for sure since a subsequent wisdom
-check told me I was being watch.
-
-"Who's there?" I called out. "I mean no harm and carry no valuables."
+"Who's there?" I called out. "I mean no harm and carry no valuables." I was technically not unarmed,
+althought the knife I had was more a tool than a weapon.
 
 Then I spotted the vouyeur --- or at least movement. Seconds later, I heard a quiet russle
 and footfalls behind me. I held up my hands, and said: "You are fast and quiet."
+
+> _Skill: Socializing→Communication→Persuasion 0.01_
 
 "Turn around," came a croaking voice behind me.
 
 I did, slowly, and saw a... Bird person. I wasn't versed enough in D&D to tell if that
 was homebrew or not. My dad and his friends had always stuck to core rulebooks and homebrew;
 as had I.
+
+> _Skill: Knowledge→History→Races 0.01_
 
 They were obviously corvid, with a large, solid-looking beak in the middle of their
 face, and round eyes. Hands and feet were clawed, and both had four digits. Most astoundingly,
@@ -32,16 +33,17 @@ the other hand.
 
 "With my eyes."
 
+> _Skill: Socializing→Communication→Sarcasm 0.01_
+
 They shifted a little. "Why are you here?"
 
 "Because I just woke up in a clearing on a patch of sand, I used to be human, and I
 have a bunch of numbers in my head. Does any of that sound familiar?"
 
+> _Skill: Socializing→Manipulation→Sincerity 0.01_
+ 
 It was hard to parse facial expressions, but their body language might as well have said
 _yes to all._
-
-_Haptic reading is the skill of deriving information from people's body language. See also
-Facial reading, covert interrogation, counterdeception. 0.67_
 
 "What did you spend your points on?" I asked, lowering my arms.
 
@@ -55,44 +57,38 @@ they had no lips to articulate with and just opened their beak, producing sounds
 
 "So do they where I come from, they also don't try to ambush with weapons drawn," I retorted.
 
-_Conversational comedy is the skill of using humor in the course of conversation to
-manipulate, convince, or just entertain. See textual comedy, jest, and sarcasm. 1.02_
-
 "Fair point. I'm Kim Asikainen."
 
 I paused. "Nationality?"
 
 "Finnish."
 
-I nodded. "Clara Draaijer. Netherlander. Pronouns?"
+I nodded. "Clara Draaijer. Netherlands. Pronouns?"
 
-_Situational etiquette is the skill of reading social situations and applying
-appropriate systems of politesse. See streetwise, social stealth, flattery, and people modeling. 1.17_
+> _Skill: Socializing→Empathy→Acquainting 0.01_
 
-They tilted their head. "He/him. May change it later."
+They tilted their head. "He/him. Though I may change it later."
 
-"I shan't ask further. She/her is fine for me."
+"I shan't ask why. She/her is fine for me," I said.
 
 He nodded, and sheathed his dagger, holding out a clawed right hand. I took it, and we shook.
 
 "So," I said. "We need to find civilization or clean water, whichever is closer. What are
 your ability scores?"
 
-"Strength 18, agility 25, constitution 21, charisma 10, wisdom 10, intellect 10."
+"Strength 23, agility 30, constitution 23, charisma 10, wisdom 13, intellect 10."
 
-I paused. "Can I ask why?"
+I paused. That was rather an enormous focus on agility. "Can I ask why?"
 
 "No."
 
 I shrugged. "Fortunately for you, I complement it nicely. Strength and agility
-10; constitution 15; charisma, wisdom and intellect 20."
+10; constitution 15; charisma, wisdom and intellect 25."
 
-He nodded. "You're smart, I'm fast and strong. I can see it."
+He nodded. "You're smart, I'm fast and strong. I dig it."
 
 "Good. Let's head..." I ruminated on where north was. I didn't even know if we were on
-a northern or southern hemisphere, "downhill."
-
-----
+a northern or southern hemisphere, "that way." I pointed us towards the next clearing.
 
 Kim followed me in silence and quiet. He was far quieter than I was, walking through the underbush.
 
@@ -100,11 +96,175 @@ The forest was untouched by human hands, even as we neared the edge of it --- no
 no pollarding, no signs of animal manure beyond deer droppings. This meant, I reckoned, that we
 were rather far from a town.
 
-I spent the time we used walking to look into what the web of stuff in my head had to say about
-magic. I was supposed to have a natural aptitude, and as it turned out, the skills of willworking
-were rather finite in number compared to everything else.
+> _Skill: Knowlege→Science→Silviculture 0.01_
 
-Animation was indeed necromancy, but it governed making objects move on their own
-accord, and tying... Souls, to that.
+I spent the time we used walking to look into what the stuff in my head had to say about
+magic. I was supposed to have a natural aptitude. As it turned out, Willworking had
+eight subcategories, which each had three. I was thankful I hadn't gotten that as the
+mental equivalent of a popup window when I had finished distributing my ability score points.
 
-Fascination was 
+The categories were Abjuration, Animation, Conjuration, Divination, Evocation, Fascination,
+Illusion, and Transmutation, of which only Animation and Fascination stood out as unknowns.
+
+Animation was necromancy, but it governed making objects move on their own
+accord, and tying... Souls, to that. Possibly even programming them? It was a little
+hard to gather details.
+
+Fascination was analogous to enchantment in D&D terms, and it occurred to me I really needed
+a name for this system. D&D woudn't abide the copyright infringement.
+
+It was far more complex than the imaginings of Gary Gygax, and seemed to not be
+level based. Indeed, it seemed almost descriptive by nature was it not for the
+fact that tinkering with the numbers to begin with had a very noticable effect.
+
+Then we arrived in the next clearing, and I put the train of thought aside.
+
+It too, was empty.
+
+"Be on your guard," I told Kim, and he didn't object. I walked into the clearing to take a closer
+look, leaving him in among the trees.
+
+Another patch of sand. This one showed some rather heavy footfalls; large. I wasn't actually sure
+how tall I was, so I couldn't say anything other than 'bigger than me, same shoe.'
+
+> _Skill: Knowledge→Science→Tracking 0.01_
+
+My heightened powers of observation gave no notion that the former occupant of the clearing had
+stuck around; indeed it seemed they had made a beeline for a tall tree, conveniently positioned at
+the edge of the clearing, and then made it back towards the open fields I had spotted. The evidence
+was subtle --- disturbance of the underbush --- but it was there.
+
+"Kim, I think whoever was here, left."
+
+Kim hopped out of a tree, which I had little notion he had hid in, and joined up.
+
+"So what do we do?" he asked.
+
+"Follow them," I said, pointing.
+
+We began walking.
+
+----
+
+"How old are you?" he asked, while we walked, forcing me to take my mind's eye off idly browsing the
+list of skills.
+
+"Thirty-six," I replied.
+
+"Oh," he said. He hopped up on a rather large fallen tree with
+ease, and turned to give me a hand.
+
+I took it, and he pulled me up with ease. "You?" I asked.
+
+"I'm like, ninteen. Well, next week is my birthday. I turn twenty then." He averted his eyes, and hopped down.
+
+I unfurled my tail for balance and followed, trying to land where he had. We had very easily fallen
+into this rythm of him leading the way with his superior physique, while I trailed behind.
+
+"What, did you think you had a chance with me, romantically?"
+
+His feathers rose, and he glanced back at me, then deflated in a quite literal sense. "I mean, maybe?
+I don't know. I keep imagining you with feathers for some reason. Stupid bird brain."
+
+I chuckled. "I am attractive and exotic, and you used to be human, I understand. Maybe there's
+some magic to turn you back?"
+
+He gave an honest-to-gods caw. "Nah, I always liked ravens. Now I get to be a Kenku."
+
+"You're familiar with D&D?" I asked.
+
+"Yeah, I played it a lot," he replied, with a note of melancholy.
+
+When he didn't continue, we walked in silence until I decided to speak up. Frankly,
+I needed more information, and Kim would make a good ally; building rapport
+to build loyalty --- there was hardly a better time to do so than now.
+
+"My dad used to play with me and my friends, to teach me about morality," I said.
+
+Kim looked back at me, with what I assumed to be a questioning look, beak slightly parted,
+and one of his brow ridges flaring its feathers.
+
+I shrugged. "I have a congential brain defect that makes me unable to
+sympathize emotionally; nor feel guilt. All the morality I know comes from
+like, philosophy. I'm given to understand that most people just pick it up
+growing up." I specifically didn't call it psychopathy, antisocial personality
+disorder, or any related term.
+
+Kim nodded. "I had cerebral palsy," he said.
+
+That explained a lot. "This isn't some sort competition about
+who has the saddest backstory," I said with a snicker. "Is that why
+you have 30 Agility?"
+
+"Yeah. No weakling wizard for me; no offence," he said.
+
+"None taken. I am congentially unable to take offence to what normal people
+find offensive. Instead when people commit slights against me, I just plot their
+murder."
+
+I saw the feathers rise on his head.
+
+"I'm kidding," I said.
+
+"Fucking--- You're scary, you know that?"
+
+I looked in my skill tree under _Socializing_ to find _Communication→Intimidation_ at 2.11, much
+higher than either of its parent categories, which told me at least that specializations weren't capped
+by their parentage. Whatever that meant.
+
+"Yeah. Aren't you glad we're stuck together?"
+
+Kim nodded.
+
+We made it to the edge of the forest and still there was no sign of civilization. Night was falling.
+
+"We need either a place to camp, or to find someone," I said.
+
+"I'll climb a tree," Kim said, and did so too, with about as much effort as it took me to scratch
+my nose.
+
+Trees were good places to camp, if it came to that. We'd spend tomorrow finding water. There was sure
+to be a stream _somewhere_ in this damn forest.
+
+"I see fire!" Kim called down from the canopy of one of the trees by the edge of the meadow.
+"Looks like... Torchlight. Moving. Maybe a caravan."
+
+In three bounds, he was back down on ground level.
+
+"Lead the way," I said.
+
+----
+
+> _Skill: Labor→Body→Travel 0.01_
+
+As we crossed the open space, the sun went down and the stars came out, little by little; most significantly,
+I noticed a moon in the sky; small and bright. It had probably been overhead while the sun was out, because
+peeking over the horizon I saw a much larger moon.
+
+Two moons; definitely not Earth.
+
+> _Skill: Knowledge→Science→Astronomy 0.01_
+
+"Now we just need a scottie dog," Kim said.
+
+"Hum?"
+
+"I don't think we're in Kansas any more, Toto," he said --- mimicking near perfectly
+Doroty in The Wizard of Oz.
+
+I chuckled.
+
+As we neared the torchlight, it became clear that it was a procession of wagons. They weren't moving
+anymore, and at this distance I could smell a fire. They were upwind of a light breeze.
+
+"Let me do the talking," I said.
+
+"That's a given."
+
+We didn't get very close to the camp before we were intercepted by a lookout. It was easy for both of us
+to see in the dark, and we saw a man in armor, wielding a spear. Not an enemy we could hope to best,
+at best not even an enemy.
+
+"Halt! Identify yourselves."
+
+"We're travelers... Very, _very_ lost travelers," I said.
