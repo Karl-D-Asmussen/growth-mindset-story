@@ -57,11 +57,9 @@ And I had a tail. A long one; as long as I was tall, and ending in a
 dark supple tuft of black hair. My head hair was long and deep black.
 
 I also had horns. Those of a ram of some kind, judging by feel, and pointed ears.
-Fortunately my facial features were as I recalled them, mostly.
+Fortunately my facial features were as I recalled them, mostly. Maybe.
 
-Then I remembered the odd thought from before. _Intellect_ and _check._
-
-"I'm a Tiefling, aren't I?"
+"I'm a... Tiefling?"
 
 I didn't know for sure, and I had no mirror to verify. Other than that, everything
 seemed to be the same: unfemininely broad shoulders, unimpressive chest, and ---
@@ -72,12 +70,30 @@ I looked about again. The clearing had only a patch of sand where I had woken up
 around me was what my uneducated ass would take to be average for a temperate decidious
 forest. There was no sign of danger, so I took some more time to think.
 
-I had made an _Intellect_ check. The other abilities in D&D were  Strength, Dexterity,
-Constitution, Intelligence --- or Intellect, as it were; and Charisma.
+That this was some sort of D&D world was frankly ludicrous. As a partial joke,
+I wondered if I had a Strength score.
 
-In lieu of thinking of each, I got a number; except with Dexterity. There was no
-dexterity stat? I turned my attention inwards and got an answer as readily as thinking
-about what two and two made together. _Agility._
+_Strength 8.00 = 8.00 (base)_
+
+I stood there, dumbfounded at the intrusive thought --- like it was just a hard fact
+in my brain, available for recall.
+
+The other abilities in D&D were Dexterity,
+Constitution, Intelligence, and Charisma.
+
+In lieu of thinking of each, I got a number; except with Dexterity and
+Intelligence. Did I have it wrong?
+
+- _Constitution 8.00 = 8.00 (base)_
+- _Charisma 11.00 = 8.00 (base) + 2.00 (racial) + 1.00 (feature)_
+- _Wisdom 9.00 = 8.00 (base) + 1.00 (feature)_
+
+I tried a few synonyms and found the missing two.
+
+- _Agility 8.00 = 8.00 (base)_
+- _Intellect 10.00 = 8.00 (base) + 1.00 (racial) + 1.00 (feature)_
+
+Then I realized I could get them all by thinking about ability scores.
 
 - _Strength 8.00 = 8.00 (base)_
 - _Agility 8.00 = 8.00 (base)_
@@ -90,7 +106,7 @@ I didn't recall there being fraction involved in regular D&D play. Was this some
 knock-off, what with agility taking the place of time-honored dexterity? Also, my abilities
 seemed uniform and... Low; which prompted me to noticed a notion that I could increase them...
 
-... By _41.00_ points. This seemed like a lot.
+... By _56.00_ points. This seemed like a lot.
 
 It was strange; drawing on those memories. My father had used D&D as a sandbox
 to let me explore the notion of working towards an intellectually defined greater
@@ -122,7 +138,8 @@ I decided to spend some quality time with my new delusions.
 
 A nagging thought was, that this was ticking a _lot_ of narrative tropes. Portal fantasy ---
 although that usually had a male protagonist --- and being so convinced I had _ability scores_
-smelled like, what was it called, literary RPG?
+smelled like, what was it called, literary RPG? Something like that;
+I usually read something like ten words of nonfiction per word of fiction.
 
 My first question was what the ability scores signified. Given their two-digit decimal fraction,
 I was reluctant to belive they translated to bonuses to a twenty-sided die roll in some fashion.
@@ -133,7 +150,7 @@ Doing some quick mental maths --- it had been a while since I had done introduct
 --- it would seem that a 10 in an ability score was a 50% chance of success, while 20 was roughly 75%;
 and there would be steep diminishing returns after that.
 
-Suddenly, 41 points didn't seem like a lot anymore.
+Suddenly, 56 points didn't seem like a lot anymore.
 
 There was also the issue of whether I'd be able to increase any of them later, but again the fractional
 nature of the numbers sowed doubt as to whether it would be in discrete increments.
@@ -148,7 +165,7 @@ I went over them again, considering my options:
 - _Intellect 10.01 = 8.01 (base) + 1.00 (racial) + 1.00 (feature)_
 
 And noticed that Intellect had increased by 0.01. Was that from all the considering I had
-just done? I still had 41 points available; so it stood to reason.
+just done? I still had 56 points available; so it stood to reason.
 
 For now, I was in the middle of a clearing, and had no way out, and to the best of my
 introspection, these six numbers were all I had to work with. Survival came first, and
@@ -176,16 +193,17 @@ tree and tried my hand at throwing. First ten had abysmal accuracy, so I sunk on
 agility and tried again, which gave me a small improvement. I didn't throw the rest, but elected
 to raise both Strength and <s>Dexterity</s>Agility to 10.
 
-_Strength 10.00 = 10.00 (base), Agility 10.00 = 10.00 (base)_
+- _Strength 10.00 = 10.00 (base)_
+- _Agility 10.00 = 10.00 (base)_
 
 Already I felt limberer, and lighter on my feet. A sluggishness I had unwittingly chalked up
 to being a _different race_ all of a sudden.
 
-That left me with 32 points to spend. I did the smart thing.
+That left me with 45 points to spend. I did the smart thing; literally.
 
-_Charisma 20.00 = 17.00 (base) + 2.00 (racial) + 1.00 (feature),
-Wisdom 20.00 = 19.00 (base) + 1.00 (feature),
-Intellect 20.01 = 18.01 (base) + 1.00 (racial) + 1.00 (feature)_
+_Charisma 25.00 = 22.00 (base) + 2.00 (racial) + 1.00 (feature),
+Wisdom 25.00 = 24.00 (base) + 1.00 (feature),
+Intellect 25.01 = 23.01 (base) + 1.00 (racial) + 1.00 (feature)_
 
 As soon as I had made that decision, everything felt into stark relief. First; the clearing itself
 became suspicious almost immediately: something was very clearly not right. It was too sunny, too

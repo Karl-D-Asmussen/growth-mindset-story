@@ -7,8 +7,8 @@ def cdf(x)
   0.5 + Math.erf( (Math.log(x) - mean) / (Math.sqrt(2.0) * sd) ) / 2.0
 end
 
-RACIAL = { str: 0.0, agi: 2.0, con: 0.0, cha: 0.0, wis: 1.0, int: 0.0 }
-FEAT = { str: 0.0, agi: 0.0, con: 2.0, cha: 0.0, wis: 0.0, int: 0.0 }
+RACIAL = { str: 0.0, agi: 0.0, con: 0.0, cha: 2.0, wis: 0.0, int: 1.0 }
+FEAT = { str: 0.0, agi: 0.0, con: 0.0, cha: 1.0, wis: 1.0, int: 1.0 }
 
 trace_var :$ABI do |val|
   puts "STR #{str = val[:str] + FEAT[:str] + RACIAL[:str]} (#{cdf str})"
