@@ -1,0 +1,72 @@
+
+Prime Material (Light) - lifelike, body, power, skills, ability.
+  Real world.
+  Has the nations of mortals.
+
+  Access to Celestia, Bytopia, Elysium, Beastlands, Arborea
+  Plane of positive energy (Sun, Stars)
+
+Feywild (Twilight) - dreamlike, wagers, rules, agreements, honesty
+  Dreamtime.
+  Has the seelie, and unseelie faye courts.
+
+  Access to Arcadia, Mechanus, Acheron, Ysgard, Limbo, Pandemonium
+  Plane of Earth (dig deep), Water (dive deep), Air (fly high), Fire (go fast)
+
+Shadowfell (Dark) - deathlike, virtues, vices, ideals, desires
+  Deathworld.
+  Has the white, red, and black legions.
+
+  Access to Hells, Gehenna, Hades, Carceri, Abyss
+  Plane of negative energy (Sky)
+
+Astral plane connects all outer planes.
+Ethereal plane connects all inner planes.
+Para/quasi elemental planes connect all elemental planes (collectively: chaos.)
+
+----
+
+Celestials:
+  
+  Aeons - Low people, kind people, sky people
+    Horned (halo/horns/antlers)
+    Winged (bird/webbed/gossamer)
+
+  Absolutes - Angels, Demons, Archetypes
+    Alter reality by existing
+    Eldrich abominations
+
+Races:
+  
+  Homnids:
+    Huma - basic stock
+    Gnomes - spacers
+    Halflings - metropolitans
+    Dwarves - laborers
+    Half-elves - rich people
+
+  Gigantes:
+    Giants
+    Ogres
+    Goliaths
+    Firbolgs
+  
+  Aeon-mix:
+    Tiefling - low people
+    Anaasimar - sky people
+    High elves - kind people
+  
+  Uplifts:
+    Kenku - birds
+    Yuan Ti - snakes
+    Lizardfolk - lizards
+    Tortle/Kappa - tortoise
+    Tabaxi - big cats
+    
+  Elementals:
+    Genasi - all
+    Tritons - water
+    Yuan ti - fire
+
+  Greenskins:
+    

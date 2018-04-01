@@ -1,25 +1,37 @@
 
-Labor 0.32
-Labor→Body 0.10
-Labor→Body→Athletics 0.10
+Labor 
+Labor→Body
 Labor→Body→Acrobatics
+Labor→Body→Athletics
 Labor→Body→Control
 Labor→Tools
-Labor→Tools→Breweing
-Labor→Tools→Calligraphy
-Labor→Tools→...
-Labor→Vehicles
-Labor→Vehicles→Wagons
-Labor→Vehicles→Automobiles
-Labor→Vehicles→Helicopters
-Labor→Vehicles→Gyrocopters
-Labor→Vehicles→Airplanes
-Labor→Vehicles→Boats
-Labor→Vehicles→Ships
+Labor→Tools→
 
-Fighting 0.04
-Fighting→Armed 0.02
-Fighting→Armed→Un- 0.01
+Labor→Tools→Artifice
+Labor→Tools→Bookbinding
+Labor→Tools→Brewing
+Labor→Tools→Calligraphy
+Labor→Tools→Gardening
+Labor→Tools→Hair dressing
+Labor→Tools→Surgery
+Labor→Tools→Tattoing
+Labor→Tools→Surveying
+Labor→Tools→Sewing
+Labor→Tools→Leatherworking
+Labor→Tools→Prospecting
+
+Labor→Vehicles
+Labor→Vehicles→Airplanes
+Labor→Vehicles→Automobiles
+Labor→Vehicles→Boats
+Labor→Vehicles→Gyrocopters
+Labor→Vehicles→Helicopters
+Labor→Vehicles→Ships
+Labor→Vehicles→Wagons
+
+Fighting 
+Fighting→Armed 
+Fighting→Armed→Body
 Fighting→Armed→Improvised
 Fighting→Armed→Simple
 Fighting→Armed→Short
@@ -27,9 +39,10 @@ Fighting→Armed→Long
 Fighting→Armed→Heavy
 Fighting→Armed→Exotic
 Fighting→Aimed
-Fighting→Aimed→Ballistics 0.04
+Fighting→Aimed→Ballistics 
 Fighting→Aimed→Archery
-Fighting→Aimed→Launching
+Fighting→Aimed→Thrown
+Fighting→Aimed→Exotic
 Fighting→General
 Fighting→General→Dodge
 Fighting→General→Gauge
