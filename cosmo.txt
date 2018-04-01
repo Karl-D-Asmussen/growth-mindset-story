@@ -43,30 +43,40 @@ Races:
     Gnomes - spacers
     Halflings - metropolitans
     Dwarves - laborers
-    Half-elves - rich people
+    Elves - rich people
+  
+  Aeon-spawn:
+    Tiefling - low people
+    Anaasimar - sky people
+    Alfin - kind people
+  
+  Uplifts (not genetically compatible):
+    Kenku - birds
+    Lizardfolk - lizards
+    Tabaxi - cats
+    
+  Elementals:
+    Genasi - all
+    Triton's folk - water
+    Yuan ti - fire
+    Shardminds - earth
+    Aligrine - air
 
   Gigantes:
     Giants
     Ogres
     Goliaths
     Firbolgs
-  
-  Aeon-mix:
-    Tiefling - low people
-    Anaasimar - sky people
-    High elves - kind people
-  
-  Uplifts:
-    Kenku - birds
-    Yuan Ti - snakes
-    Lizardfolk - lizards
-    Tortle/Kappa - tortoise
-    Tabaxi - big cats
-    
-  Elementals:
-    Genasi - all
-    Tritons - water
-    Yuan ti - fire
 
-  Greenskins:
-    
+  Goblinoids:
+    Goblins
+    Hobgoblins
+    Bugbears
+  
+  Uruk:
+    Orcs
+    Ogres
+
+  Dragonspawn:
+    Kobolds
+    Dragonborn
