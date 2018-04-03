@@ -6,6 +6,7 @@ require 'distribution'
 require './tool'
 
 Math::LOG_10 = Math::log(10.0)
+NADA = Hash.new(0.0).freeze
 
 File.open(ARGV[0].gsub(/\D+/,'') + '.yaml') do |file|
   data = YAML.load(file)
@@ -16,7 +17,20 @@ File.open(ARGV[0].gsub(/\D+/,'') + '.yaml') do |file|
     if /(.+)::(.+)/ =~ thing
       ns = $1.split.join
       it = $2.split.join
-      num = data[ns][it].to_r
+
+      num = data.dig(ns, it)
+      if num.nil?
+        num = '0'
+        $stderr.puts "null #{ns}::#{it}"
+      end
+      num =
+        begin
+          num.to_r
+        rescue 
+          $stderr.puts "nan #{num}"
+          0.to_r
+        end
+
       sum += num
       names << '%s::%s (num)' % [ns, it, num]
     elsif /(\+|-)\d+\.\d+/ =~ thing
