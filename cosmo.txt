@@ -55,7 +55,7 @@ Races:
     Lizardfolk - lizards
     Tabaxi - cats
     
-  Elementals:
+  Elementals (not genetically compatible):
     Genasi - all
     Triton's folk - water
     Yuan ti - fire
