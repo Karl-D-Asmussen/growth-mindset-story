@@ -1,7 +1,7 @@
 The first thing in my mind was: _something is off._
 
 _Proficiency gained: Perception → Awareness_
-<!-- Perception :: Awareness | 0.01 -->
+<!-- Perception :: Awareness = 0.01 -->
 
 I rolled over, slinging my arm over my husband, and instead got
 an armful of thin air and my hand hit warm sand.
@@ -15,7 +15,7 @@ my bedroom and drugged, then dumped here. I needed to make sure I wasn't missing
 or worse.
 
 _Proficiency gained: Cognition → Pessimism_
-<!-- Cognition :: Pessimism | 0.01 -->
+<!-- Cognition :: Pessimism = 0.01 -->
 
 No pains and no soreness was a good sign, but sitting up and looking down
 myself I beheld something odd: I was wearing a loose croptop of coarse fabric,
@@ -42,7 +42,7 @@ I was still under-endowed; and a hand down my pants. Thankfully, I hadn't been g
 process had done this to me. I did have the same smooth black fur down there, though.
 
 _Proficiency gained: Memory → Bodily Integrity_
-<!-- Memory :: Bodily Integrity | 0.01 -->
+<!-- Memory :: Bodily Integrity = 0.01 -->
 
 _Milestone reached: Inspecting the Goods_
 
@@ -61,14 +61,14 @@ They were all features on a Dungeons and Dragons character sheet.
 
 _Proficiency gained: Knowledge → Psychiatry_  
 _Proficiency gained: Cognition → Mental Hygeine_
-<!-- Cognition :: Mental Hygeine | 0.01 -->
+<!-- Cognition :: Mental Hygeine = 0.01 -->
 
 It was unobtrusive, really. A small idea in the back of my mind, every time it happened.
 I looked around once more, and the area seemed safe enough. I was in the middle of a flat
 clearing, surrounded by decidious forest.
 
 _Proficiency gained: Perception → Search_
-<!-- Perception :: Search | 0.01 -->
+<!-- Perception :: Search = 0.01 -->
 
 It was no use getting distracted; instead I went through my regiment of verification steps
 that I wasn't dreaming. First, the world felt real; that was important. Second, I recited the
@@ -76,16 +76,16 @@ alphabet backwards without itssue, and did some mental maths; those were also ne
 to do while asleep. Third, I pinched myself in the arm; hard.
 
 _Proficiency gained: Cognition → Algorism_
-<!-- Cognition :: Algorism | 0.01 -->
-<!-- Cognition :: Mental Hygeine | 0.03 -->
+<!-- Cognition :: Algorism = 0.01 -->
+<!-- Cognition :: Mental Hygeine = 0.03 -->
 
 Bending down in the sand, I drew a clock face, which looked right, and a smiley face, and wrote
 my name (Vanessa) in the sand. Those were all the tests I could think of, making sure I wasn't
 going insane. I had also been able to speak clearly, but then aphasia patients often didn't know
 they were speaking nonsense.
 
-<!-- Knowledge :: Psychiatry | 0.01 -->
-<!-- Cognition :: Mental Hygeine | 0.04 -->
+<!-- Knowledge :: Psychiatry = 0.01 -->
+<!-- Cognition :: Mental Hygeine = 0.04 -->
 
 With that out of the way, I decided to investigate the extent of my delusion, leaving aside the
 hallucination part.
@@ -102,10 +102,18 @@ _augment_ was. They each had numerical scores attached:
 _Strength 8.00 --- Agility 8.00 --- Constitution 8.00 --- Charisma 10.00 --- Wisdom 8.00 --- Intellect 9.00
 --- Augment 64.00_
 
+<!-- Abilities :: Strength = 8.00 -->
+<!-- Abilities :: Agility = 8.00 -->
+<!-- Abilities :: Constitution = 8.00 -->
+<!-- Abilities :: Charisma = 10.00 -->
+<!-- Abilities :: Wisdom = 8.00 -->
+<!-- Abilities :: Intellect = 9.00 -->
+<!-- Abilities :: Augment = 64.00 -->
+
 Which gave me an idea to what was going on. In character creation, if I recalled --- it had been years since
 I had played --- you increased your abilities with a set amount of points at character creation.
 
 _Proficiency gained: Knowledge → Meta_
-<!-- Knowledge :: Meta | 0.01 -->
+<!-- Knowledge :: Meta = 0.01 -->
 
 
