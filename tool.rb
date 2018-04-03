@@ -1,7 +1,7 @@
 
 require 'yaml'
 
-filenames = Dir['./*.mkdn'].grep(/^\d+.mknd$/).sort_by { |s| /\d+/ =~ s; $&.to_i }
+filenames = Dir['*.mkdn'].grep(/^\d+\.mkdn$/).sort_by { |s| /\d+/ =~ s; $&.to_i }
 things = {}
 
 filenames.each do |filename|
