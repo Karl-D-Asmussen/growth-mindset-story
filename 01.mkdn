@@ -41,11 +41,11 @@ The last thing I did was run a hand under my shirt to see if there were any chan
 I was still under-endowed; and a hand down my pants. Thankfully, I hadn't been given a cock by whatever
 process had done this to me. I did have the same smooth black fur down there, though.
 
-_Proficiency gained: Memory → Bodily Integrity_
-<!-- Memory :: Bodily Integrity += 0.01 -->
+_Proficiency gained: Identity → Body Integrity_
+<!-- Identity :: Body Integrity += 0.01 -->
 
-_Milestone reached: Inspecting the Goods_
-<!-- Milestones :: Inspecting the Goods @-->
+_Milestone reached: Personal → Inspecting the Goods_
+<!-- Milestones :: Personal @ Inspecting the Goods -->
 
 I stopped and wondered what those little intrusive thoughts were, and got an answer readily; an
 immediate mental reply, as if I had idly wondered what seven times eight was (fifty-six --- I knew
@@ -146,7 +146,70 @@ _Proficiency gained: Learning → Experimentation_
 <!-- Cognition :: Pessimism += 0.01 -->
 <!-- Cognition :: Mental Hygeine += 0.01 -->
 
+It would be easiest to directly observe the physical abilities. Ranking those from easiest
+to hardest would make Strength easiest to measure, and probably Agility hardest. Unfortunately
+I was bereft of heavy things to lift, so Constitution would be the obvious choice.
 
+<!-- Knowledge :: Meta += 0.01 -->
+
+Measuring my health would be involved, given my absence of tools. I went over several ideas:
+I could measure how quickly I'd go out of breath from exercise, but that would be difficult to
+replicate; I could measure blood clotting speed, but it wasn't a given that this would be a good
+data point; I could measure my resting heart rate... That could work.
+
+_Proficiency gained: Knowledge → Anatomy_
+<!-- Knowledge :: Anatomy += 0.01 -->
+
+To measure my heart rate, I needed a time piece --- I'd need to count heart beats, and
+I couldn't do that while also counting seconds. Untying my knife from my belt, left me
+with about a foot of twine, which I tied through the eye in the handle, giving me a pendulum.
+I'd set the pendulum swinging from a 90 degree angle,
+count heart beats until my new pendulum went still, then up my Constitution, then do
+it again and compare the two numbers.
 
 _Proficiency gained: Knowledge → Experiment Design_
 <!-- Knowledge :: Experiment Design += 0.01 -->
+
+It took rather long for the knife pendulum to still, and I counted on my carotid almost
+a hundred beats.
+
+_Constitution 8.00 → 10.00_
+<!-- Abilities :: Constitution += 2.00 -->
+<!-- Knowledge :: Anatomy += 0.01 -->
+
+The effect of increasing Constitution was subjectively quite subtle. I took a deep breath
+and felt oddly better. Small aches I hadn't noticed were suddenly gone, that sort of thing.
+
+<!-- Identity :: Body Integrity += 0.01 -->
+
+Repeating the experiment, I got about a ten percent drop in resting heart rate.
+
+<!-- Knowledge :: Meta += 0.01 -->
+<!-- Knowledge :: Anatomy += 0.01 -->
+
+That was good enough for me.
+
+_Strength 8.00 → 10.00; Agility 8.00 → 10.00_
+<!-- Abilities :: Strength += 2.00 -->
+<!-- Abilities :: Agility += 2.00 -->
+
+The effect here was much more pronounced. My joints felt limberer and the weight resting on my feet
+felt lighter at once. If there was any doubt this had an actual effect, they were gone now.
+
+<!-- Identity :: Body Integrity += 0.01 -->
+
+That left me with 58.00 points to spend, and a cornundrum: was I gonna be face gish or face wizard?
+In truth, Charisma seemed to be an oft-overlooked ability, but my handful of years of professional experience
+taught me that people skills were important in the extreme. It was a given that I'd dump a lot into Charisma,
+so the question was whether to focus on Intellect and Wisdom or spread it out over the physical abilities too.
+
+<!-- Knowledge :: Meta += 0.01 -->
+
+I took a deep breath and made a decision.
+
+_Charisma → 20.00; Wisdom → 20.00; Intellect → 20.00_
+<!-- Abilities :: Charisma += 10.00 -->
+<!-- Abilities :: Wisdom += 12.00 -->
+<!-- Abilities :: Intellect += 11.00 -->
+
+
