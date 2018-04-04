@@ -32,7 +32,7 @@ File.open(ARGV[0].gsub(/\D+/,'') + '.yaml') do |file|
         end
 
       sum += num
-      names << '%s::%s (num)' % [ns, it, num]
+      names << '%s::%s (%.02f)' % [ns, it, num]
     elsif /(\+|-)\d+\.\d+/ =~ thing
       num = $&.to_r
       sum += num

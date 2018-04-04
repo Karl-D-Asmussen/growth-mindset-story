@@ -1,0 +1,4 @@
+<!-- Feature :: Casting +@ Arcane/Vancean -->
+<!-- Feature :: Casting +@ Invocations -->
+<!-- Feature :: Casting +@ Metamagic -->
+<!-- Feature :: Casting +@ Artificing -->

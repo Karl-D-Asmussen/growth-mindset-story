@@ -102,12 +102,12 @@ _augment_ was. They each had numerical scores attached:
 
 _Strength 8.00 --- Agility 8.00 --- Constitution 8.00 --- Charisma 10.00 --- Wisdom 8.00 --- Intellect 9.00_
 
-<!-- Abilities :: Strength = 8.00 -->
-<!-- Abilities :: Agility = 8.00 -->
-<!-- Abilities :: Constitution = 8.00 -->
-<!-- Abilities :: Charisma = 10.00 -->
-<!-- Abilities :: Wisdom = 8.00 -->
-<!-- Abilities :: Intellect = 9.00 -->
+<!-- Ability :: Strength = 8.00 -->
+<!-- Ability :: Agility = 8.00 -->
+<!-- Ability :: Constitution = 8.00 -->
+<!-- Ability :: Charisma = 10.00 -->
+<!-- Ability :: Wisdom = 8.00 -->
+<!-- Ability :: Intellect = 9.00 -->
 
 Which gave me an idea to what was going on. In character creation, if I recalled --- it had been years since
 I had played --- you increased your abilities with a set amount of points at character creation.
@@ -125,7 +125,7 @@ I didn't know that there was a ceiling. Maybe there wasn't. Without knowing the 
 I didn't know the optimal build --- no sooner had I thought that thought to end than I had
 a wordless concept in my head, explaining it.
 
-_Proficiency unlocked: Knowledge →  Statistics_
+_Proficiency gained: Knowledge →  Statistics_
 <!-- Knowledge :: Statistics += 0.01 -->
 
 The 'roll' if it could be called that, was a number between zero and positive infinity, excluding both,
@@ -148,7 +148,7 @@ _Proficiency gained: Learning → Experimentation_
 
 It would be easiest to directly observe the physical abilities. Ranking those from easiest
 to hardest would make Strength easiest to measure, and probably Agility hardest. Unfortunately
-I was bereft of heavy things to lift, so Constitution would be the obvious choice.
+I was bereft of heavy things to lift, so constitution would be the obvious choice.
 
 <!-- Knowledge :: Meta += 0.01 -->
 
@@ -164,7 +164,7 @@ To measure my heart rate, I needed a time piece --- I'd need to count heart beat
 I couldn't do that while also counting seconds. Untying my knife from my belt, left me
 with about a foot of twine, which I tied through the eye in the handle, giving me a pendulum.
 I'd set the pendulum swinging from a 90 degree angle,
-count heart beats until my new pendulum went still, then up my Constitution, then do
+count heart beats until my new pendulum went still, then up my constitution, then do
 it again and compare the two numbers.
 
 _Proficiency gained: Knowledge → Experiment Design_
@@ -174,10 +174,10 @@ It took rather long for the knife pendulum to still, and I counted on my carotid
 a hundred beats.
 
 _Constitution 8.00 → 10.00_
-<!-- Abilities :: Constitution += 2.00 -->
+<!-- Ability :: Constitution += 2.00 -->
 <!-- Knowledge :: Anatomy += 0.01 -->
 
-The effect of increasing Constitution was subjectively quite subtle. I took a deep breath
+The effect of increasing constitution was subjectively quite subtle. I took a deep breath
 and felt oddly better. Small aches I hadn't noticed were suddenly gone, that sort of thing.
 
 <!-- Identity :: Body Integrity += 0.01 -->
@@ -190,8 +190,8 @@ Repeating the experiment, I got about a ten percent drop in resting heart rate.
 That was good enough for me.
 
 _Strength 8.00 → 10.00; Agility 8.00 → 10.00_
-<!-- Abilities :: Strength += 2.00 -->
-<!-- Abilities :: Agility += 2.00 -->
+<!-- Ability :: Strength += 2.00 -->
+<!-- Ability :: Agility += 2.00 -->
 
 The effect here was much more pronounced. My joints felt limberer and the weight resting on my feet
 felt lighter at once. If there was any doubt this had an actual effect, they were gone now.
@@ -207,9 +207,113 @@ so the question was whether to focus on Intellect and Wisdom or spread it out ov
 
 I took a deep breath and made a decision.
 
-_Charisma → 20.00; Wisdom → 20.00; Intellect → 20.00_
-<!-- Abilities :: Charisma += 10.00 -->
-<!-- Abilities :: Wisdom += 12.00 -->
-<!-- Abilities :: Intellect += 11.00 -->
+_Charisma 10.00 → 20.00; Wisdom 8.00 → 20.00; Intellect 9.00 → 20.00_
+<!-- Ability :: Charisma += 10.00 -->
+<!-- Ability :: Wisdom += 12.00 -->
+<!-- Ability :: Intellect += 11.00 -->
 
+My mind _expanded._ My surroundings stood crisp, my thoughts were concise, and I felt like I
+could take on the world.
 
+I re-played my every decision so far, and found some of my decisions to have been unsound;
+especially my failure to evaluate my ontological position.
+
+_Proficiency gained: Identity → Working Memory_
+<!-- Identity :: Working Memory += 0.01 -->
+
+I had 25 points left. It was tempting to thrown it at the physical attributes,
+just to get a similar feeling of euphoria, but I stayed my hand. The most important physical stat was
+constitution. A merely average strength and agility would probably have to do.
+
+_Constitution 10.00 → 15.00_
+<!-- Ability :: Constitution += 5.00 -->
+
+I took another deep breath and now I felt _really_ good. Like I could run a marathon --- not that I had
+skimped on cardio, but I was certain I had never been in this good shape. I still had 20 points left.
+
+Now, I had the wits to actually run some numbers; I wasn't sure why I could suddenly remember a good
+rule-of-thumb for how to calculate the complementary error function, but I wasn't going to ask. Evidently,
+a score of 20 made for a 75.5% chance of success. 25 made 82%, while 30 made 86.4%. Working in odds ratios,
+that made 25 points almost a ×1.5 improvement on 20, while 30 was only a ×1.4 improvement on 25.
+
+Raising my constitution to 15 had been a good move, making me almost twice as likely to pass a roll.
+
+_Proficiency gained: Knowledge →  Mathematics_
+<!-- Knowledge :: Mathematics += 0.01 -->
+<!-- Knowledge :: Statistics += 0.03 -->
+<!-- Cognition :: Algorism += 0.03 -->
+<!-- Knowledge :: Meta += 0.01 -->
+
+Sure, I was falling into the multiple ability dependecy trap, but I wasn't going to be a specialist.
+I needed problem solving capability, above all.
+
+_Charisma 20.00 → 5.00; Wisdom 20.00 → 25.00; Intellect 20.00 → 25.00_
+<!-- Ability :: Charisma += 5.00 -->
+<!-- Ability :: Wisdom += 5.00 -->
+<!-- Ability :: Intellect += 5.00 -->
+
+This left me with 5 points leftover. Raising my constitution to 20 would only net a ×1.6 improvement,
+while raising my strength to just 12.5 was roughly a ×1.45 improvement.
+
+_Strength 10.00 → 12.50; Agility 10.00 → 12.50_
+<!-- Ability :: Strength += 2.50 -->
+<!-- Ability :: Agility += 2.50 -->
+
+I looked over my work once more --- well, I was really staring into empty air with a goofy look on my face,
+but still.
+
+_Strength 12.50 --- Agility 12.50 --- Constitution 15.00 --- Charisma 25.00 --- Wisdom 25.00 --- Intellect 25.00_
+
+I hadn't been prepared for what fell into my mind next; but in hindsight I should have been. Character creation
+was more than just selecting abilities. There was usually a class to select and starting equipment to peruse.
+
+_Feature unlocked: Tiefling Heritage_
+<!-- Feature :: Background @ Tiefling Heritage - resist fire, freezing; easier mastery of magic; +2.00 cha, +1.00 int -->
+
+_Feature unlocked: Fish Out of Water_
+<!-- Feature :: Fish Out of Water +@ off world knowledge -->
+<!-- Feature :: Fish Out of Water +@ culture clash -->
+
+_Condition unlocked: Psychopathy_
+<!-- Condition :: Psychopathy @ -->
+
+_Feature unlocked: ███████_
+<!-- Feature :: REDACTED @ -->
+
+_Feature unlocked: Read Me_
+<!-- Feature :: README +@ You are a mind clone; you have left nothing behind -->
+<!-- Feature :: README +@ You have one life; do with it as you please -->
+<!-- Feature :: README +@ Your actions have real consequences -->
+<!-- Feature :: README +@ Full customization, full access, not full liberty -->
+<!-- Feature :: README +@ No gods, no kings, no simulation, no masters -->
+<!-- Feature :: README +@ Bare necessities of starting equipment -->
+
+Immediately I thought about the 'read me' and I knew several things --- give or
+take this all being a delusion.
+
+<!-- Knowledge :: Psychiatry += 0.01 -->
+<!-- Cognition :: Mental Hygeine += 0.01 -->
+
+First, I was a clone, which was good. There were people whose satisfaction I
+had to ensure 'back home' and I wouldn't want them to be without my dependable
+help.
+
+_Proficiency gained: Identity → Ontology_
+<!-- Identity :: Ontology += 0.01 -->
+
+Second, there were no take-backs. If I got my fool ass killed, that was it.
+This was technically nothing new. Third, I had some sort of customization
+privilege. I had no idea what that meant. Fourth, seemingly somewhat insistently,
+I was convinced this wasn't some sort of simulation.
+
+Wouldn't that be exactly what the creator of a simulation would have be believe?
+
+_Proficiency gained: Cognition → Yomi_
+<!-- Cognition :: Yomi += 0.01 -->
+
+Lastly, it would seem the knife and the clothes on my back was the only thing
+I was going to get.
+
+_Select starting features?_
+
+I blinked. An almost unending sea of possibility hovered at the tip of my tongue.
