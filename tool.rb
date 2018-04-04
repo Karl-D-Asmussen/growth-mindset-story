@@ -78,7 +78,7 @@ def list(*dig, this: nil)
   end
 end
 
-def add(*dig, this:)
+def post(*dig, this:)
   raise TypeError, "#{this} is neither String nor Array of Strings" unless
     this.is_a?(String) or (this.is_a?(Array) and this.all? { |s| s.is_a?(String) })
   

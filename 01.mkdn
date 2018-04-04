@@ -45,7 +45,7 @@ _Proficiency gained: Identity → Body Integrity_
 <% bump %w[Proficiency Identity Body\ Integrity] %>
 
 _Milestone reached: Personal → Inspecting the Goods_
-<% list %w[Milestones Personal Inspecting the Goods] %>
+<% post %w[Milestone Personal Inspecting\ the\ Goods], with: 'cursory' %>
 
 I stopped and wondered what those little intrusive thoughts were, and got an answer readily; an
 immediate mental reply, as if I had idly wondered what seven times eight was (fifty-six --- I knew
@@ -86,8 +86,8 @@ my name (Vanessa) in the sand. Those were all the tests I could think of, making
 going insane. I had also been able to speak clearly, but then aphasia patients often didn't know
 they were speaking nonsense.
 
-<!-- Knowledge :: Psychiatry += 0.01 -->
-<!-- Cognition :: Mental Hygeine += 0.04 -->
+<% bump %w[Proficiency Knowledge Psychiatry] %>
+<% bump %w[Proficiency Cognition Mental\ Hygeine], by: 0.04 %>
 
 With that out of the way, I decided to investigate the extent of my delusion, leaving aside the
 hallucination part.
@@ -96,7 +96,7 @@ _Abilities --- Alignment --- Conditions --- Features --- Milestones --- Proficie
 
 Focusing on the concept of _abilities_ I was greeted by the thought of the classic six.
 
-_Strength --- Agility --- Constitution --- Charisma --- Wisdom --- Intellect --- Augment_
+_Strength --- Agility --- Constitution --- Charisma --- Wisdom --- Intellect_
 
 Well, almost. Agility was new, and Intellect had dropped the 'ence' part. I wasn't sure what
 _augment_ was. They each had numerical scores attached:
