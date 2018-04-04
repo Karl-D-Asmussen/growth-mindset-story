@@ -102,13 +102,32 @@ end
 
 def _run(filename)
   f = Pathname.new(filename)
+  h = f.sub_ext('.html')
   if f.readable? and f.file?
-    ERB.new(f.read(), nil, '<> > -').result
+    _pandoc(f.to_s, ERB.new(f.read(), nil, '<> > -').result)
     _export(f.to_s)
   else
     raise IOError, "cannot open file #{f} for reading" unless y.readable? and y.file?
   end
   return nil
+end
+
+def _pandoc(filename, data)
+  f = Pathname.new(filename)
+  x = f.dirname / ('.' + f.basename.to_s)
+  h = f.sub_ext('.html')
+
+  if not x.exist? or x.writable?
+    x.write(data)
+  else
+    raise IOError, "could not open file #{x} for writing"
+  end
+
+  unless system("pandoc -f markdown -t html -o #{h} #{x}")
+    raise IOError, "pandoc borked on #{f}"
+  end
+
+  x.unlink
 end
 
 def _export(filename)
