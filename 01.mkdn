@@ -1,3 +1,5 @@
+# I Wanna Girl
+
 The first thing in my mind was: _something is off._
 
 _Proficiency gained: Learning → Awareness_
@@ -45,7 +47,7 @@ _Proficiency gained: Identity → Body Integrity_
 <% bump %w[Proficiency Identity Body\ Integrity] %>
 
 _Milestone reached: Personal → Inspecting the Goods_
-<% post %w[Milestone Personal Inspecting\ the\ Goods], with: 'cursory' %>
+<% post %w[Milestone Personal Inspecting\ the\ Goods], this: 'Cursory' %>
 
 I stopped and wondered what those little intrusive thoughts were, and got an answer readily; an
 immediate mental reply, as if I had idly wondered what seven times eight was (fifty-six --- I knew
@@ -64,6 +66,8 @@ _Proficiency gained: Knowledge → Medicine → Psychiatry_
 <% bump %w[Proficiency Knowledge Medicine Psychiatry] %>
 _Proficiency gained: Cognition → Mental Hygeine_
 <% bump %w[Proficiency Cognition Mental\ Hygeine] %>
+_Language unlocked: Spoken Common_
+<% bump %w[Language Common Spoken] %>
 
 It was unobtrusive, really. A small idea in the back of my mind, every time it happened.
 I looked around once more, and the area seemed safe enough. I was in the middle of a flat
@@ -314,11 +318,11 @@ _Feature unlocked: Read Me_
 <%
 post %w[Feature Read\ Me], this: [
   'You are a mind clone; you have left nothing behind',
-  'You have one life; do with it as you please ',
-  'Your actions have real consequences ',
-  'Full customization, full access, not full liberty ',
-  'No gods, no kings, no simulation, no masters ',
-  'Bare necessities of starting equipment ',
+  'You have one life; do with it as you please',
+  'Your actions have real consequences',
+  'Full customization, full access, not full liberty',
+  'No gods, no kings, no simulation, no masters',
+  'Bare necessities of starting equipment',
 ]
 %>
 
@@ -350,3 +354,5 @@ I was going to get.
 _Select starting features?_
 
 I blinked. An almost unending sea of possibility hovered at the tip of my tongue.
+
+<% bump %w[Ability Intellect] %>
