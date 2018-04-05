@@ -286,7 +286,7 @@ bump %w[Ability Agility], by: 2.50
 %>
 
 I looked over my work once more --- well, I was really staring into empty air with a goofy look on my face,
-but still.
+sitting in a pile of sand, but still.
 
 _Strength 12.50 --- Agility 12.50 --- Constitution 15.00 --- Charisma 25.00 --- Wisdom 25.00 --- Intellect 25.00_
 
