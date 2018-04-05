@@ -8,7 +8,6 @@ require 'pathname'
 
 $DATA = {}
 
-
 def import(filename)
   f = Pathname.new(filename)
   y = f.sub_ext('.yaml')
@@ -33,6 +32,16 @@ def with(*dig)
     at = (at[ix] ||= {})
   end
   at[dig.last] = yield at[dig.last]
+end
+
+def namespace(*dig)
+  with(dig) do |it|
+    case it
+    when nil then {}
+    when Hash then it
+    else raise TypeError, "#{dig.join(':')} is not a namespace"
+    end
+  end
 end
 
 def stat(*dig, at: nil)
@@ -70,10 +79,10 @@ def list(*dig, this: nil)
   with(*dig) do |it|
     if it.nil? or this
       this || []
-    elsif to.nil? and it.is_a?(Array) and it.all? { |s| s.is_a?(String) }
+    elsif this.nil? and it.is_a?(Array) and it.all? { |s| s.is_a?(String) }
       it
     else
-      raise TypeError, "#{dig.flatten.join(':')} is not a stat"
+      raise TypeError, "#{dig.flatten.join(':')} is not a notepad"
     end
   end
 end
