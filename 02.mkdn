@@ -62,3 +62,19 @@ _Proficiency gained: Wizardry → Invention_
 <% list %w[Feature Wizard Savant], this: 'you are incredibly proficient at magic' %>
 <% bump %w[Proficiency Wizardry Imitation] %>
 <% bump %w[Proficiency Wizardry Invention] %>
+
+It was a mad euphoric dash, and I felt the possibility space constrict around me. Panicked,
+I reached for other things --- more practical things.
+
+_Feature chosen: Edeitic Memory_  
+_Feature chosen: Keen_  
+_Feature chosen: Polyglot_  
+_Feature chosen: Race → Tiefling Resilience_
+<% list %w[Feature Edeitic\ Memory], this: 'you never forget' %>
+<% list %w[Feature Keen], this: 'you never tire mentally' %>
+<% list %w[Feature Polyglot], this: 'you speak every extant language' %>
+<% post %w[Feature Race Tiefling\ Resilience], this: %w[Resistance\ to Freezing Poison Acid Lightning Disease] %>
+
+And then it was gone.
+
+I frowned. Perhaps it was for the best.

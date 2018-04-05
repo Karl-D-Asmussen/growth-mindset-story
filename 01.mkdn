@@ -293,11 +293,17 @@ _Strength 12.50 --- Agility 12.50 --- Constitution 15.00 --- Charisma 25.00 --- 
 I hadn't been prepared for what fell into my mind next; but in hindsight I should have been. Character creation
 was more than just selecting abilities. There was usually a class to select and starting equipment to peruse.
 
+_Don't Get Hit 40.00 --- Don't Go Mad 75.00_
+<% stat %w[Self DGHP Max], at: 40.00 %>
+<% stat %w[Self DGHP Current], at: 40.00 %>
+<% stat %w[Self DGMP Max], at: 75.00 %>
+<% stat %w[Self DGMP Current], at: 75.00 %>
+
 _Feature unlocked: Race → Tiefling_
 <%
 post %w[Feature Race Tiefling], this: [
   'Charisma +2.00', 'Intellect +1.00',
-  'Resistance to Freezing', 'Resistance to Fire',
+  'Resistance to Fire',
 ]
 %>
 
@@ -350,6 +356,11 @@ _Proficiency gained: Cognition → Yomi_
 
 Lastly, it would seem the knife and the clothes on my back was the only thing
 I was going to get.
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+There was also the 'don't get hit' and 'don't go mad' points, which felt like it
+might be this madness' replacement for hit points and either sanity or magic points.
+<% bump %w[Proficiency Knowledge Meta] %>
 
 _Select starting features?_
 

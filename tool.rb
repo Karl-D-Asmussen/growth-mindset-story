@@ -116,7 +116,7 @@ def _run(filename)
     _pandoc(f.to_s, ERB.new(f.read(), nil, '<> > -').result)
     _export(f.to_s)
   else
-    raise IOError, "cannot open file #{f} for reading" unless y.readable? and y.file?
+    raise IOError, "cannot open file #{f} for reading" unless f.readable? and f.file?
   end
   return nil
 end
