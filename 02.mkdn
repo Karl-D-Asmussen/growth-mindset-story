@@ -87,9 +87,181 @@ Immediately, I cast a look about me, getting up and brushing off my clothes.
 I had no idea where I was, I had no idea how far away was civilization or even just _water;_ and I 
 had only 48 hours to find that. My wizardry needed a spellbook to really work, and I had none. I had a
 _knife;_ that was about the saving grace.
+<% bump %w[Proficiency Cognition Pessimism] %>
 
-Drawing my knife from its sheath and giving it a twirl, I set off towards one of the nearby trees to
-get myself a walking stick and/or spear. The knife was solid steel, and rested heavy in my hand.
+_Proficiency gained: Knowledge → Medicine → Limits_  
+<% bump %w[Proficiency Knowledge Medicine Limits] %>
 
 A quick look around the treeline showed me no taller trees I could climb to get a view; almost everything was
 squat and decidious.
+
+_Proficiency gained: Knowledge → Botany → Silvology_
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+Drawing my knife from its sheath and giving it a twirl, I set off towards the treeline to
+get myself a walking stick and/or spear. The knife was solid steel, and rested heavy in my hand.
+
+_Proficiency gained: Labor → Tool → Knife_  
+_Proficiency gained: Combat → Weapon → Blade → Knife_  
+<% bump %w[Proficiency Labor Tool Knife] %>
+<% bump %w[Proficiency Combat Weapon Blade Short] %>
+
+Locating a branch of appropriate length and straightness wasn't easy. Decidious trees rarely grew
+that straight on their own --- this forest was far from cilization as evidenced by the lack of
+pollarding, coppicing, and grazing. I didn't have time to cut down a sapling --- I had a knife, not an ax.
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Labor → Practice → Silviculture_
+<% bump %w[Proficiency Labor Practice Silviculture] %>
+
+I found a suitable length branch --- oak --- lying and broke the excess
+off over my knee. With a bit of work, I cleaned the spliters out of the natural break,
+before sharpening the newly made break into a point. The cut wood smelled faintly of tree sap,
+and the bark was comfotably rough against my palm.
+
+_Proficiency gained: Labor → Practice → Bushcraft_
+<% bump %w[Proficiency Labor Practice Bushcraft], by: 0.02 %>
+_Proficiency gained: Labor → Tool → Spear_  
+<% bump %w[Proficiency Labor Tool Spear] %>
+_Proficiency gained: Combat → Weapon → Pole → Spear_
+<% bump %w[Proficiency Combat Weapon Pole Spear] %>
+
+With this implement in hand, I began thinking about what direction to go.
+There was a subtle but not insignificant slope to the clearing itself.
+
+_Proficiency gained: Labor → Practice → Surveying_
+<% bump %w[Proficiency Labor Practice Surveying] %>
+
+Ideally, that could mean this was the foothills of some mountains; which potentially
+meant vallyes; which potentially meant rivers or better yet, roads. Alternatly it could 
+mean an open plain. Worst case scenario, I'd be stuck with more forest.
+
+_Proficiency gained: Knowledge → Geography → Topography_
+<% bump %w[Proficiency Knowledge Geography Topography], by: 0.02 %>
+
+I found a tree with sparse foilage, and stuck my spear into the ground next to
+it, toed out of my slippers, and began climbing. It was easier due to my sharp
+and surprisingly strong, long nails --- claws almost --- and to my delight, my
+tail could _almost_ grip tightly enough to be a third hand. I had no desire to
+be caught hanging from it.
+
+_Proficiency gained: Exercise → Climbing_  
+<% bump %w[Proficiency Exercise Climbing], by: 0.03 %>
+
+Reaching high, the branches began thinning, and I decided not to push my luck.
+In the distance, I saw the land rise into a broad, squat mountain in the distance, while the forest
+fell away into a golden plain on the other side. With some luck, civilization would be somewhere
+out there; and hopefully not on the other side of the mountain.
+<% bump %w[Proficiency Labor Practice Surveying] %>
+
+Looking perpendicular with the slope, I tried to spot signs of water flowing down from the mountain,
+but I couldn't see anything definite. My best bet was probably to walk downhill at an angle and hope
+I'd stumble on a stream.
+<% bump %w[Proficiency Knowledge Geography Topography], by: 0.02 %>
+
+Climbing down again, I made it to the ground unscathed, stepped into my slippers, grabbed my
+spear and began walking.
+<% bump %w[Proficiency Exercise Climbing] %>
+
+----
+
+_Proficiency gained: Exercise → Hiking_
+<% bump %w[Proficiency Exercise Hiking], by: 0.05 %>
+
+I'd been hiking through the forest for maybe a half hour when I started getting the notion
+that I was being followed. I didn't act on that notion, knowing it might scare away whatever
+was following me.
+<% bump %w[Proficiency Learning Awareness] %>
+<% bump %w[Proficiency Cognition Yomi] %>
+
+Possibly, it was a wild animal. Most predators were shy if confronted with a screaming,
+hyper-aggressive spear-weilding maniac like I could probably credibly pretend to be. If on
+the other hand, it was a human --- sapient? The fact that I was a tiefling probably implied
+non-human sapients --- it was more uncertain.
+<% bump %w[Proficiency Knowledge Meta] %>
+<% bump %w[Proficiency Knowledge Zoology Behavior] %>
+
+It could be a helpful but shy soul, or it could be a murder hobo. I had much to gain from
+the former, but much to lose from the latter.
+
+_Proficiency gained: Cognition → Cost-Benefit_
+<% bump %w[Proficiency Cognition Cost-Benefit] %>
+
+Question was if the benefits outweighed the costs. I mulled on that for a
+while, while I made my way through the peak vegetation. It was difficult terrain to overcome,
+with fallen trees ups and downs. <!-- TK -->
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Knowledge → Economics → Expected Utility_
+<% bump %w[Proficiency Knowledge Economics Expected\ Utility] %>
+
+Eventually, I decided to take my chance. I was reaching a level of light exhaustion that might
+mandate a break, so as to not tire myself out. Pacing was important.
+<% bump %w[Proficiency Exercise Hiking] %>
+
+_Proficiency gained: Knowledge → Medicine → Restitution_
+<% bump %w[Proficiency Knowledge Medicine Restitution] %>
+
+I found a suitable place to sit, and took a load off my already sore feet.
+
+"Hey!" I called out, hoping the hidden observer was still around. Whomever they were,
+they were very good at evading notice. "I know you're out there."
+
+Wihtout making a noise, the interloper made themselves known, stepping out
+behind a distant tree. It was a sapient, by the fact of wearing clothes, but
+they were far from human. Instead it looked like an uplifted corvid --- hands
+and feet looking like bird claws, feathered face with a prominent beak.
+
+Not only that, but they were albinoid; almost the polar opposite of my own presumed melanism;
+except their eyes weren't red and light sensitive. Most notably, they wore clothes of a similar
+sand-cloration and quality as my own, but with legwraps rather than proper shoes. Even --- as far as
+I could tell --- the same kind of knife.
+
+_Proficiency gained: Learning → People Reading_
+<% bump %w[Proficiency Learning People\ Reading] %>
+
+"How did you know I was there?" they asked in a raspy voice --- just opening the beak to speak, with no
+apparent articulation.
+
+"I'm hard to sneak up on," I said.
+
+_Proficiency gained: Social → Conversation_
+<% bump %w[Proficiency Social Conversation] %>
+
+They didn't reply, but came a few yards closer.
+
+"I'm Vanessa," I said. "And --- just putting it out there --- I'm having a _weird_ day. I'm just putting
+this out there, in case it sounds familiar: I woke up little over an hour ago on a patch of sand in a clearing."
+<% bump %w[Proficiency Social Conversation] %>
+
+They hesitated for a step, then continued. There was an unsettling grace about them. At one point
+they hopped up on a fallen trunk in a very crow-like manner.
+
+"Me as well," they croaked. "I am Kai."
+
+"I'd offer a handshake, but you seem wary of me," I said.
+<% bump %w[Proficiency Social Conversation] %>
+
+They --- he? --- finally came to a stop some ten yards distant. "Sorry."
+
+"No, it's only rational. I'm an unknown to you."
+<% bump %w[Proficiency Social Conversation] %>
+<% bump %w[Proficiency Cognition Yomi] %>
+
+They nodded.
+
+"Did you know humans pass out from dehydration after 48 hours?" I asked.
+<% bump %w[Proficiency Social Conversation] %>
+
+_Proficiency gained: Social → Teaching_
+<% bump %w[Proficiency Social Teaching] %>
+
+"No."
+
+"If you want to come with, I'm looking for water and/or civilization," I said.
+<% bump %w[Proficiency Social Conversation] %>
+
+"Okay."
+
+I nodded. "First, though, you need a spear like mine."
+<% bump %w[Proficiency Social Conversation] %>

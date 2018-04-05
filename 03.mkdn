@@ -1,0 +1,24 @@
+# Uses a Machete
+
+<% import('02.mkdn') %>
+
+Kai wasn't very conversational, but did answer questions.
+
+_Proficiency gained: People → Kai_
+<% bump %w[Proficiency People Kai] %>
+
+He was from Russia, while I was from Sweden. Common had apparently replaced
+English in my brain, but I wasn't sure what that implied. Trying to speak
+swedish gave me language skill in 'Primordial.' Perhaps that had to do with the Polyglot feature,
+but I hadn't even had the time to investigate that.
+<% bump %w[Language Primordial Spoken] %>
+<% bump %w[Proficiency People Kai] %>
+
+Very tangentially, I approached the subject of the numbers in my head, and to my
+relief Kai had them too; including the all-too common updates that proficiencies had
+been gained.
+<% bump %w[Proficiency Knowledge Meta] %>
+<% bump %w[Proficiency People Kai] %>
+
+He had put a whopping 30 points in agility, 20 in strength and constitution;
+but he was tight lipped about

@@ -64,14 +64,17 @@ They were all features on a Dungeons and Dragons character sheet.
 
 _Proficiency gained: Knowledge → Medicine → Psychiatry_  
 <% bump %w[Proficiency Knowledge Medicine Psychiatry] %>
-_Proficiency gained: Cognition → Mental Hygeine_
+_Proficiency gained: Cognition → Mental Hygeine_  
 <% bump %w[Proficiency Cognition Mental\ Hygeine] %>
+_Proficiency gained: Identity → Mental Integrity_  
+<% bump %w[Proficiency Identity Mental\ Integrity] %>
 _Language unlocked: Spoken Common_
 <% bump %w[Language Common Spoken] %>
 
 It was unobtrusive, really. A small idea in the back of my mind, every time it happened.
 I looked around once more, and the area seemed safe enough. I was in the middle of a flat
-clearing, surrounded by decidious forest.
+clearing, surrounded by decidious forest. The air was pure and fresh, and every leaf was green.
+The sun was overhead, and not a cloud was in the sky.
 
 _Proficiency gained: Learning → Search_
 <% bump %w[Proficiency Learning Search] %>
@@ -294,10 +297,18 @@ I hadn't been prepared for what fell into my mind next; but in hindsight I shoul
 was more than just selecting abilities. There was usually a class to select and starting equipment to peruse.
 
 _Don't Get Hit 40.00 --- Don't Go Mad 75.00_
-<% stat %w[Self DGHP Max], at: 40.00 %>
-<% stat %w[Self DGHP Current], at: 40.00 %>
-<% stat %w[Self DGMP Max], at: 75.00 %>
-<% stat %w[Self DGMP Current], at: 75.00 %>
+<% stat %w[Scores DGHP Max], at: 40.00 %>
+<% stat %w[Scores DGHP Current], at: 40.00 %>
+<% stat %w[Scores DGMP Max], at: 75.00 %>
+<% stat %w[Scores DGMP Current], at: 75.00 %>
+
+_Body Speed 10.83 --- Mind Speed 10 --- Beauty 13.33_
+<% stat %w[Scores Body\ Speed], at: 10.83 %>
+<% stat %w[Scores Mind], at: 40.00 %>
+<% stat %w[Scores DGMP Max], at: 75.00 %>
+<% stat %w[Scores DGMP Current], at: 75.00 %>
+
+_Initiative 9.38 --- Reaction 9.38 --- Willpower 10_
 
 _Feature unlocked: Race → Tiefling_
 <%

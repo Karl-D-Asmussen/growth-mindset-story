@@ -1,6 +1,6 @@
 #! /usr/bin/ruby2.4
 
-require './erb_tool'
+require './tool'
 require 'distribution'
 
 END { main(ARGV) if $0 == __FILE__ }
@@ -31,7 +31,7 @@ def what_things
     line = line.chomp
     if /^\s*[+-]\s*\d+.\d\d$/ =~ line
       line.gsub(/\s+/,'').to_f
-    elsif /^\w+(?:\s+\w+)$/ =~ line
+    elsif /^\w+(?:\s+\w+)*$/ =~ line
       line.split
     else
       raise SyntaxError, "#{line}"
