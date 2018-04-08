@@ -22,6 +22,16 @@ def import(filename)
   end
 end
 
+def dig(*dig)
+  val = $DATA.dig(*(dig.flatten))
+  case val
+  when Float, Array, Hash
+    val
+  else
+    raise TypeError, "#{dig.flatten.join(':')} not a stat"
+  end
+end
+
 def with(*dig)
   dig = dig.flatten
   raise TypeError, "#{dig.find {|x| not x.is_a?(String)}} is not a string" unless
