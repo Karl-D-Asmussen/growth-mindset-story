@@ -2,23 +2,193 @@
 
 <% import('02.mkdn') %>
 
-Kai wasn't very conversational, but did answer questions.
+Nil wasn't very conversational, but did answer questions.
 
-_Proficiency gained: People → Kai_
-<% bump %w[Proficiency People Kai] %>
+_Proficiency gained: People → Nil_
+<% bump %w[Proficiency People Nil] %>
 
 He was from Russia, while I was from Sweden. Common had apparently replaced
 English in my brain, but I wasn't sure what that implied. Trying to speak
 swedish gave me language skill in 'Primordial.' Perhaps that had to do with the Polyglot feature,
 but I hadn't even had the time to investigate that.
 <% bump %w[Language Primordial Spoken] %>
-<% bump %w[Proficiency People Kai] %>
+<% bump %w[Proficiency People Nil] %>
 
 Very tangentially, I approached the subject of the numbers in my head, and to my
-relief Kai had them too; including the all-too common updates that proficiencies had
+relief Nil had them too; including the all-too common updates that proficiencies had
 been gained.
 <% bump %w[Proficiency Knowledge Meta] %>
-<% bump %w[Proficiency People Kai] %>
+<% bump %w[Proficiency People Nil] %>
+
+His race, according to himself, was Kenku; some kind of uplifted corvid.
 
 He had put a whopping 30 points in agility, 20 in strength and constitution;
-but he was tight lipped about
+but he was tight lipped about the rest.
+
+I spent the silence thinking over the vastness of --- I guess my 'character sheet' was an
+apt name for it --- and what it could mean. It did provide me with formulas when asked, how
+the derived scores mind speed, body speed, beauty, initiative, reaction, willpower, don't-get-hit, and don't-go-mad
+were computed, but not exactly what they did.
+
+Speed was based on a constant native to my race, and one of the
+higher of two ability scores, strength and agility for body, intellect and wisdom for mind. Beauty was based on
+constitution and charisma the same way, but the constant was in the eye of the beholder.
+
+Initiative and friends were derived from the power/finesse/resistance metaphor which seeped through
+the understanding bestowed about my ability scores. Strength and charisma were power, initiative;
+agility and wisdom were finesse, reaction; and constitution and intellect were resistance, willpower.
+
+Don't-get-hit was the sum of my physical stats, while it's brother was the sum of my mental stats.
+<% bump %w[Proficiency Knowledge Meta], by: 0.03 %>
+
+It was starting to feel as if there was a spreadsheet in my mind.
+
+_Proficiency gained: Social → Humor_
+<% bump %w[Proficiency Social Humor] %>
+
+We reached the edge of the forest by nightfall, and beheld the relatively flat grassland before us.
+
+"Hope we are not going to die of thirst, Vanessa," Nil said.
+
+"Me too, Nil."
+
+He turned to look back at the forest. "Let me go climb tree, to get better vantage point."
+He stuck his spear in the ground and went back to the edge of the trees, climbing a trunk with
+his claws and the grace of a big cat.
+
+I looked down and up the edge of the forest. It was very abrubt, not a gradual landscape at all.
+That implied someone was tending to it; possibly with fires or logging. Possibly to keep forest
+from overgrowing the plains. The Native Americans had done it to bolster the habitat of their food
+source, the wild bisons. Perhaps this was similar.
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Knowledge → Terraforming_
+<% bump %w[Proficiency Knowledge Terraforming] %>
+
+I wondered at that --- terraforming. Usually that meant working on foreign planets, but perhaps large
+enough scales of environmental manipulation counted.
+
+Nil came back, bounding down the trunk, and crossed the distance to me in a few springy steps.
+
+"I think people live here, on these plains," I said.
+
+He nodded. "I saw light, like campfire. Probably a mile or so away."
+
+----
+
+Walking cross country on flat, hard grassland was a lot easier than in the forest.
+<% bump %w[Proficiency Exercise Hiking] %>
+
+Darkness fell, and five --- count them, five --- moons in the sky illuminated our passage.
+I couldn't help but notice the _absense_ of stars. It was just the five moons, and the sun in
+daytime.
+
+_Proficiency gained: Knowledge → Science → Astronomy_  
+<% bump %w[Proficiency Knowledge Science Astronomy] %>
+_Proficiency gained: Knowledge → Science → Cosmology_
+<% bump %w[Proficiency Knowledge Science Cosmology] %>
+
+"Are not in Kansas anymore, eh?" Nil croaked.
+
+I nodded, though he probably couldn't see it. Even in the dark, my sight didn't suffer ---
+I suspected it was my tiefling nature.
+
+_Proficiency gained: Knowledge → Races → Tiefling_
+<% bump %w[Proficiency Knowledge Races Tiefling] %>
+
+"They might not like us just walking up to them at night," I said.
+
+He shrugged. "We die of dehydration in, what, forty hours? What is worst they can do?"
+
+In the distance, the light became clearer, and I saw the ring of wagons, like you'd expect to
+see in illustrations of pioneers crossing America --- and a notable absence of horses to elevate
+the incongruity.
+
+We came within maybe 300 yards when we were accosted. Someone yelled: "_You two! Halt!_" and we
+did. What came to meet us was unusual, sure, but I was aware I'd quickly run into semantic satiation
+if I kept using 'unusual' and synonyms to describe things in this world.
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+It was a woman, ten feet tall, but not a giant; rather it looked like someone had taken a human
+and doubled all the long bones in length, while stretching the torso only a some to match. She
+wore leather armor, and carried an eight foot boar spear. At her hip hung a hand gun so large it would
+have been a rifle for myself.
+
+She stopped with us within her presumably enormous reach, which was so far away I would have to run
+three steps to put my dagger in her thigh; by the time I had done so, she would have felled me with ease.
+
+"Identify yourselves, state your business," she said.
+
+Nil stepped behind me.
+
+"I am Vanessa, this is my companion Nil; we are very thoroughly lost, and
+are unsure how we ended up in these parts. We have no water, and no food, and have come to beg your
+hospitality, lest we likely perish," I said.
+
+_Proficiency gained: Social → Sincerity_
+<% bump %w[Proficiency Social Sincerity] %>
+
+"Are you demons of the night?" she asked.
+
+I shook my head. "My companion is a Kenku, I am a Tiefling."
+
+"We don't like hellspawn and beastmen around these parts," she said.
+
+I looked back at Nil, who was stepping back, then back to the woman. Seeing no better option,
+I fell to my knees, prostrating myself in the tall grass. "Please," I said, softly. "We have walked
+all day with neither food nor water."
+
+"_Ela!_" a shout came from the camp.
+
+"_What?_" the woman shouted back.
+
+"_Who the fuck is it?!_"
+
+Ela, as I presumed was her name, looked back at the camp. "_A devil cub and a man-crow!_"
+
+"_Shackle 'em if you have to! Your cider's getting cold!_"
+
+Looking up, I offered her my wrists.
+
+She didn't move. Her eyes fixed on Nil.
+
+I looked back at him, and saw the fear in his posture. His hand was resting on his knife.
+"Nil, _don't,_" I said.
+
+"_Ofix, c'mere!_" Ela called out.
+
+Nil took that as his cue to draw his dagger and storm at her. In an eye-blink he had closed 
+the distance, dodged her spear, and driven his knife into her thigh. She gave a grunt and
+swung at him. He dodged again.
+
+Footfalls sounded in the distance, and then very soon after they were up close. Two more of the
+long-limbed people had arrived, armed and with weapon's drawn.
+
+Seeing Nil dart in and out between their blows was almost comical, but I didn't expect him to
+win. He managed to steal Ela's gun, and shot one of the two men that had come to her aid. The
+recoil took him off balance, and Ela's spear found him dead-center in the chest.
+
+Nil was thrown back from the force of the blow, landing lifeless in the grass.
+
+Ela's spear turned on me, the tip resting against my clavicle.
+
+"Shit, Ofix, stay with me!" The other man was tending to the one Nil had shot. Three more
+giants came running, and after them, a smaller figure who was still around seven feet tall.
+He was dressed in a shirt and trousers that might as well have been made by the same hand
+as my own clothes, and had a similar-looking (albeit much larger) knife by his hip.
+
+Someone handed Ela her gun back, while another knelt over Nil's corpse, driving an iron
+spike into his skull. The spike began to glow ever so slightly with some magic.
+
+"I'm sorry," I said.
+
+"Shut up," Ela bit back.
+
+"Ela, you're wounded," someone said.
+
+"I'll live," she replied.
+
+"Is there any reason why we're retrieving the man-crow's soul?" someone asked. "He shot Ofix!"
+
+"Because it's a war-crime not to," Ela said in a loud commanding voice. "Liam
+

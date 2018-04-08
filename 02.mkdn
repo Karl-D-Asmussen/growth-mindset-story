@@ -237,7 +237,7 @@ this out there, in case it sounds familiar: I woke up little over an hour ago on
 They hesitated for a step, then continued. There was an unsettling grace about them. At one point
 they hopped up on a fallen trunk in a very crow-like manner.
 
-"Me as well," they croaked. "I am Kai."
+"Me as well," they croaked. "I am Nil."
 
 "I'd offer a handshake, but you seem wary of me," I said.
 <% bump %w[Proficiency Social Conversation] %>

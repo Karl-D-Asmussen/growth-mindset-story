@@ -295,26 +295,42 @@ _Strength 12.50 --- Agility 12.50 --- Constitution 15.00 --- Charisma 25.00 --- 
 
 I hadn't been prepared for what fell into my mind next; but in hindsight I should have been. Character creation
 was more than just selecting abilities. There was usually a class to select and starting equipment to peruse.
+The torrent of information almost overwhelmed me.
 
-_Don't Get Hit 40.00 --- Don't Go Mad 75.00_
-<% stat %w[Scores DGHP Max], at: 40.00 %>
-<% stat %w[Scores DGHP Current], at: 40.00 %>
-<% stat %w[Scores DGMP Max], at: 75.00 %>
-<% stat %w[Scores DGMP Current], at: 75.00 %>
+<%
+str, agi, con, cha, wis, int = %w[Strength Agility Constitution Charisma Wisdom Intellect].map {|s| $DATA.dig('Ability', s) }
+stat %w[Features Race Body\ Speed], at: (bspd = 20.00)
+stat %w[Features Race Mind\ Speed], at: (mspd = 5.00)
 
-_Body Speed 10.83 --- Mind Speed 10 --- Beauty 13.33_
-<% stat %w[Scores Body\ Speed], at: 10.83 %>
-<% stat %w[Scores Mind], at: 40.00 %>
-<% stat %w[Scores DGMP Max], at: 75.00 %>
-<% stat %w[Scores DGMP Current], at: 75.00 %>
+stat %w[Ability Derived DGHP], at: (str + agi + con)
+stat %w[Ability Derived DGMP], at: (cha + wis + int)
 
-_Initiative 9.38 --- Reaction 9.38 --- Willpower 10_
+stat %w[Ability Derived Body\ Speed], at: (bspd + [str, agi].max)/3
+stat %w[Ability Derived Mind\ Speed], at: (mspd + [int, wis].max)/3
+stat %w[Ability Derived Beauty], at: [con, cha].max/3
+
+stat %w[Ability Derived Initiative], at: (str + cha)/4
+stat %w[Ability Derived Reaction], at: (wis + agi)/4
+stat %w[Ability Derived Willpower], at: (con + int)/4
+%>
+
+_Don't Get Hit <%= dig %w[Ability Derived DGHP] %>
+--- Don't Go Mad <%= dig %w[Ability Derived DGMP] %>_
+
+_Body Speed <%= dig %w[Ability Derived Body\ Speed] %>
+--- Mind Speed <%= dig %w[Ability Derived Mind\ Speed] %>
+--- Beauty <%= dig %w[Ability Derived Beauty] %>_
+
+_Initiative <%= dig %w[Ability Derived Initiative] %>
+--- Reaction <%= dig %w[Ability Derived Reaction] %>
+--- Willpower <%= dig %w[Ability Derived Willpower] %>_
 
 _Feature unlocked: Race → Tiefling_
 <%
 post %w[Feature Race Tiefling], this: [
   'Charisma +2.00', 'Intellect +1.00',
   'Resistance to Fire',
+  'Night vision',
 ]
 %>
 
