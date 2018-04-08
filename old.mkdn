@@ -1,0 +1,857 @@
+# I Wanna Girl
+
+The first thing in my mind was: _something is off._
+
+_Proficiency gained: Learning → Awareness_
+<% bump %w[Proficiency Learning Awareness] %>
+
+I rolled over, slinging my arm over my husband, and instead got
+an armful of thin air and my hand hit warm sand.
+
+Immediately, I opened my eyes, and saw blindingly bright sunlight; not my bedroom.
+
+I sat up, looked about, and my eyes got used to the light. I was in a forest clearing.
+
+Taking a deep breath, I took stock of myself --- obviously, I had been taken from
+my bedroom and drugged, then dumped here. I needed to make sure I wasn't missing a kidney
+or worse.
+
+_Proficiency gained: Cognition → Pessimism_
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+No pains and no soreness was a good sign, but sitting up and looking down
+myself I beheld something odd: I was wearing a loose croptop of coarse fabric,
+and pants of the same; my exposed belly skin was slate grey.
+
+My hands were pitch black on the back and slate grey on the palms, and my nails were
+like obsidian. My arms was the same pitch black up to the shoulder; with black fur around the 
+wrists and lower arms. I kicked off the slippers on my feet to see black feet too.
+
+A pain in my backside gave me the biggest shock yet. Attached to the base of my spine
+was a muscular tail tapering to a slender tip, as long as I was tall, with a tuft of black fur at the end.
+
+My hands found my face, which was still human --- but I suspected it was black as well.
+Sliding them into my hair, I found another unpleasant surprise: horns. Big, like a Ram or perhaps
+and Ibex. The hair on my scalp was straight, not curly, and mid-back length, not short.
+
+The pants were tied with a belt of rope, and from that belt hung a sheath with a knife. Drawing
+it, I used the blade --- thankfully polished steel --- to look at my face. As I suspected, my visage
+was slate grey, but my features were much as I recalled them. My sclere were deep black, while my irises
+were orange, with vertical slit pupils.
+
+The last thing I did was run a hand under my shirt to see if there were any changes, which there wasn't,
+I was still under-endowed; and a hand down my pants. Thankfully, I hadn't been given a cock by whatever
+process had done this to me. I did have the same smooth black fur down there, though.
+
+_Proficiency gained: Identity → Body Integrity_
+<% bump %w[Proficiency Identity Body\ Integrity] %>
+
+_Milestone reached: Personal → Inspecting the Goods_
+<% post %w[Milestone Personal Inspecting\ the\ Goods], this: 'Cursory' %>
+
+I stopped and wondered what those little intrusive thoughts were, and got an answer readily; an
+immediate mental reply, as if I had idly wondered what seven times eight was (fifty-six --- I knew
+my multiplication tables by rote,) or what my own name was.
+
+_Abilities --- Alignment --- Conditions --- Features --- Milestones --- Proficiencies_
+
+As obvious to me as the knowledge that 'apple' meant red fruit, good to eat; I knew these words, and
+what they hid. Worse, I _remembered_ them.
+
+They were all features on a Dungeons and Dragons character sheet.
+
+"Great: I'm hallucinating, or delusional," I muttered. "Or both. Probably both."
+
+_Proficiency gained: Knowledge → Medicine → Psychiatry_  
+<% bump %w[Proficiency Knowledge Medicine Psychiatry] %>
+_Proficiency gained: Cognition → Mental Hygeine_  
+<% bump %w[Proficiency Cognition Mental\ Hygeine] %>
+_Proficiency gained: Identity → Mental Integrity_  
+<% bump %w[Proficiency Identity Mental\ Integrity] %>
+_Language unlocked: Spoken Common_
+<% bump %w[Language Common Spoken] %>
+
+It was unobtrusive, really. A small idea in the back of my mind, every time it happened.
+I looked around once more, and the area seemed safe enough. I was in the middle of a flat
+clearing, surrounded by decidious forest. The air was pure and fresh, and every leaf was green.
+The sun was overhead, and not a cloud was in the sky.
+
+_Proficiency gained: Learning → Search_
+<% bump %w[Proficiency Learning Search] %>
+
+It was no use getting distracted; instead I went through my regiment of verification steps
+that I wasn't dreaming. First, the world felt real; that was important. Second, I recited the
+alphabet backwards without itssue, and did some mental maths; those were also nearly impossible
+to do while asleep. Third, I pinched myself in the arm; hard.
+<% bump %w[Proficiency Cognition Mental\ Hygeine], by: 0.03 %>
+
+_Proficiency gained: Cognition → Algorism_
+<% bump %w[Proficiency Cognition Algorism] %>
+
+Bending down in the sand, I drew a clock face, which looked right, and a smiley face, and wrote
+my name (Vanessa) in the sand. Those were all the tests I could think of, making sure I wasn't
+going insane. I had also been able to speak clearly, but then aphasia patients often didn't know
+they were speaking nonsense.
+
+<% bump %w[Proficiency Knowledge Medicine Psychiatry] %>
+<% bump %w[Proficiency Cognition Mental\ Hygeine], by: 0.04 %>
+
+With that out of the way, I decided to investigate the extent of my delusion, leaving aside the
+hallucination part.
+
+_Abilities --- Alignment --- Conditions --- Features --- Milestones --- Proficiencies_
+
+Focusing on the concept of _abilities_ I was greeted by the thought of the classic six.
+
+_Strength --- Agility --- Constitution --- Charisma --- Wisdom --- Intellect_
+
+Well, almost. Agility was new, and Intellect had dropped the 'ence' part. I wasn't sure what
+_augment_ was. They each had numerical scores attached:
+
+_Strength 8.00 --- Agility 8.00 --- Constitution 8.00 --- Charisma 10.00 --- Wisdom 8.00 --- Intellect 9.00_
+
+<%
+stat %w[Ability Strength], at: 8.00
+stat %w[Ability Agility], at: 8.00
+stat %w[Ability Constitution], at: 8.00
+stat %w[Ability Charisma], at: 10.00
+stat %w[Ability Wisdom], at: 8.00
+stat %w[Ability Intellect], at: 9.00
+%>
+
+Which gave me an idea to what was going on. In character creation, if I recalled --- it had been years since
+I had played --- you increased your abilities with a set amount of points at character creation.
+
+_Proficiency gained: Knowledge → Meta_
+<% bump %w[Proficiency Knowledge Meta] %>
+
+In this case I had _64.00_ points to work with. This... Seemed like a lot. Ordinarily, ability scores ranged
+from 1 to 20, due to the use of isocahedral dice; but here it seemed not to be the case, or I had been granted
+with the ability to raise all but like, one of my ability scores to the ceiling.
+
+<% bump %w[Proficiency Knowledge Meta], by: 0.02 %>
+
+I didn't know that there was a ceiling. Maybe there wasn't. Without knowing the distribution,
+I didn't know the optimal build --- no sooner had I thought that thought to end than I had
+a wordless concept in my head, explaining it.
+
+_Proficiency gained: Knowledge → Math → Statistics_
+<% bump %w[Proficiency Knowledge Math Statistics] %>
+
+The 'roll' if it could be called that, was a number between zero and positive infinity, excluding both,
+drawn from a log normal distribution with mean 10 and log standard deviation 1. Simple as that.
+Unfortunately, it had been a while since I had done statistics, so it didn't do me much good other than
+'diminishing returns above 10.'
+
+<% bump %w[Proficiency Knowledge Math Statistics] %>
+
+But then, if I wanted answers, I was pretty sure I just needed to up my Intellect score.
+
+First, though, I needed verifiability: I wasn't even sure increasing my scores _did_ anything.
+I needed an experiment.
+<% bump %w[Proficiency Cognition Pessimism] %>
+<% bump %w[Proficiency Cognition Mental\ Hygeine] %>
+
+_Proficiency gained: Learning → Experimentation_
+<% bump %w[Proficiency Learning Experimentation] %>
+
+
+It would be easiest to directly observe the physical abilities. Ranking those from easiest
+to hardest would make Strength easiest to measure, and probably Agility hardest. Unfortunately
+I was bereft of heavy things to lift, so constitution would be the obvious choice.
+
+<% bump %w[Proficiency Knowledge Meta] %>
+
+Measuring my health would be involved, given my absence of tools. I went over several ideas:
+I could measure how quickly I'd go out of breath from exercise, but that would be difficult to
+replicate; I could measure blood clotting speed, but it wasn't a given that this would be a good
+data point; I could measure my resting heart rate... That could work.
+
+_Proficiency gained: Knowledge → Medicine → Anatomy_
+<% bump %w[Proficiency Knowledge Medicine Anatomy] %>
+
+To measure my heart rate, I needed a time piece --- I'd need to count heart beats, and
+I couldn't do that while also counting seconds. Untying my knife from my belt, left me
+with about a foot of twine, which I tied through the eye in the handle, giving me a pendulum.
+I'd set the pendulum swinging from a 90 degree angle,
+count heart beats until my new pendulum went still, then up my constitution, then do
+it again and compare the two numbers.
+
+_Proficiency gained: Knowledge → Science → Experiment Design_
+<% bump %w[Proficiency Knowledge Science Experiment\ Design] %>
+
+It took rather long for the knife pendulum to still, and I counted on my carotid almost
+a hundred beats.
+<% bump %w[Proficiency Knowledge Medicine Anatomy] %>
+
+_Proficiency gained: Knowledge → Medicine → Diagnostics_
+<% bump %w[Proficiency Knowledge Medicine Diagnostics] %>
+
+Now came the moment of truth.
+
+_Constitution 8.00 → 10.00_
+<% bump %w[Ability Constitution], by: 2.00 %>
+
+The effect of increasing constitution was subjectively quite subtle. I took a deep breath
+and felt oddly better. Small aches I hadn't noticed were suddenly gone, that sort of thing.
+
+<% bump %w[Proficiency Identity Body\ Integrity] %>
+
+Repeating the experiment, I got about a ten percent drop in resting heart rate.
+
+<%
+bump %w[Proficiency Knowledge Medicine Anatomy]
+bump %w[Proficiency Knowledge Meta]
+%>
+
+That was good enough for me.
+
+_Strength 8.00 → 10.00; Agility 8.00 → 10.00_
+<%
+bump %w[Ability Strength], by: 2.00
+bump %w[Ability Agility], by: 2.00
+%>
+
+The effect here was much more pronounced. My joints felt limberer and the weight resting on my feet
+felt lighter at once. If there was any doubt this had an actual effect, they were gone now.
+
+<% bump %w[Proficiency Identity Body\ Integrity] %>
+
+That left me with 58.00 points to spend, and a cornundrum: was I gonna be face gish or face wizard?
+In truth, Charisma seemed to be an oft-overlooked ability, but my handful of years of professional experience
+taught me that people skills were important in the extreme. It was a given that I'd dump a lot into Charisma,
+so the question was whether to focus on Intellect and Wisdom or spread it out over the physical abilities too.
+
+<% bump %w[Proficiency Knowledge Meta] %>
+
+I took a deep breath and made a decision.
+
+_Charisma 10.00 → 20.00; Wisdom 8.00 → 20.00; Intellect 9.00 → 20.00_
+<%
+bump %w[Ability Charisma], by: 10.00
+bump %w[Ability Wisdom], by: 12.00
+bump %w[Ability Intellect], by: 11.00
+%>
+
+My mind _expanded._ My surroundings stood crisp, my thoughts were concise, and I felt like I
+could take on the world.
+
+I re-played my every decision so far, and found some of my decisions to have been unsound;
+especially my failure to evaluate my ontological position.
+
+_Proficiency gained: Cognition → Working Memory_
+<% bump %w[Proficiency Cognition Working\ Memory] %>
+
+I had 25 points left. It was tempting to thrown it at the physical attributes,
+just to get a similar feeling of euphoria, but I stayed my hand. The most important physical stat was
+constitution. A merely average strength and agility would probably have to do.
+
+_Constitution 10.00 → 15.00_
+<% bump %w[Ability Constitution], by: 5.00 %>
+
+I took another deep breath and now I felt _really_ good. Like I could run a marathon --- not that I had
+skimped on cardio, but I was certain I had never been in this good shape. I still had 20 points left.
+
+Now, I had the wits to actually run some numbers; I wasn't sure why I could
+suddenly remember a good rule-of-thumb for how to calculate the complementary
+error function, but I wasn't going to ask. Evidently, a score of 20 made for
+a 75.5% chance of success. 25 made 82%, while 30 made 86.4%. Working in odds,
+rather than probabilities, that made 25 points almost a ×1.5 improvement on 20,
+while 30 was only a ×1.4 improvement on 25. Diminishing returns.
+
+Raising my constitution to 15 had been a good move, making me almost twice as likely to pass a roll.
+
+_Proficiency gained: Knowledge → Math → Analysis_
+<%
+bump %w[Proficiency Knowledge Math Analysis]
+bump %w[Proficiency Knowledge Math Statistics], by: 0.03
+bump %w[Proficiency Cognition Algorism], by: 0.03
+bump %w[Proficiency Knowledge Meta]
+%>
+
+Sure, I was falling into the multiple ability dependecy trap, but I wasn't going to be a specialist.
+I needed problem solving capability, above all.
+
+_Charisma 20.00 → 25.00; Wisdom 20.00 → 25.00; Intellect 20.00 → 25.00_
+<%
+bump %w[Ability Charisma], by: 5.00
+bump %w[Ability Wisdom], by: 5.00
+bump %w[Ability Intellect], by: 5.00
+%>
+
+This left me with 5 points leftover. Raising my constitution to 20 would only net a ×1.6 improvement,
+while raising my strength to just 12.5 was roughly a ×1.45 improvement.
+
+_Strength 10.00 → 12.50; Agility 10.00 → 12.50_
+<%
+bump %w[Ability Strength], by: 2.50
+bump %w[Ability Agility], by: 2.50
+%>
+
+I looked over my work once more --- well, I was really staring into empty air with a goofy look on my face,
+sitting in a pile of sand, but still.
+
+_Strength 12.50 --- Agility 12.50 --- Constitution 15.00 --- Charisma 25.00 --- Wisdom 25.00 --- Intellect 25.00_
+
+I hadn't been prepared for what fell into my mind next; but in hindsight I should have been. Character creation
+was more than just selecting abilities. There was usually a class to select and starting equipment to peruse.
+The torrent of information almost overwhelmed me.
+
+<%
+str, agi, con, cha, wis, int = %w[Strength Agility Constitution Charisma Wisdom Intellect].map {|s| $DATA.dig('Ability', s) }
+stat %w[Features Race Body\ Speed], at: (bspd = 20.00)
+stat %w[Features Race Mind\ Speed], at: (mspd = 5.00)
+
+stat %w[Ability Derived DGHP], at: (str + agi + con)
+stat %w[Ability Derived DGMP], at: (cha + wis + int)
+
+stat %w[Ability Derived Body\ Speed], at: (bspd + [str, agi].max)/3
+stat %w[Ability Derived Mind\ Speed], at: (mspd + [int, wis].max)/3
+stat %w[Ability Derived Beauty], at: [con, cha].max/3
+
+stat %w[Ability Derived Initiative], at: (str + cha)/4
+stat %w[Ability Derived Reaction], at: (wis + agi)/4
+stat %w[Ability Derived Willpower], at: (con + int)/4
+%>
+
+_Don't Get Hit <%= dig %w[Ability Derived DGHP] %>
+--- Don't Go Mad <%= dig %w[Ability Derived DGMP] %>_
+
+_Body Speed <%= dig %w[Ability Derived Body\ Speed] %>
+--- Mind Speed <%= dig %w[Ability Derived Mind\ Speed] %>
+--- Beauty <%= dig %w[Ability Derived Beauty] %>_
+
+_Initiative <%= dig %w[Ability Derived Initiative] %>
+--- Reaction <%= dig %w[Ability Derived Reaction] %>
+--- Willpower <%= dig %w[Ability Derived Willpower] %>_
+
+_Feature unlocked: Race → Tiefling_
+<%
+post %w[Feature Race Tiefling], this: [
+  'Charisma +2.00', 'Intellect +1.00',
+  'Resistance to Fire',
+  'Night vision',
+]
+%>
+
+_Feature unlocked: Background → Fish Out of Water_
+<%
+post %w[Feature Background Fish\ Out\ of\ Water], this: [
+  'Offworld knowledge', 'Culture clash',
+]
+%>
+
+_Condition unlocked: Psychopathy_
+<% post %w[Condition Mental Psychopathy], this: ['Permanent'] %>
+
+_Feature unlocked: ███████_
+<% post %w[Feature REDACTED], this: ['[REDACTED]'] %>
+
+_Feature unlocked: Read Me_
+<%
+post %w[Feature Read\ Me], this: [
+  'You are a mind clone; you have left nothing behind',
+  'You have one life; do with it as you please',
+  'Your actions have real consequences',
+  'Full customization, full access, not full liberty',
+  'No gods, no kings, no simulation, no masters',
+  'Bare necessities of starting equipment',
+]
+%>
+
+Immediately I thought about the 'read me' and I knew several things --- give or
+take this all being a delusion.
+<% bump %w[Proficiency Knowledge Medicine Psychiatry] %>
+<% bump %w[Proficiency Cognition Mental\ Hygeine] %>
+
+First, I was a clone, which was good. There were people whose satisfaction I
+had to ensure 'back home' and I wouldn't want them to be without my dependable
+help.
+
+_Proficiency gained: Identity → Ontology_
+<% bump %w[Proficiency Identity Ontology] %>
+
+Second, there were no take-backs. If I got my fool ass killed, that was it.
+This was technically nothing new. Third, I had some sort of customization
+privilege. I had no idea what that meant. Fourth, seemingly somewhat insistently,
+I was convinced this wasn't some sort of simulation.
+
+Wouldn't that be exactly what the creator of a simulation would have be believe?
+
+_Proficiency gained: Cognition → Yomi_
+<% bump %w[Proficiency Cognition Yomi] %>
+
+Lastly, it would seem the knife and the clothes on my back was the only thing
+I was going to get.
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+There was also the 'don't get hit' and 'don't go mad' points, which felt like it
+might be this madness' replacement for hit points and either sanity or magic points.
+<% bump %w[Proficiency Knowledge Meta] %>
+
+_Select starting features?_
+
+I blinked. An almost unending sea of possibility hovered at the tip of my tongue.
+
+<% bump %w[Ability Intellect] %>
+# Mind Like Diamonds
+
+<% import '01.mkdn' %>
+
+A single thought pierced the seeming conceptual infinity: magic. I wanted it. I wanted all of it.
+
+_Feature chosen: Wizard_  
+<%
+namespace %w[Feature Wizard]
+%w[
+Abjuration Banish Protect Ward 
+Animation Awakening Bidding Stilling 
+Conjuration Ex\ Nihilo Ex\ Alio Ex\ Animo 
+Divination Future Present Past 
+Evocation Weave Stitch Unravel 
+Fascination Geas Lure Bond 
+Illusion Presence Experience Absence 
+Transmutation Alkayest Alkami Alkazam
+].each_slice(4) do |school, power, finesse, resistance|
+  [power, finesse, resistance].each do |it|
+    bump %w[Proficiency Willworking], school, it
+      %><%= "_Proficiency gained: Willworking → #{school} → #{it}_  \n" %><%
+  end
+end
+%>
+
+_Feature chosen: Wizard → Vancean Casting_  
+_Proficiency gained: Wizardry → Spellcraft_  
+_Proficiency gained: Wizardry → Memoi_
+<% list %w[Feature Wizard Vancean\ Casting], this: 'memoize spells to cast' %>
+<% bump %w[Proficiency Wizardry Spellcraft] %>
+<% bump %w[Proficiency Wizardry Memoi] %>
+
+_Feature chosen: Wizard → Ritual Casting_
+_Proficiency gained: Wizardry → Ritecraft_
+<% list %w[Feature Wizard Ritual\ Casting], this: 'cast spells without memoi at the cost of time' %>
+<% bump %w[Proficiency Wizardry Ritecraft] %>
+
+_Feature chosen: Wizard → Artificer_  
+_Proficiency gained: Wizardry → Industry_
+<% list %w[Feature Wizard Artificer], this: 'create magic items' %>
+<% bump %w[Proficiency Wizardry Industry] %>
+
+_Feature chosen: Wizard → Invocations_  
+_Proficiency gained: Wizardry → Invoking_
+<% list %w[Feature Wizard Invocations], this: 'create lasting magical effects' %>
+<% bump %w[Proficiency Wizardry Invoking] %>
+
+_Feature chosen: Wizard → Metamagic_  
+_Proficiency gained: Wizardry → Freestyle_
+<% list %w[Feature Wizard Metamagic] %>
+<% bump %w[Proficiency Wizardry Freestyle] %>
+
+_Feature chosen: Wizard → Famulus_  
+_Proficiency gained: Wizardry → Familiar Bond_
+<% list %w[Feature Wizard Famulus], this: 'bond your soul with spirits for power' %>
+<% bump %w[Proficiency Wizardry Familiar\ Bond] %>
+
+_Feature chosen: Wizard → Savant_  
+_Proficiency gained: Wizardry → Imitation_
+_Proficiency gained: Wizardry → Invention_
+<% list %w[Feature Wizard Savant], this: 'you are incredibly proficient at magic' %>
+<% bump %w[Proficiency Wizardry Imitation] %>
+<% bump %w[Proficiency Wizardry Invention] %>
+
+It was a mad euphoric dash, and I felt the possibility space constrict around me. Panicked,
+I reached for other things --- more practical things.
+
+_Feature chosen: Edeitic Memory_  
+_Feature chosen: Keen_  
+_Feature chosen: Polyglot_  
+_Feature chosen: Race → Tiefling Resilience_
+<% list %w[Feature Edeitic\ Memory], this: 'you never forget' %>
+<% list %w[Feature Keen], this: 'you never tire mentally' %>
+<% list %w[Feature Polyglot], this: 'you speak every extant language' %>
+<% post %w[Feature Race Tiefling\ Resilience], this: %w[Resistance\ to Freezing Poison Acid Lightning Disease] %>
+
+And then it was gone.
+
+I frowned. Perhaps it was for the best. There were things I'd liked to have, sure, but there was also
+a lot of unknowns. Looking over my instinctual selection, it was all very mental. I also had more pressing
+concerns.
+
+I had spent something like a half hour sitting in a pile of sand in a sunny clearing, staring into space.
+Immediately, I cast a look about me, getting up and brushing off my clothes.
+
+I had no idea where I was, I had no idea how far away was civilization or even just _water;_ and I 
+had only 48 hours to find that. My wizardry needed a spellbook to really work, and I had none. I had a
+_knife;_ that was about the saving grace.
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+_Proficiency gained: Knowledge → Medicine → Limits_  
+<% bump %w[Proficiency Knowledge Medicine Limits] %>
+
+A quick look around the treeline showed me no taller trees I could climb to get a view; almost everything was
+squat and decidious.
+
+_Proficiency gained: Knowledge → Botany → Silvology_
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+Drawing my knife from its sheath and giving it a twirl, I set off towards the treeline to
+get myself a walking stick and/or spear. The knife was solid steel, and rested heavy in my hand.
+
+_Proficiency gained: Labor → Tool → Knife_  
+_Proficiency gained: Combat → Weapon → Blade → Knife_  
+<% bump %w[Proficiency Labor Tool Knife] %>
+<% bump %w[Proficiency Combat Weapon Blade Short] %>
+
+Locating a branch of appropriate length and straightness wasn't easy. Decidious trees rarely grew
+that straight on their own --- this forest was far from cilization as evidenced by the lack of
+pollarding, coppicing, and grazing. I didn't have time to cut down a sapling --- I had a knife, not an ax.
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Labor → Practice → Silviculture_
+<% bump %w[Proficiency Labor Practice Silviculture] %>
+
+I found a suitable length branch --- oak --- lying and broke the excess
+off over my knee. With a bit of work, I cleaned the spliters out of the natural break,
+before sharpening the newly made break into a point. The cut wood smelled faintly of tree sap,
+and the bark was comfotably rough against my palm.
+
+_Proficiency gained: Labor → Practice → Bushcraft_
+<% bump %w[Proficiency Labor Practice Bushcraft], by: 0.02 %>
+_Proficiency gained: Labor → Tool → Spear_  
+<% bump %w[Proficiency Labor Tool Spear] %>
+_Proficiency gained: Combat → Weapon → Pole → Spear_
+<% bump %w[Proficiency Combat Weapon Pole Spear] %>
+
+With this implement in hand, I began thinking about what direction to go.
+There was a subtle but not insignificant slope to the clearing itself.
+
+_Proficiency gained: Labor → Practice → Surveying_
+<% bump %w[Proficiency Labor Practice Surveying] %>
+
+Ideally, that could mean this was the foothills of some mountains; which potentially
+meant vallyes; which potentially meant rivers or better yet, roads. Alternatly it could 
+mean an open plain. Worst case scenario, I'd be stuck with more forest.
+
+_Proficiency gained: Knowledge → Geography → Topography_
+<% bump %w[Proficiency Knowledge Geography Topography], by: 0.02 %>
+
+I found a tree with sparse foilage, and stuck my spear into the ground next to
+it, toed out of my slippers, and began climbing. It was easier due to my sharp
+and surprisingly strong, long nails --- claws almost --- and to my delight, my
+tail could _almost_ grip tightly enough to be a third hand. I had no desire to
+be caught hanging from it.
+
+_Proficiency gained: Exercise → Climbing_  
+<% bump %w[Proficiency Exercise Climbing], by: 0.03 %>
+
+Reaching high, the branches began thinning, and I decided not to push my luck.
+In the distance, I saw the land rise into a broad, squat mountain in the distance, while the forest
+fell away into a golden plain on the other side. With some luck, civilization would be somewhere
+out there; and hopefully not on the other side of the mountain.
+<% bump %w[Proficiency Labor Practice Surveying] %>
+
+Looking perpendicular with the slope, I tried to spot signs of water flowing down from the mountain,
+but I couldn't see anything definite. My best bet was probably to walk downhill at an angle and hope
+I'd stumble on a stream.
+<% bump %w[Proficiency Knowledge Geography Topography], by: 0.02 %>
+
+Climbing down again, I made it to the ground unscathed, stepped into my slippers, grabbed my
+spear and began walking.
+<% bump %w[Proficiency Exercise Climbing] %>
+
+----
+
+_Proficiency gained: Exercise → Hiking_
+<% bump %w[Proficiency Exercise Hiking], by: 0.05 %>
+
+I'd been hiking through the forest for maybe a half hour when I started getting the notion
+that I was being followed. I didn't act on that notion, knowing it might scare away whatever
+was following me.
+<% bump %w[Proficiency Learning Awareness] %>
+<% bump %w[Proficiency Cognition Yomi] %>
+
+Possibly, it was a wild animal. Most predators were shy if confronted with a screaming,
+hyper-aggressive spear-weilding maniac like I could probably credibly pretend to be. If on
+the other hand, it was a human --- sapient? The fact that I was a tiefling probably implied
+non-human sapients --- it was more uncertain.
+<% bump %w[Proficiency Knowledge Meta] %>
+<% bump %w[Proficiency Knowledge Zoology Behavior] %>
+
+It could be a helpful but shy soul, or it could be a murder hobo. I had much to gain from
+the former, but much to lose from the latter.
+
+_Proficiency gained: Cognition → Cost-Benefit_
+<% bump %w[Proficiency Cognition Cost-Benefit] %>
+
+Question was if the benefits outweighed the costs. I mulled on that for a
+while, while I made my way through the peak vegetation. It was difficult terrain to overcome,
+with fallen trees ups and downs. <!-- TK -->
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Knowledge → Economics → Expected Utility_
+<% bump %w[Proficiency Knowledge Economics Expected\ Utility] %>
+
+Eventually, I decided to take my chance. I was reaching a level of light exhaustion that might
+mandate a break, so as to not tire myself out. Pacing was important.
+<% bump %w[Proficiency Exercise Hiking] %>
+
+_Proficiency gained: Knowledge → Medicine → Restitution_
+<% bump %w[Proficiency Knowledge Medicine Restitution] %>
+
+I found a suitable place to sit, and took a load off my already sore feet.
+
+"Hey!" I called out, hoping the hidden observer was still around. Whomever they were,
+they were very good at evading notice. "I know you're out there."
+
+Wihtout making a noise, the interloper made themselves known, stepping out
+behind a distant tree. It was a sapient, by the fact of wearing clothes, but
+they were far from human. Instead it looked like an uplifted corvid --- hands
+and feet looking like bird claws, feathered face with a prominent beak.
+
+Not only that, but they were albinoid; almost the polar opposite of my own presumed melanism;
+except their eyes weren't red and light sensitive. Most notably, they wore clothes of a similar
+sand-cloration and quality as my own, but with legwraps rather than proper shoes. Even --- as far as
+I could tell --- the same kind of knife.
+
+_Proficiency gained: Learning → People Reading_
+<% bump %w[Proficiency Learning People\ Reading] %>
+
+"How did you know I was there?" they asked in a raspy voice --- just opening the beak to speak, with no
+apparent articulation.
+
+"I'm hard to sneak up on," I said.
+
+_Proficiency gained: Social → Conversation_
+<% bump %w[Proficiency Social Conversation] %>
+
+They didn't reply, but came a few yards closer.
+
+"I'm Vanessa," I said. "And --- just putting it out there --- I'm having a _weird_ day. I'm just putting
+this out there, in case it sounds familiar: I woke up little over an hour ago on a patch of sand in a clearing."
+<% bump %w[Proficiency Social Conversation] %>
+
+They hesitated for a step, then continued. There was an unsettling grace about them. At one point
+they hopped up on a fallen trunk in a very crow-like manner.
+
+"Me as well," they croaked. "I am Nil."
+
+"I'd offer a handshake, but you seem wary of me," I said.
+<% bump %w[Proficiency Social Conversation] %>
+
+They --- he? --- finally came to a stop some ten yards distant. "Sorry."
+
+"No, it's only rational. I'm an unknown to you."
+<% bump %w[Proficiency Social Conversation] %>
+<% bump %w[Proficiency Cognition Yomi] %>
+
+They nodded.
+
+"Did you know humans pass out from dehydration after 48 hours?" I asked.
+<% bump %w[Proficiency Social Conversation] %>
+
+_Proficiency gained: Social → Teaching_
+<% bump %w[Proficiency Social Teaching] %>
+
+"No."
+
+"If you want to come with, I'm looking for water and/or civilization," I said.
+<% bump %w[Proficiency Social Conversation] %>
+
+"Okay."
+
+I nodded. "First, though, you need a spear like mine."
+<% bump %w[Proficiency Social Conversation] %>
+# Uses a Machete
+
+<% import('02.mkdn') %>
+
+Nil wasn't very conversational, but did answer questions.
+
+_Proficiency gained: People → Nil_
+<% bump %w[Proficiency People Nil] %>
+
+He was from Russia, while I was from Sweden. Common had apparently replaced
+English in my brain, but I wasn't sure what that implied. Trying to speak
+swedish gave me language skill in 'Primordial.' Perhaps that had to do with the Polyglot feature,
+but I hadn't even had the time to investigate that.
+<% bump %w[Language Primordial Spoken] %>
+<% bump %w[Proficiency People Nil] %>
+
+Very tangentially, I approached the subject of the numbers in my head, and to my
+relief Nil had them too; including the all-too common updates that proficiencies had
+been gained.
+<% bump %w[Proficiency Knowledge Meta] %>
+<% bump %w[Proficiency People Nil] %>
+
+His race, according to himself, was Kenku; some kind of uplifted corvid.
+
+He had put a whopping 30 points in agility, 20 in strength and constitution;
+but he was tight lipped about the rest.
+
+I spent the silence thinking over the vastness of --- I guess my 'character sheet' was an
+apt name for it --- and what it could mean. It did provide me with formulas when asked, how
+the derived scores mind speed, body speed, beauty, initiative, reaction, willpower, don't-get-hit, and don't-go-mad
+were computed, but not exactly what they did.
+
+Speed was based on a constant native to my race, and one of the
+higher of two ability scores, strength and agility for body, intellect and wisdom for mind. Beauty was based on
+constitution and charisma the same way, but the constant was in the eye of the beholder.
+
+Initiative and friends were derived from the power/finesse/resistance metaphor which seeped through
+the understanding bestowed about my ability scores. Strength and charisma were power, initiative;
+agility and wisdom were finesse, reaction; and constitution and intellect were resistance, willpower.
+
+Don't-get-hit was the sum of my physical stats, while it's brother was the sum of my mental stats.
+<% bump %w[Proficiency Knowledge Meta], by: 0.03 %>
+
+It was starting to feel as if there was a spreadsheet in my mind.
+
+_Proficiency gained: Social → Humor_
+<% bump %w[Proficiency Social Humor] %>
+
+We reached the edge of the forest by nightfall, and beheld the relatively flat grassland before us.
+
+"Hope we are not going to die of thirst, Vanessa," Nil said.
+
+"Me too, Nil."
+
+He turned to look back at the forest. "Let me go climb tree, to get better vantage point."
+He stuck his spear in the ground and went back to the edge of the trees, climbing a trunk with
+his claws and the grace of a big cat.
+
+I looked down and up the edge of the forest. It was very abrubt, not a gradual landscape at all.
+That implied someone was tending to it; possibly with fires or logging. Possibly to keep forest
+from overgrowing the plains. The Native Americans had done it to bolster the habitat of their food
+source, the wild bisons. Perhaps this was similar.
+<% bump %w[Proficiency Knowledge Botany Silvology] %>
+
+_Proficiency gained: Knowledge → Terraforming_
+<% bump %w[Proficiency Knowledge Terraforming] %>
+
+I wondered at that --- terraforming. Usually that meant working on foreign planets, but perhaps large
+enough scales of environmental manipulation counted.
+
+Nil came back, bounding down the trunk, and crossed the distance to me in a few springy steps.
+
+"I think people live here, on these plains," I said.
+
+He nodded. "I saw light, like campfire. Probably a mile or so away."
+
+----
+
+Walking cross country on flat, hard grassland was a lot easier than in the forest.
+<% bump %w[Proficiency Exercise Hiking] %>
+
+Darkness fell, and five --- count them, five --- moons in the sky illuminated our passage.
+I couldn't help but notice the _absense_ of stars. It was just the five moons, and the sun in
+daytime.
+
+_Proficiency gained: Knowledge → Science → Astronomy_  
+<% bump %w[Proficiency Knowledge Science Astronomy] %>
+_Proficiency gained: Knowledge → Science → Cosmology_
+<% bump %w[Proficiency Knowledge Science Cosmology] %>
+
+"Are not in Kansas anymore, eh?" Nil croaked.
+
+I nodded, though he probably couldn't see it. Even in the dark, my sight didn't suffer ---
+I suspected it was my tiefling nature.
+
+_Proficiency gained: Knowledge → Races → Tiefling_
+<% bump %w[Proficiency Knowledge Races Tiefling] %>
+
+"They might not like us just walking up to them at night," I said.
+
+He shrugged. "We die of dehydration in, what, forty hours? What is worst they can do?"
+
+In the distance, the light became clearer, and I saw the ring of wagons, like you'd expect to
+see in illustrations of pioneers crossing America --- and a notable absence of horses to elevate
+the incongruity.
+
+We came within maybe 300 yards when we were accosted. Someone yelled: "_You two! Halt!_" and we
+did. What came to meet us was unusual, sure, but I was aware I'd quickly run into semantic satiation
+if I kept using 'unusual' and synonyms to describe things in this world.
+<% bump %w[Proficiency Cognition Pessimism] %>
+
+It was a woman, ten feet tall, but not a giant; rather it looked like someone had taken a human
+and doubled all the long bones in length, while stretching the torso only a some to match. She
+wore leather armor, and carried an eight foot boar spear. At her hip hung a hand gun so large it would
+have been a rifle for myself.
+
+She stopped with us within her presumably enormous reach, which was so far away I would have to run
+three steps to put my dagger in her thigh; by the time I had done so, she would have felled me with ease.
+
+"Identify yourselves, state your business," she said.
+
+Nil stepped behind me.
+
+"I am Vanessa, this is my companion Nil; we are very thoroughly lost, and
+are unsure how we ended up in these parts. We have no water, and no food, and have come to beg your
+hospitality, lest we likely perish," I said.
+
+_Proficiency gained: Social → Sincerity_
+<% bump %w[Proficiency Social Sincerity] %>
+
+"Are you demons of the night?" she asked.
+
+I shook my head. "My companion is a Kenku, I am a Tiefling."
+
+"We don't like hellspawn and beastmen around these parts," she said.
+
+I looked back at Nil, who was stepping back, then back to the woman. Seeing no better option,
+I fell to my knees, prostrating myself in the tall grass. "Please," I said, softly. "We have walked
+all day with neither food nor water."
+
+"_Ela!_" a shout came from the camp.
+
+"_What?_" the woman shouted back.
+
+"_Who the fuck is it?!_"
+
+Ela, as I presumed was her name, looked back at the camp. "_A devil cub and a man-crow!_"
+
+"_Shackle 'em if you have to! Your cider's getting cold!_"
+
+Looking up, I offered her my wrists.
+
+She didn't move. Her eyes fixed on Nil.
+
+I looked back at him, and saw the fear in his posture. His hand was resting on his knife.
+"Nil, _don't,_" I said.
+
+"_Ofix, c'mere!_" Ela called out.
+
+Nil took that as his cue to draw his dagger and storm at her. In an eye-blink he had closed 
+the distance, dodged her spear, and driven his knife into her thigh. She gave a grunt and
+swung at him. He dodged again.
+
+Footfalls sounded in the distance, and then very soon after they were up close. Two more of the
+long-limbed people had arrived, armed and with weapon's drawn.
+
+Seeing Nil dart in and out between their blows was almost comical, but I didn't expect him to
+win. He managed to steal Ela's gun, and shot one of the two men that had come to her aid. The
+recoil took him off balance, and Ela's spear found him dead-center in the chest.
+
+Nil was thrown back from the force of the blow, landing lifeless in the grass.
+
+Ela's spear turned on me, the tip resting against my clavicle.
+
+"Shit, Ofix, stay with me!" The other man was tending to the one Nil had shot. Three more
+giants came running, and after them, a smaller figure who was still around seven feet tall.
+He was dressed in a shirt and trousers that might as well have been made by the same hand
+as my own clothes, and had a similar-looking (albeit much larger) knife by his hip.
+
+Someone handed Ela her gun back, while another knelt over Nil's corpse, driving an iron
+spike into his skull. The spike began to glow ever so slightly with some magic.
+
+"I'm sorry," I said.
+
+"Shut up," Ela bit back.
+
+"Ela, you're wounded," someone said.
+
+"I'll live," she replied.
+
+"Is there any reason why we're retrieving the man-crow's soul?" someone asked. "He shot Ofix!"
+
+"Because it's a war-crime not to," Ela said in a loud commanding voice. "Liam
+
