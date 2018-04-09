@@ -1,0 +1,68 @@
+<% seed 1 %>
+
+# I Wanna Girl
+
+The last I remembered of my old life was falling asleep snuggling with
+Mark after a particularly intense lovemaking session.
+
+----
+
+<div class='right'>
+
+_Stronger? Faster? Healthier? Firmer? Keener? Smarter?
+If you could be anything, what would you be? For sixty-four
+silver sheckels, would you sell your soul?_
+
+_I get up to go to the bathroom, but the bathroom is an office, and
+it's falling through the sky, and my Dad is there, but he is also
+God, but they are also Me._
+
+_Tieflings are sexy. I used to play them when Dad ran games._
+
+<% tiefling %>
+
+_He hands me a character sheet, but I can't read, and I throw sixteen
+four-sided dice, and all of them come up four. I step on them, but it
+doesn't hurt._
+
+_Numbers don't work in dreams._
+
+_Numbers work._
+
+_Lucidity takes me._
+
+_I have 64 points, and six ability scores. Tieflings get +1 to Intellect
+and +2 to Charisma._
+
+_I mark down:_
+
+<% specify_abilities 12.50, 12.50, 15.00, 23.00, 25.00, 24.00; compute_aptitudes %>
+<%= ability_aptitude_table %>
+
+</div>
+
+----
+
+Black wakes in a patch of sand in clearing in forest.
+
+- No equipment
+- Full life consequences
+- Clone
+
+Go looking --- no charsheet fuckery.
+
+Encounter White Kenku (transplanted russian man w/ palsy, insane Agi).
+
+Immediately get swept up by Giant-kin (Longstrider) warband. Kenku is killed, grilled; manages to hurt
+two giant and almost kill one.
+Among them is a red Firbolg (transplanted american disenfranchised rich american teen).
+
+By entitlement and shitty attitude and supernatural power, Red find Black to be 'evil'
+(read: pretends to feel bad about eating White, pretends to be a scared prisoner
+--- doesn't actually care, idly contemplates slitting throats in the night)
+
+Since letting people's souls pass into the underworld is a war crime, and since
+Red convinces them that Black is more trouble than worth, they give her jerky,
+a waterskin, and directions to the nearest (human) settlement.
+
+

@@ -6,6 +6,8 @@ require 'yaml'
 require 'erb'
 require 'pathname'
 
+require './functions'
+
 $DATA = {}
 
 def import(filename)
@@ -31,6 +33,19 @@ def dig(*dig)
     raise TypeError, "#{dig.flatten.join(':')} not a stat"
   end
 end
+
+def dig_soft(*dig, default: nil)
+  val = $DATA.dig(*(dig.flatten))
+  case val
+  when Float, Array, Hash
+    val
+  when nil
+    default
+  else
+    raise TypeError, "#{dig.flatten.join(':')} not a stat"
+  end
+end
+
 
 def with(*dig)
   dig = dig.flatten
@@ -146,7 +161,7 @@ def _pandoc(filename, data)
     raise IOError, "pandoc borked on #{f}"
   end
 
-  x.unlink
+  # x.unlink
 end
 
 def _export(filename)
