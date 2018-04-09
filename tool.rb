@@ -157,7 +157,7 @@ def _pandoc(filename, data)
     raise IOError, "could not open file #{x} for writing"
   end
 
-  unless system("pandoc -f markdown -t html -o #{h} #{x}")
+  unless system("pandoc -Sf markdown -t html -o #{h} #{x}")
     raise IOError, "pandoc borked on #{f}"
   end
 

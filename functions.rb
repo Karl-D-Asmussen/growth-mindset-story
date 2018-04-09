@@ -59,17 +59,13 @@ def ability_aptitude_table
   str, agi, frt, cha, wis, int = dig_abilities
   vim, rfx, wil, spd, ima, pul = dig_aptitudes
 
-  tables = <<-IT
-|-|-|-|-|
-| _Strength_ | %.02f | _Charisma_ | %.02f |
-| _Agility_ | %.02f | _Wisdom_ | %.02f |
-| _Fortitude_ | %.02f | _Intellect_ | %.02f |
-
-|-|-|-|-|
-| _Vim_ | %.02f | _Speed_ | %.02f |
-| _Reflex_ | %.02f | _Imagination_ | %.02f |
-| _Will_ | %.02f | _Pulchritude_ | %.02f |
-  IT
+  tables = <<IT
+|||||||||
+|-:|:-:|-:|:-:|:-|-:|:-:|-:|:-:|
+| _Strength_ | %.02f | _Charisma_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Vim_ | %.02f | _Speed_ | %.02f |
+| _Agility_ | %.02f | _Wisdom_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Reflex_ | %.02f | _Imagination_ | %.02f |
+| _Fortitude_ | %.02f | _Intellect_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Will_ | %.02f | _Pulchritude_ | %.02f |
+IT
 
   tables % [str, cha, agi, wis, frt, int, vim, spd, rfx, ima, wil, pul]
 end

@@ -1,50 +1,72 @@
 <% seed 1 %>
 
-# I Wanna Girl
+<!-- # I Wanna Girl -->
 
-The last I remembered of my old life was falling asleep snuggling with
-Mark after a particularly intense lovemaking session.
+The last I remembered of my old life was falling asleep snuggling between
+Emanuel and Thessa.
 
 ----
 
 <div class='right'>
+Stronger? Faster? Healthier? Firmer? Keener? Smarter?
+If I could be anything, I'd sell my sould for sixty-four silver sheckels.
 
-_Stronger? Faster? Healthier? Firmer? Keener? Smarter?
-If you could be anything, what would you be? For sixty-four
-silver sheckels, would you sell your soul?_
+I got up to go to the bathroom, but the bathroom was an office,
+falling through the sky, and my Dad was there, but he was also
+a god.
 
-_I get up to go to the bathroom, but the bathroom is an office, and
-it's falling through the sky, and my Dad is there, but he is also
-God, but they are also Me._
+Set was the god of desert storms, disorder, violence, and foreigners.
 
-_Tieflings are sexy. I used to play them when Dad ran games._
-
+Tieflings were sexy. I used to play them when Dad ran games.
 <% tiefling %>
 
-_He hands me a character sheet, but I can't read, and I throw sixteen
-four-sided dice, and all of them come up four. I step on them, but it
-doesn't hurt._
+He handed me a character sheet, but I couldn't't read, and I threw sixteen
+four-sided dice, and all of them came up four. I stepped on them, but it
+didn't hurt.
 
-_Numbers don't work in dreams._
+Numbers didn't work in dreams.
 
-_Numbers work._
+I had sixty-four silver sheckels, and six bowls.
 
-_Lucidity takes me._
+Tieflings got to add to Intellect, one, and to Charisma, two.
 
-_I have 64 points, and six ability scores. Tieflings get +1 to Intellect
-and +2 to Charisma._
-
-_I mark down:_
-
+With trembling hand I wrote:
 <% specify_abilities 12.50, 12.50, 15.00, 23.00, 25.00, 24.00; compute_aptitudes %>
 <%= ability_aptitude_table %>
+
+Set was a man, and also a Typhonian beast.
+
+The man took my hand, took me where I coudn't stand, burned the land, boiled the sea,
+took the sky away from me.
+
+The beast clothed me, and handed me a knife.
+
+I came to a stop above my self, sleeping between two warm bodies. She who was me, looked
+up, and waved lazily, and I waved back. We were once the same person, but from that moment
+we diverged.
 
 </div>
 
 ----
 
-Black wakes in a patch of sand in clearing in forest.
+I woke up feeling like I had gone for a night of drinking and partying, rather than a
+quiet night of netflix and vigorous sexual intercourse. Worse; I was lying on a hard surface,
+but better; the air was fresh and cool.
 
+Something wasn't right.
+
+Sitting up, I saw that I was lying in a depression --- like a shallow crater --- in the ground.
+
+On the ground.
+
+Under open skies.
+
+I rubbed my eyes.
+
+> _Cognition---Hygeine---Humility ↑_
+<% bump %w[Cognition Hygeine Humility] %>
+
+<!--
 - No equipment
 - Full life consequences
 - Clone
@@ -64,5 +86,4 @@ By entitlement and shitty attitude and supernatural power, Red find Black to be 
 Since letting people's souls pass into the underworld is a war crime, and since
 Red convinces them that Black is more trouble than worth, they give her jerky,
 a waterskin, and directions to the nearest (human) settlement.
-
-
+-->
