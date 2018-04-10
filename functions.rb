@@ -65,9 +65,9 @@ def ability_aptitude_table
   tables = <<IT
 |||||||||
 |-:|:-:|-:|:-:|:-|-:|:-:|-:|:-:|
-| _Strength_ | %.02f | _Charisma_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Vim_ | %.02f | _Speed_ | %.02f |
-| _Agility_ | %.02f | _Wisdom_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Reflex_ | %.02f | _Imagination_ | %.02f |
-| _Fortitude_ | %.02f | _Intellect_ | %.02f | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Will_ | %.02f | _Pulchritude_ | %.02f |
+| _Strength_ | _%.02f_ | _Charisma_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Vim_ | _%.02f_ | _Speed_ | _%.02f_ |
+| _Agility_ | _%.02f_ | _Wisdom_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Reflex_ | _%.02f_ | _Imagination_ | _%.02f_ |
+| _Fortitude_ | _%.02f_ | _Intellect_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Will_ | _%.02f_ | _Pulchritude_ | _%.02f_ |
 IT
 
   tables % [str, cha, agi, wis, frt, int, vim, spd, rfx, ima, wil, pul]
