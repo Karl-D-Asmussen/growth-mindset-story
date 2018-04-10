@@ -80,3 +80,32 @@ Races:
   Dragonspawn:
     Kobolds
     Dragonborn
+
+----
+
+Displaced:
+
+  Set chose Clara, the Black
+    Tiefling
+    Dark Triad-style remorselessness, guiltlessness, unsentimentality, and selective empathy
+    Wizard
+  Montjura chose Liam, the Red
+    Firbolg
+    Narcissism, self-control issues
+    Paladin
+  Shu chose Sergev, the White
+    Kenku
+    Fanaticism
+    Rogue
+  Wadjet chose Xiao, the Blue
+    Elf
+    ADHD minus RSD and better focus
+    Wizard
+  Sobek chose Hesus, the Green
+    Human
+    Antisocial personality disorder
+    Druid
+  Amun chose Kogo, the Yellow
+    Dwarf
+    Delusions of Grandeur
+    Fighter

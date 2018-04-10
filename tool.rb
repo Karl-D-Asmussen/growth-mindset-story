@@ -10,6 +10,7 @@ require './functions'
 
 $DATA = {}
 
+
 def import(filename)
   f = Pathname.new(filename)
   y = f.sub_ext('.yaml')
@@ -17,7 +18,7 @@ def import(filename)
     if y.file? and y.readable? and y.mtime > f.mtime
       $DATA = YAML.load(y.read())
     else
-      _run(f.to_s) 
+      _run(f.to_s)
     end
   else
     raise IOError, "cannot open file #{f} for reading" unless y.readable? and y.file?
@@ -72,22 +73,23 @@ end
 def stat(*dig, at: nil)
   raise TypeError, "#{at} is neither nil nor Float" unless
     at.nil? or at.is_a?(Float)
-  
+
   with(*dig) do |it|
     if it.nil? or at
       (at || 0.00).round(2)
     elsif at.nil? and it.is_a?(Float)
-      it 
+      it
     else
       raise TypeError, "#{dig.fatten.join(':')} is not a stat"
     end
   end
 end
 
-def bump(*dig, by: 0.01)
+$BUMP
+def bump(*dig, by: $BUMP)
   raise TypeError, "#{by} is not a Float" unless
     by.is_a?(Float)
-  
+
   stat(*dig)
 
   with(*dig) do |it|
@@ -100,7 +102,7 @@ def list(*dig, this: nil)
     this.nil? or this.is_a?(String) or (this.is_a?(Array) and this.all? { |s| s.is_a?(String) })
 
   this = [this] if this.is_a?(String)
-  
+
   with(*dig) do |it|
     if it.nil? or this
       this || []
@@ -115,7 +117,7 @@ end
 def post(*dig, this:)
   raise TypeError, "#{this} is neither String nor Array of Strings" unless
     this.is_a?(String) or (this.is_a?(Array) and this.all? { |s| s.is_a?(String) })
-  
+
   this = [this] if this.is_a?(String)
 
   list(*dig)
@@ -161,7 +163,7 @@ def _pandoc(filename, data)
     raise IOError, "pandoc borked on #{f}"
   end
 
-  # x.unlink
+  x.unlink
 end
 
 def _export(filename)

@@ -2,13 +2,37 @@
 Proficiency:
   Willworking:
     Abjuration:
+      Banishment: removal of unwanted things
+      Protection: bending fate for favorable outcomes
+      Warding: protection of area or objects
     Animation:
+      Awakening: granting soul and self-direction
+      Directing: altering soul and values
+      Stilling: removing soul and life
     Conjuration:
+      Ex Nihilo: giving form
+      Ex Alio: summoning
+      Ex Anima: effect-making
     Divination:
+      Future: self-explanatory
+      Present: self-explanatory
+      Past: self-explanatory
     Evocation:
+      Making: creation
+      Breaking: bending
+      Taking: destruction
     Fascination:
+      Geas: alter actions
+      Lure: alter desires
+      Bond: communicate
     Illusion:
+      Presence: thought forms
+      Experience: sensory manipulation
+      Absence: attention bending
     Transmutation:
+      Alkayest: Concrete alteration
+      Alkami: Conceptual alteration
+      Alkazam: Categorical alteration
   Cognition:
     Identity:
       Ontology: where are you, how did you get here
@@ -17,6 +41,7 @@ Proficiency:
       Mental Integrity: mental layout, use
       Memory: sum total of experiences
     Hygeine:
+      Composure: reasoning about emotions and instincts
       Humility: reasoning about own reasoning
       Pessimism: reasoning about outcomes
       Probabilist: reasoning about ambiguity
@@ -28,11 +53,12 @@ Proficiency:
       Deboxing: reasoning about blind spots
     Reasoning:
       Form: formalisms
-      Khwarizmi: number crunching
-      Aristotelian: syllogism/logic
+      Algorism: number crunching
+      Duction: deduction/induction/abduction
       Spatial: space
       Linguistic: deriving meaning
       Comparative: evaluating things
+      Creativity: evaluating things
       Analog: analogies
       Yomi: agents
       Mnemonics: memory hacks
@@ -43,6 +69,7 @@ Proficiency:
       Focus: ignoring interruptions
       Vigilance: overcoming boredom
       Introspection: self-awareness
+      Grounding: body-awareness
     Social:
       Cooperation: cooperating with others
       Communication: relaying informaiton/ideas

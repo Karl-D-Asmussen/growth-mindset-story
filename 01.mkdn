@@ -1,4 +1,4 @@
-<% seed 1 %>
+<% Random.srand(1); $BUMP=0.10 %>
 
 <!-- # I Wanna Girl -->
 
@@ -39,7 +39,7 @@ Set was a man, and also a Typhonian beast.
 The man took my hand, took me where I coudn't stand, burned the land, boiled the sea,
 took the sky away from me.
 
-The beast clothed me, and handed me a knife.
+The beast clothed me, gave me the power to rule, and sent me out in the world.
 
 I came to a stop above my self, sleeping between two warm bodies. She who was me, looked
 up, and waved lazily, and I waved back. We were once the same person, but from that moment
@@ -51,9 +51,10 @@ we diverged.
 
 I woke up feeling like I had gone for a night of drinking and partying, rather than a
 quiet night of netflix and vigorous sexual intercourse. Worse; I was lying on a hard surface,
-but better; the air was fresh and cool.
+but better; the air was cool.
 
 Something wasn't right.
+<% bump %w[Cognition Attention Awareness] %>
 
 Sitting up, I saw that I was lying in a depression --- like a shallow crater --- in the ground.
 
@@ -61,29 +62,107 @@ On the ground.
 
 Under open skies.
 
-I rubbed my eyes.
+I rubbed my eyes, standing up, not really believing what I was seeing.
 
-> _Cognition---Hygeine---Humility ↑_
+Behind me lay a forest's edge; before me lay a battlefield. For a mile or so, the
+gound was a no-man's land --- perhaps it had been a field some time before the conflict.
+Pockmarked by craters from artillery fire, strewn with dead bodies. In the distance I saw
+trenches, barbed wire, and inferred the presence of land-mines.
+<% bump %w[Knowledge History Warfare] %>
+<% bump %w[Knowledge Engineering Warfare] %>
+
+Beside my little crater lay a corpse. Whatever power had made the crater, had pulped the
+fallen soldier and mangled his equipment, and sprayed the pulp and scrap back a ways. Bile rose
+in my throat at the display. The smell of blood and viscera suddenly made itself known.
+<% bump %w[Cognition Attention Composure] %>
+
+Stranger still, I noticed that a nearby soldier was at least nine feet tall, with
+seemingly elongated limbs and torso. All of the dead were wearing what I could only guess
+was rather out-dated uniforms. I didn't know enough of small arms to tell at this distance
+what they were carrying.
+<% bump %w[Knowledge History Warfare] %>
+
+Immediately, a million objections sprung to mind. First. this could just be a particularly
+vivid nightmare. But dreams didn't usually let one utilize one's full faculties. I _felt_
+awake. I could do sums --- 12 by 21 was twice 120 plus 12, or 254.
 <% bump %w[Cognition Hygeine Humility] %>
 
-<!--
-- No equipment
-- Full life consequences
-- Clone
+I pushed aside the intruding thought, and considered the second possiblity: I was having a
+psychotic break. This was somewhat harder to disprove. I put it aside.
+<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Attention Composure] %>
 
-Go looking --- no charsheet fuckery.
+Third, this could be an elaborate prank; only for it to work this way, the perpetrators
+would have to have at least drugged me, then taken me into the countryside and arranged
+for a lot of props --- no, that seemed infeasible.
+<% bump %w[Cognition Hygeine Criticism] %>
 
-Encounter White Kenku (transplanted russian man w/ palsy, insane Agi).
+I ran a hand through my hair and encountered a foreign object. Tracing out the shape
+with my hand, I realised it was a _horn_ attached to my head. Suddenly a lot of things
+I had been unaware of came crashing to my attention, and I performed a thorough self-inspection.
+<% bump %w[Cognition Attention Grounding] %>
+<% bump %w[Cognition Attention Composure] %>
 
-Immediately get swept up by Giant-kin (Longstrider) warband. Kenku is killed, grilled; manages to hurt
-two giant and almost kill one.
-Among them is a red Firbolg (transplanted american disenfranchised rich american teen).
+My skin was black --- not sub-Saharan African-black, but pitch-black --- varying between
+slate grey on my palms and belly skin and jet black on my elbows and knees.
+My grey nails were thicker, and seemed stronger than usual. 
+My hair was black and lightly curly. On my lower arms and claves, my body hair became much
+more pronounced, almost becoming fur.
+<% bump %w[Cognition Identity Body\ Integrity] %>
 
-By entitlement and shitty attitude and supernatural power, Red find Black to be 'evil'
-(read: pretends to feel bad about eating White, pretends to be a scared prisoner
---- doesn't actually care, idly contemplates slitting throats in the night)
+On my forehead, a pair of horns were attached; and although my face still felt like I
+remembered, my ears were much longer and seemed to have been clipped.
+<% bump %w[Cognition Identity Body\ Integrity] %>
 
-Since letting people's souls pass into the underworld is a war crime, and since
-Red convinces them that Black is more trouble than worth, they give her jerky,
-a waterskin, and directions to the nearest (human) settlement.
--->
+Two things stood out: First, attached to the base of my spine was a tail, about
+as long as I was tall, prehensile, and tipped with black fur. Testingly, I lashed
+about with it, finding it to be dexterous, but nowhere near an extra hand.
+<% bump %w[Cognition Identity Body\ Integrity] %>
+
+Second, between my legs I was happy to find a notable absence of a cock.
+<% bump %w[Cognition Identity Body\ Integrity] %>
+
+I was wearing a light crop-top of coarse grey linen, and canvas trousers in the
+same shade, tied with a rope hemp belt. No shoes, no underwear: I was barely dressed.
+<% bump %w[Cognition Awareness Grounding] %>
+<% bump %w[Knowledge Fashion Textiles] %>
+
+It was cold out. It was tempting to go scavenge me a coat and a pair of boots off
+a fallen soldier. Although looting could be illegal --- I still wasn't sure where I
+was. And walking through a battlefield wearing a soldier's coat could get me shot.
+Not to mention I could step on a landmine.
+<% bump %w[Cognition Hygeine Pessimism] %>
+<% bump %w[Cognition Hygeine Pessimism] %>
+<% bump %w[Cognition Hygeine Pessimism] %>
+
+Finally stepping out of the crater, I headed towards the nearest dead human-sized
+soldier. There were no small, shallow craters with legless corpses nearby; despite the
+dozen or so fallen soldiers. I judged it a safe bet that there were no landmines nearby, but
+tread carefully regardless.
+<% bump %w[Cognition Reasoning Duction] %>
+
+The soldier I had picked out was a woman --- human by the looks of it, with tan skin, bullet
+hole in the chest. I relieved her of her boots, finding them to be a size too big and rather smelly.
+<% bump %w[Practice Looting People] %>
+
+She was wearing footwraps, not socks, underneath, and I rolled her over to rummage
+throug her knapsack, hoping to find a spare set of foot-wraps. I was in luck: not only were
+there spare footwraps; indeed I hadn't even considered that she'd have been carrying a
+full soldier's kit.
+<% bump %w[Knowledge Logistics Quartermastery] %>
+
+I took everything except weapons. Stripping nude in the cold air was unpleasant, but slipping into
+this dead woman's spare wool undershirt and long johns was worth it. I amended my outfit with her
+boots, her puttees, and her vest; studiously avoiding battle dress items. I had food, a bayonet
+for a knife, a folding spade, a mess kit, a half-full flask of water --- which I greedily emptied.
+I left her knapsack and packed it all in her haversack.
+<% bump %w[Practice Equipment Dressing] %>
+
+When I had it all, I turned my unwitting donor over on her back, folded her arms in front of her
+chest, and closed her eyes. No need to disrespect the dead, especially when it put my looting in
+a better light.
+<% bump %w[Cognition Reason Yomi] %>
+
+It was still cold; my arms were bare, but for the woman's pair of gloves. It was an ugly compromise,
+but I could not afford to be seen as a combatant.
+<% roll %w[Ability Wisdom], %w[Cognition Reason Creativity], tag: "Giant's jacket" %>

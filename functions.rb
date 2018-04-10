@@ -26,12 +26,10 @@ def specify_abilities(*inorder)
   stat %w[Ability Intellect], at: int
 end
 
-
 def dig_abilities
   ABILITIES.map { |s| dig 'Ability', s }.
     to_enum(:zip, ABILITIES.map { |s| dig_soft %w[Bonus Ability], s, default: 0.00 }).map { |a, b| a + b }
 end
-
 
 def compute_aptitudes
   str, agi, frt, cha, wis, int = dig_abilities
@@ -68,4 +66,30 @@ def ability_aptitude_table
 IT
 
   tables % [str, cha, agi, wis, frt, int, vim, spd, rfx, ima, wil, pul]
+end
+
+def roll(*digs, tag: nil)
+  fields = digs.select { |x| x.is_a? Array }
+  bonuses = digs.select { |x| x.is_a? Float }
+  pretty = fields.map { |x| x.join(':') }
+  values = fields.map { |x| q = dig_soft x, default: 0.0;
+                        raise TypeError, "#{x.join(':')} is not a number" unless q.is_a? Float;
+                        q }
+
+  line = caller_locations(1,1).first.lineno
+
+  t = values.sum
+ 
+  r = Random.rand while (r ||= 1.0) == 1.0
+  r = Distribution::LogNormal::GSL_::p_value(r, Math.log(10), 1).round(2)
+
+  if tag
+    tag = "#{tag} (#{line})"
+  else
+    tag = line.to_s
+  end
+
+  STDERR.puts("--- #{tag} ---")
+  STDERR.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
+  STDERR.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs}")
 end
