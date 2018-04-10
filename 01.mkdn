@@ -9,7 +9,7 @@ Emanuel and Thessa.
 
 <div class='right'>
 Stronger? Faster? Healthier? Firmer? Keener? Smarter?
-If I could be anything, I'd sell my sould for sixty-nine silver sheckels.
+If I could be anything, I'd sell my soul for sixty-nine silver shekels.
 
 I got up to go to the bathroom, but the bathroom was an office,
 falling through the sky, and my Dad was there, but he was also
@@ -20,13 +20,13 @@ Set was the god of desert storms, disorder, violence, and foreigners.
 Tieflings were sexy. I used to play them when Dad ran games.
 <% tiefling %>
 
-He handed me a character sheet, but I couldn't't read, and I threw sixteen
+He handed me a character sheet, but I couldn't read, and I threw sixteen
 four-sided dice, and all of them came up four. I stepped on them, but it
 didn't hurt.
 
 Numbers didn't work in dreams.
 
-I had sixty-nine silver sheckels, and six bowls.
+I had sixty-nine silver shekels, and six bowls.
 
 Tieflings got to add to Intellect, one, and to Charisma, two.
 
@@ -36,7 +36,7 @@ With trembling hand I wrote:
 
 Set was a man, and also a Typhonian beast.
 
-The man took my hand, took me where I coudn't stand, burned the land, boiled the sea,
+The man took my hand, took me where I couldn't stand, burned the land, boiled the sea,
 took the sky away from me.
 
 The beast clothed me, gave me the power to rule, and sent me out in the world.
@@ -50,7 +50,7 @@ we diverged.
 ----
 
 I woke up feeling like I had gone for a night of drinking and partying, rather than a
-quiet night of netflix and vigorous sexual intercourse. Worse; I was lying on a hard surface,
+quiet night of Netflix and vigorous sexual intercourse. Worse; I was lying on a hard surface,
 but better; the air was cool.
 
 Something wasn't right.
@@ -65,7 +65,7 @@ Under open skies.
 I rubbed my eyes, standing up, not really believing what I was seeing.
 
 Behind me lay a forest's edge; before me lay a battlefield. For a mile or so, the
-gound was a no-man's land --- perhaps it had been a field some time before the conflict.
+ground was a no-man's land --- perhaps it had been a field some time before the conflict.
 Pockmarked by craters from artillery fire, strewn with dead bodies. In the distance I saw
 trenches, barbed wire, and inferred the presence of land-mines.
 <% bump %w[Knowledge History Warfare] %>
@@ -83,20 +83,20 @@ what they were carrying.
 <% bump %w[Knowledge Races Giant\ Kin] %>
 <% bump %w[Knowledge History Warfare] %>
 
-Immediately, a million objections sprung to mind. First. this could just be a particularly
+Immediately, a million objections sprung to mind. First, this could just be a particularly
 vivid nightmare. But dreams didn't usually let one utilize one's full faculties. I _felt_
 awake. I could do sums --- 12 by 21 was twice 120 plus 12, or 254.
-<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Hygiene Humility] %>
 
-I pushed aside the intruding thought, and considered the second possiblity: I was having a
+I pushed aside the intruding thought, and considered the second possibility: I was having a
 psychotic break. This was somewhat harder to disprove. I put it aside.
-<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Hygiene Humility] %>
 <% bump %w[Cognition Attention Composure] %>
 
 Third, this could be an elaborate prank; only for it to work this way, the perpetrators
 would have to have at least drugged me, then taken me into the countryside and arranged
 for a lot of props --- no, that seemed infeasible.
-<% bump %w[Cognition Hygeine Criticism] %>
+<% bump %w[Cognition Hygiene Criticism] %>
 
 I ran a hand through my hair and encountered a foreign object. Tracing out the shape
 with my hand, I realised it was a _horn_ attached to my head. Suddenly a lot of things
@@ -107,7 +107,7 @@ I had been unaware of came crashing to my attention, and I performed a thorough 
 My skin was black --- not sub-Saharan African-black, but pitch-black --- varying between
 slate grey on my palms and belly skin and jet black on my elbows and knees.
 My grey nails were thicker, and seemed stronger than usual. 
-My hair was black and lightly curly. On my lower arms and claves, my body hair became much
+My hair was black and lightly curly. On my lower arms and calves, my body hair became much
 more pronounced, almost becoming fur.
 <% bump %w[Cognition Identity Body\ Integrity] %>
 
@@ -133,9 +133,9 @@ It was cold out. It was tempting to go scavenge me a coat and a pair of boots of
 a fallen soldier. Although looting could be illegal --- I still wasn't sure where I
 was. And walking through a battlefield wearing a soldier's coat could get me shot.
 Not to mention I could step on a landmine.
-<% bump %w[Cognition Hygeine Pessimism] %>
-<% bump %w[Cognition Hygeine Pessimism] %>
-<% bump %w[Cognition Hygeine Pessimism] %>
+<% bump %w[Cognition Hygiene Pessimism] %>
+<% bump %w[Cognition Hygiene Pessimism] %>
+<% bump %w[Cognition Hygiene Pessimism] %>
 
 Finally stepping out of the crater, I headed towards the nearest dead human-sized
 soldier. There were no small, shallow craters with legless corpses nearby; despite the
@@ -149,17 +149,19 @@ hole in the chest. I relieved her of her boots, finding them to be a size too bi
 <% bump %w[Knowledge Races Human] %>
 
 She was wearing footwraps, not socks, underneath, and I rolled her over to rummage
-throug her knapsack, hoping to find a spare set of foot-wraps. I was in luck: not only were
+through her knapsack, hoping to find a spare set of foot-wraps. I was in luck: not only were
 there spare footwraps; indeed I hadn't even considered that she'd have been carrying a
 full soldier's kit.
 <% bump %w[Knowledge Logistics Quartermastery] %>
 
-I took everything except weapons. Stripping nude in the cold air was unpleasant, but slipping into
-this dead woman's spare wool undershirt and long johns was worth it. I amended my outfit with her
-boots, her puttees, and her vest; studiously avoiding battle dress items. I had food, a knife,
-a folding spade, a mess kit, a half-full flask of water --- which I greedily emptied.
-I left her knapsack and packed it all in her haversack. The footwraps took some doing to figure out;
-fortunately the ground was dry.
+I took everything except weapons. Stripping nude in the cold air was
+unpleasant, but slipping into this dead woman's spare wool undershirt and
+long johns was worth it --- well, I had to cut a hole for my tail, but still.
+I amended my outfit with her boots, her puttees, and her vest; studiously
+avoiding battle dress items. I had food, a knife, a folding spade, a mess kit,
+a half-full flask of water --- which I greedily emptied. I left her knapsack
+and packed it all in her haversack. The footwraps took some doing to figure
+out; fortunately the ground was dry.
 <% bump %w[Practice Equipment Kit] %>
 <% bump %w[Practice Dress Footwraps] %>
 <% bump %w[Practice Dress Casual\ Wear] %>
@@ -178,9 +180,9 @@ A few dozen yards distant, I saw my salvation: one of the nine-feet-tall soldier
 
 I was at least somewhat sure nobody would mistake me for a giant --- though it would do well to check
 whether any human-sized soldiers nearby were wearing the same colors.
-<% bump %w[Cognition Hygeine Pessimism] %>
+<% bump %w[Cognition Hygiene Pessimism] %>
 
-Taking a few mintues to do a visual sweep of the area --- I was still vary of
+Taking a few minutes to do a visual sweep of the area --- I was still vary of
 landmines --- I found no evidence that this conflict wasn't between giants and
 humans.
 <% bump %w[Knowledge Politics Race\ Relations] %>
@@ -198,10 +200,10 @@ a lot easier. In the inner pocket I found a white kerchief two feet to a side.
 <% bump %w[Practice Tailor Field] %>
 
 It would serve as a white flag, if anything. If white flags was a thing used around these parts.
-With some difficulty, I tied two opposited corners of kercheif to each of my horn tips, adorning
+With some difficulty, I tied two opposite corners of kerchief to each of my horn tips, adorning
 me with what I hoped was a recognizable display of a white flag, or at least a highly visible display
 of 'I-am-not-trying-to-hide.'
-<% bump %w[Knowledge Iconography Vexilology] %>
+<% bump %w[Knowledge Iconography Vexillology] %>
 <% bump %w[Cognition Reason Yomi] %>
 
 I laid the dead giant to rest much like I had the woman --- he had been shot in the face, destroying
@@ -209,7 +211,7 @@ his upper jaw, but his eyelids were still intact enough to close.
 <% bump %w[Practice Athletics Lifting] %>
 <% bump %w[Cognition Attention Composure] %>
 
-Moving on, I headed for another dead human, intent on a spare set of underwerar and maybe some
+Moving on, I headed for another dead human, intent on a spare set of underwear and maybe some
 more water.
 <% bump %w[Practice Looting People] %>
 
@@ -217,7 +219,7 @@ more water.
 
 I left one more soldier respectfully resting, bereft of equipment --- he'd had
 a chocolate bar! --- and went into the forest, as it seemed, away from the
-battle. The forest was decidious, and bore clear signs of having been subject
+battle. The forest was deciduous, and bore clear signs of having been subject
 to forestry, with coppiced stumps and pollarded trunks.
 <% bump %w[Knowledge Botany Silviculture] %>
 
@@ -225,7 +227,7 @@ to forestry, with coppiced stumps and pollarded trunks.
 and fear in it. I froze, and slowly raised my hands; whomever it was probably had a gun trained on me.
 <% bump %w[Cognition Social Empathy] %>
 <% bump %w[Cognition Reason Yomi] %>
-<% bump %w[Cognition Hygeine Composure] %>
+<% bump %w[Cognition Hygiene Composure] %>
 
 "T-turn around."
 
@@ -271,7 +273,7 @@ He shook his head. "Just a trickle, but it ain't stopping, and I can't walk. I c
 "Hours, maybe, I--- I don't know."
 <% bump %w[Cognition Social Communication] %>
 
-Any amount of bleeding over that long would leave him dangerously exanguinated.
+Any amount of bleeding over that long would leave him dangerously exsanguinated.
 <% bump %w[Knowledge Medicine Injury] %>
 <% bump %w[Cognition Reason Algorism] %>
 
@@ -306,8 +308,8 @@ As soon as the words had left my lips, I wondered at myself. Could I really take
 I had never been particularly cruel before. And here I was just casually offering to perform
 a mercy kill.
 <% bump %w[Cognition Identity Mental\ Integrity] %>
-<% bump %w[Cognition Hygeine Humility] %>
-<% bump %w[Cognition Hygeine Composure] %>
+<% bump %w[Cognition Hygiene Humility] %>
+<% bump %w[Cognition Hygiene Composure] %>
 <% bump %w[Cognition Attention Introspection] %>
 
 "I'm--- I'm so cold," he said.
@@ -328,16 +330,15 @@ I felt numb. No --- numb was a feeling. I felt nothing. It had been as easy as b
 Something was wrong with me. I checked for a pulse on his neck and found none.
 <% bump %w[Cognition Attention Introspection] %>
 <% bump %w[Cognition Identity Mental\ Integrity] %>
-<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Hygiene Humility] %>
 <% bump %w[Knowledge Medicine Death] %>
 
 I pocketed the scissors, and pulled him by the ankles down to lie. Then I
-closed his eyes, folded his hands on his chest over his reolver, and then I
+closed his eyes, folded his hands on his chest over his revolver, and then I
 picked up the nail. My pilfered folding spade served as a hammer, and I drove
 the nail into his forehead. As soon as it was an inch down, the runes flashed,
 and glowed brighter.
 <% bump %w[Knowledge Magic Artifice] %>
-<% bump %w[Practice UMD Soul-Jars] %>
 <% bump %w[Practice Culture Last\ Rites] %>
 
 He'd said to leave it there.
@@ -355,14 +356,13 @@ opening mechanism which revealed it to be a breech loader. The cartridge inside 
 thick paper, rather than brass, and the bullet was more like a deer slug. Opening it
 with my knife revealed it to contain black powder, rather than more modern
 <% bump %w[Practice Aim Long\ Gun] %>
-<% bump %w[Practice Tool Breech-loading\ Rifle] %>
 <% bump %w[Knowledge Technology Small\ Arms] %>
 <% bump %w[Knowledge History Technology] %>
 
 The revolver cylinder was seemingly front-loaded; there were no cartridges. It only
 had five shots, and it had no trigger, only a hammer.
 <% bump %w[Practice Aim Hand\ Gun] %>
-<% bump %w[Practice Tool Revolver] %>
 <% bump %w[Knowledge Technology Small\ Arms] %>
 
 Discarding both, I ventured further into the woods.
+<% bump %w[Practice Exercise Hiking] %>
