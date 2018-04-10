@@ -209,5 +209,15 @@ his upper jaw, but his eyelids were still intact enough.
 <% bump %w[Cognition Attention Composure] %>
 
 Moving on, I headed for another dead human, intent on a spare set of underwerar and maybe some
-more water.
+more water, before heading into the forest.
 <% bump %w[Practice Looting People] %>
+
+----
+
+I left one more soldier respectfully resting, bereft of equipment --- he'd had a chocolate bar! ---
+and went into the forest, as it seemed, away from the battle.
+<% bump %w[Practice Athletics Hiking] %>
+
+The forest was decidious
+
+Night began falling
