@@ -9,7 +9,7 @@ Emanuel and Thessa.
 
 <div class='right'>
 Stronger? Faster? Healthier? Firmer? Keener? Smarter?
-If I could be anything, I'd sell my sould for sixty-four silver sheckels.
+If I could be anything, I'd sell my sould for sixty-nine silver sheckels.
 
 I got up to go to the bathroom, but the bathroom was an office,
 falling through the sky, and my Dad was there, but he was also
@@ -26,12 +26,12 @@ didn't hurt.
 
 Numbers didn't work in dreams.
 
-I had sixty-four silver sheckels, and six bowls.
+I had sixty-nine silver sheckels, and six bowls.
 
 Tieflings got to add to Intellect, one, and to Charisma, two.
 
 With trembling hand I wrote:
-<% specify_abilities 12.50, 12.50, 15.00, 23.00, 25.00, 24.00; compute_aptitudes %>
+<% specify_abilities 15.00, 15.00, 15.00, 23.00, 25.00, 24.00; compute_aptitudes %>
 <%= ability_aptitude_table %>
 
 Set was a man, and also a Typhonian beast.
@@ -156,8 +156,8 @@ full soldier's kit.
 
 I took everything except weapons. Stripping nude in the cold air was unpleasant, but slipping into
 this dead woman's spare wool undershirt and long johns was worth it. I amended my outfit with her
-boots, her puttees, and her vest; studiously avoiding battle dress items. I had food, a bayonet
-for a knife, a folding spade, a mess kit, a half-full flask of water --- which I greedily emptied.
+boots, her puttees, and her vest; studiously avoiding battle dress items. I had food, a knife,
+a folding spade, a mess kit, a half-full flask of water --- which I greedily emptied.
 I left her knapsack and packed it all in her haversack. The footwraps took some doing to figure out;
 fortunately the ground was dry.
 <% bump %w[Practice Equipment Kit] %>
@@ -168,6 +168,7 @@ When I had it all, I turned my unwitting donor over on her back, folded her arms
 chest, and closed her eyes. No need to disrespect the dead, especially when it put my looting in
 a better light.
 <% bump %w[Cognition Reason Yomi] %>
+<% bump %w[Practice Culture Last\ Rites] %>
 
 It was still cold; my arms were bare, but for the woman's pair of gloves. It was an ugly compromise,
 but I could not afford to be seen as a combatant.
@@ -191,7 +192,7 @@ It took me several minutes to get him out of it.
 <% bump %w[Practice Looting People] %>
 
 The fabric was waxed, coarse, and densely-woven;
-the whole thing hung to my ankles with ludicrously long sleeves. Using my bayonet, I
+the whole thing hung to my ankles with ludicrously long sleeves. Using my knife, I
 cut the sleeves to a more appropriate length; there was no lining in the sleeves, making that
 a lot easier. In the inner pocket I found a white kerchief two feet to a side.
 <% bump %w[Practice Tailor Field] %>
@@ -204,20 +205,164 @@ of 'I-am-not-trying-to-hide.'
 <% bump %w[Cognition Reason Yomi] %>
 
 I laid the dead giant to rest much like I had the woman --- he had been shot in the face, destroying
-his upper jaw, but his eyelids were still intact enough.
+his upper jaw, but his eyelids were still intact enough to close.
 <% bump %w[Practice Athletics Lifting] %>
 <% bump %w[Cognition Attention Composure] %>
 
 Moving on, I headed for another dead human, intent on a spare set of underwerar and maybe some
-more water, before heading into the forest.
+more water.
 <% bump %w[Practice Looting People] %>
 
 ----
 
-I left one more soldier respectfully resting, bereft of equipment --- he'd had a chocolate bar! ---
-and went into the forest, as it seemed, away from the battle.
-<% bump %w[Practice Athletics Hiking] %>
+I left one more soldier respectfully resting, bereft of equipment --- he'd had
+a chocolate bar! --- and went into the forest, as it seemed, away from the
+battle. The forest was decidious, and bore clear signs of having been subject
+to forestry, with coppiced stumps and pollarded trunks.
+<% bump %w[Knowledge Botany Silviculture] %>
 
-The forest was decidious
+"Stop right there!" A voice sounded behind me --- an undercurrent of desperation
+and fear in it. I froze, and slowly raised my hands; whomever it was probably had a gun trained on me.
+<% bump %w[Cognition Social Empathy] %>
+<% bump %w[Cognition Reason Yomi] %>
+<% bump %w[Cognition Hygeine Composure] %>
 
-Night began falling
+"T-turn around."
+
+I did, and beheld my captor. A young man, leaning against a tree. His skin was pale, and
+with one shaking hand he held a revolver, with his other, he was clutching a bandage around his leg.
+His trouser leg had been cut open, and the big piece of gauze held there was worryingly red. As
+was his trouser leg. And his hand. And his sleeve. And the ground.
+<% bump %w[Knowledge Medicine Injury] %>
+
+"Wh-what--- are you some kind of devil come to steal the souls of my friends?!"
+
+My train of thought nearly derailed. "Pardon?" I asked.
+<% post %w[Languages], this: 'Common' %>
+
+"Like, from the underworld! From the Seven Hells and the Ash--- Abyss?!" he continued.
+
+"I'm no devil," I said. "I'm a person of flesh and blood just like you; besides, even if
+I was, do you think it would be wise to shoot a devil?"
+<% bump %w[Practice Rhetoric Logos] %>
+
+His gun didn't waver. "Th-the wizards summon them sometimes. M-m-massed rifle fire
+works."
+
+Well, that bluff didn't take. Fortunately for me, his arm dropped, likely
+from exhaustion. "You're hurt," I said. "Let me help you."
+<% bump %w[Cognition Social Persuasion] %>
+
+He took a few deep pained breaths and growled with pain. "Are you a m-medic?"
+
+I shook my head. His enmity towards me had seemingly given way to exhaustion or
+perhaps resignation. Tentatively, I stepped closer, and when he didn't raise his gun
+again, I went to him.
+<% bump %w[Cognition Social Empathy] %>
+
+"I'm gonna die, aren't I?" he asked, voice quaking.
+
+"Does it bleed a lot?" I asked, looking at his wound.
+
+He shook his head. "Just a trickle, but it ain't stopping, and I can't walk. I can't feel my foot."
+
+"How long?"
+
+"Hours, maybe, I--- I don't know."
+<% bump %w[Cognition Social Communication] %>
+
+Any amount of bleeding over that long would leave him dangerously exanguinated.
+<% bump %w[Knowledge Medicine Injury] %>
+<% bump %w[Cognition Reason Algorism] %>
+
+"Listen, you gotta get my soul; I don't wanna go to hell," he said.
+
+"How do I do that?" I asked. This conversation had been quite fruitful in giving me tidbits
+of knowledge --- wizards, devils, souls, hell --- it seemed like these people were either a
+superstitious bunch... Or I wasn't in Kansas anymore.
+<% bump %w[Cognition Identity Ontology] %>
+
+Well, Hamburg, really, but you get the point.
+
+He reached into one of the breast pockets in his jacket, and took out a pair of scissors,
+handing them to me. For a moment, I feared he wanted me to cut into his flesh, until he
+pointed to an oblong object sown into the lining of the jacket itself. Gingerly, I cut open,
+and extracted a five-inch iron nail from it, around the mid-point of it, sat a clay ball covered
+in faintly glowing glyphs.
+<% bump %w[Knowledge Magic Artifice] %>
+
+I was _really_ wasn't in Kansas. I looked at him. "I'm not familiar with this," I said.
+<% bump %w[Cognition Identity Ontology] %>
+<% bump %w[Cognition Social Communication] %>
+
+"It's ---" he took a shaking breath "--- it's a soul-jar. Just put it into the--- my... Me.
+When I die. Head is best, chest is good, belly or upper arm if you have to. Th-they'll come
+pick it up. Send me up in the sky."
+
+I nodded. "Shall I wait, or do you want me to help you along?"
+<% bump %w[Cognition Social Service] %>
+
+As soon as the words had left my lips, I wondered at myself. Could I really take his life?
+I had never been particularly cruel before. And here I was just casually offering to perform
+a mercy kill.
+<% bump %w[Cognition Identity Mental\ Integrity] %>
+<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Hygeine Composure] %>
+<% bump %w[Cognition Attention Introspection] %>
+
+"I'm--- I'm so cold," he said.
+
+Weakly, he took the revolver lying by his thigh, and handed it handle-first to me.
+I took it, put the muzzle against his chest over his heart. Then with my other hand, I
+lifted his own hand, putting his thumb on the hammer, and his fingers on
+the handle.
+
+"It's okay," I said.
+
+He took a deep breath. "I--- I can't."
+
+I put my finger on the hammer and pushed on top of his thumb. The report of
+the gunshot was loud; almost deafening. He jerked, and his head lolled back.
+
+I felt numb. No --- numb was a feeling. I felt nothing. It had been as easy as breathing.
+Something was wrong with me. I checked for a pulse on his neck and found none.
+<% bump %w[Cognition Attention Introspection] %>
+<% bump %w[Cognition Identity Mental\ Integrity] %>
+<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Knowledge Medicine Death] %>
+
+I pocketed the scissors, and pulled him by the ankles down to lie. Then I
+closed his eyes, folded his hands on his chest over his reolver, and then I
+picked up the nail. My pilfered folding spade served as a hammer, and I drove
+the nail into his forehead. As soon as it was an inch down, the runes flashed,
+and glowed brighter.
+<% bump %w[Knowledge Magic Artifice] %>
+<% bump %w[Practice UMD Soul-Jars] %>
+<% bump %w[Practice Culture Last\ Rites] %>
+
+He'd said to leave it there.
+
+I got up and went back to where I had arrived, retracing my footsteps as exactly as
+I could --- could just be luck that I hadn't tripped a mine --- and repeated the procedure
+with the two other human soldiers. The giant had a similar one in a chain around his neck.
+<% bump %w[Practice Culture Last\ Rites] %>
+<% bump %w[Practice Tool Soul-Jar] %>
+
+The grisly work done, I returned to the newly dead guy by the tree. His rifle had been 
+discarded nearby, and I spent a moment inspecting it. I didn't know a lot about rifles,
+but this one didn't seem to have a magazine --- indeed fiddling with it, I found the
+opening mechanism which revealed it to be a breech loader. The cartridge inside was
+thick paper, rather than brass, and the bullet was more like a deer slug. Opening it
+with my knife revealed it to contain black powder, rather than more modern
+<% bump %w[Practice Aim Long\ Gun] %>
+<% bump %w[Practice Tool Breech-loading\ Rifle] %>
+<% bump %w[Knowledge Technology Small\ Arms] %>
+<% bump %w[Knowledge History Technology] %>
+
+The revolver cylinder was seemingly front-loaded; there were no cartridges. It only
+had five shots, and it had no trigger, only a hammer.
+<% bump %w[Practice Aim Hand\ Gun] %>
+<% bump %w[Practice Tool Revolver] %>
+<% bump %w[Knowledge Technology Small\ Arms] %>
+
+Discarding both, I ventured further into the woods.
