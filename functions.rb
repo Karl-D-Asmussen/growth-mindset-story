@@ -91,5 +91,5 @@ def roll(*digs, tag: nil)
 
   STDERR.puts("--- #{tag} ---")
   STDERR.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
-  STDERR.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs}")
+  STDERR.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs.round(2)}")
 end
