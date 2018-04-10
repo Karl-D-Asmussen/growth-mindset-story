@@ -24,6 +24,11 @@ def specify_abilities(*inorder)
   stat %w[Ability Charisma], at: cha
   stat %w[Ability Wisdom], at: wis
   stat %w[Ability Intellect], at: int
+
+  sum = str + agi + frt + cha + wis + int
+  sum -= 6*8.00
+  sum -= ABILITIES.map { |s| dig_soft %w[Race Ability], s, default: 0.00 }.sum
+  $stderr.puts "Total ability score point use: #{sum}"
 end
 
 def dig_abilities
