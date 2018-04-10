@@ -1,0 +1,43 @@
+<% Random.srand(2); $BUMP = 0.10; import('01.mkdn') %>
+
+<!-- # When You Sleep -->
+
+Night fell, and I opened a can of beans to eat. My main problem was the cold.
+My breath was showing. If it got much colder, I was going to die of hypothermia if I
+went to sleep.
+<% bump %w[Knowledge Survival Temperate] %>
+
+Then again... I stopped to consider myself. It was cold, sure, but I didn't feel
+cold. My ears weren't numb, my fingers weren't stiff. The chill bit at my exposed
+face, but didn't take.
+<% bump %w[Cognition Identity Body\ Integrity] %>
+<% bump %w[Cognition Attention Grounding] %>
+
+As an experiment, I took off the stolen coat, and let the cold night air ravish
+my bare arms. I counted out the seconds, waiting for the moment where it became unbearable,
+but got tired of counting when I reached five minutes. Warmth lay beneath my skin, still.
+Standing here in what must surely only have been a few degrees centigrade over freezing,
+in short sleeves, I wasn't shivering.
+<% bump %w[Knowledge Races Tiefling] %>
+
+What was more, I could see very well, even in the waning twilight: at least
+three differently-colored moons were overhead, casting pale light. There weren't any stars.
+<% bump %w[Knowledge Astronomy Cosmology] %>
+
+I was tired --- exhausted, even; and sleep sounded good. I found a nice tree to climb,
+and took out a length of cord I'd found in my looting. Climbing was easier than I recalled,
+and I located a nice-ish place on a crooked section of trunk to seat myself on with relative
+comfort.
+<% bump %w[Practice Athletics Climbing] %>
+
+Using the cord, I tied myself into place so as to not tumble to my death, and leaned back
+against the trunk. Sleep took me quickly.
+<% bump %w[Knowledge Survival Temperate] %>
+
+----
+
+<div class='right'>
+
+<%= skill_table %>
+
+</div>

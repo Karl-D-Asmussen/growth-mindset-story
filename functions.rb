@@ -18,6 +18,8 @@ def specify_abilities(*inorder)
   str, agi, frt, cha, wis, int =
     inorder.to_enum(:zip, ABILITIES.map { |s| dig_soft %w[Race Ability], s, default: 0.00 }).map { |a, b| a + b }
 
+  $stderr.puts "#{str} #{agi} #{frt} #{cha} #{wis} #{int}"
+
   stat %w[Ability Strength], at: str
   stat %w[Ability Agility], at: agi
   stat %w[Ability Fortitude], at: frt
@@ -38,6 +40,7 @@ end
 
 def compute_aptitudes
   str, agi, frt, cha, wis, int = dig_abilities
+  $stderr.puts "#{str} #{agi} #{frt} #{cha} #{wis} #{int}"
   
   stat %w[Aptitude Vim], at: (str+cha)/4.00
   stat %w[Aptitude Reflex], at: (agi+wis)/4.00
@@ -70,7 +73,7 @@ def ability_aptitude_table
 | _Fortitude_ | _%.02f_ | _Intellect_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Will_ | _%.02f_ | _Pulchritude_ | _%.02f_ |
 IT
 
-  tables % [str, cha, agi, wis, frt, int, vim, spd, rfx, ima, wil, pul]
+  tables % [str, cha, vim, spd, agi, wis, rfx, ima, frt, int, wil, pul]
 end
 
 def roll(*digs, tag: nil)
@@ -97,4 +100,23 @@ def roll(*digs, tag: nil)
   STDERR.puts("--- #{tag} ---")
   STDERR.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
   STDERR.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs.round(2)}")
+end
+
+def skill_table
+
+  tables = "|||||\n|:-:|:-:|:-:|:-:|\n"
+  
+  %w[Cognition Practice Knowledge].each do |c|
+    prof = dig c
+    tables << "|  | ___#{c}___ | --- | --- |\n"
+    prof.each do |k, v|
+      tables << "| | _#{k}_ | --- | |\n"
+      v.each.each_slice(3) do |sl|
+        tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(4-sl.size) + "\n"
+      end
+    end
+  end
+  
+  $stderr.puts tables
+  tables
 end
