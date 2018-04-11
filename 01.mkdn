@@ -365,4 +365,4 @@ had five shots, and it had no trigger, only a hammer.
 <% bump %w[Knowledge Technology Small\ Arms] %>
 
 Discarding both, I ventured further into the woods.
-<% bump %w[Practice Exercise Hiking] %>
+<% bump %w[Practice Athletics Hiking] %>
