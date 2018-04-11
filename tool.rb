@@ -10,7 +10,6 @@ require './functions'
 
 $DATA = {}
 
-
 def import(filename)
   f = Pathname.new(filename)
   y = f.sub_ext('.yaml')

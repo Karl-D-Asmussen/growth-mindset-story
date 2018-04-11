@@ -104,19 +104,21 @@ end
 
 def skill_table
 
-  tables = "||||||\n|:-:|:-:|:-:|:-:|:-:|\n"
+  tables = "| | | |\n|:-:|:-:|:-:|\n"
   
   %w[Cognition Practice Knowledge Willworking].each do |c|
     prof = dig_soft c, default: nil
     next unless prof
-    tables << "| --- | --- | ___#{c}___ | --- | --- |\n"
-    prof.each do |k, v|
-      tables << "| _#{k}_ | · | · | · | · |\n"
-      v.each.each_slice(5) do |sl|
-        tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(6-sl.size) + "\n"
+    tables << "| | | |\n"
+    tables << "| --------- | --- ___#{c}___ --- | --------- |\n"
+    prof.each.sort_by { |k, v| k }.each do |k, v|
+    tables << "| | | |\n"
+    tables << "| --- | _#{k}_ | --- |\n"
+    v.each.sort_by {|k, v| k}.each_slice(3) do |sl|
+        tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(4-sl.size) + "\n"
       end
     end
   end
-  
+        
   tables
 end
