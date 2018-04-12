@@ -10,6 +10,28 @@ def tiefling
   stat %w[Race Imagination], at: 5.00
   stat %w[Race Ability Charisma], at: 2.00
   stat %w[Race Ability Intellect], at: 1.00
+
+  stat %w[Race Features Resistances Freezing], at: 0.50
+  stat %w[Race Features Resistances Fire], at: 0.50
+  stat %w[Race Features Senses Darkvision], at: 10.00
+end
+
+DAMAGE_TYPES = %w[Blunt Sharp Piercing Fire Freezing Acid Toxic Thunder Lightning Entropic Radiant Force Void Psychic]
+def make_body
+  DAMAGE_TYPES.each do |type|
+    stat %w[Body Resistance], type, at: dig_soft(%w[Race Features Resistances], type)
+  end
+  str, agi, frt, cha, wis, int = dig_abilities
+  stat %w[Body Health], at: [str, agi, frt].max
+  stat %w[Body Sanity], at: [cha, wis, int].max
+  stat %w[Body Hit\ Points], at: (str + agi + frt)
+  stat %w[Body Mad\ Points], at: (cha + wis + int)
+  list %w[Body Injuries], this: []
+  list %w[Body Conditions], this: ['Dark Triad Personality']
+end
+
+def dig_resistance(type)
+  dig(%w[Body Resistance], type) + dig_soft(%w[Bonus Resistance], type)
 end
 
 ABILITIES=%w[Strength Agility Fortitude Charisma Wisdom Intellect]
@@ -97,9 +119,9 @@ def roll(*digs, tag: nil)
     tag = line.to_s
   end
 
-  STDERR.puts("--- #{tag} ---")
-  STDERR.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
-  STDERR.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs.round(2)}")
+  $stderr.puts("--- #{tag} ---")
+  $stderr.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
+  $stderr.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs.round(2)}")
 end
 
 def skill_table
@@ -121,4 +143,10 @@ def skill_table
   end
         
   tables
+end
+
+def show_list(*dig, title: nil)
+  list(*dig) 
+  
+  ("_#{title}_\n\n" if title).to_s + dig(*dig).map { |i| "- _#{i}_" }.join("\n")
 end

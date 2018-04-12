@@ -126,6 +126,10 @@ def post(*dig, this:)
   end
 end
 
+def delete(*dig, ix: nil)
+   
+end
+
 def _capture
   data = $DATA
   $DATA = {}
@@ -135,11 +139,18 @@ ensure
   $DATA = data
 end
 
+$FIRST_RUN = false
 def _run(filename)
   f = Pathname.new(filename)
   h = f.sub_ext('.html')
   if f.readable? and f.file?
+    if $FIRST_RUN
+      $stderr = File.open('/dev/null', 'w')
+    else
+      $FIRST_RUN = true
+    end
     _pandoc(f.to_s, ERB.new(f.read(), nil, '<> > -').result)
+    $stderr = STDERR
     _export(f.to_s)
   else
     raise IOError, "cannot open file #{f} for reading" unless f.readable? and f.file?

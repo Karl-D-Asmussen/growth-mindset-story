@@ -25,19 +25,58 @@ three differently-colored moons were overhead, casting pale light. There weren't
 <% bump %w[Knowledge Astronomy Cosmology] %>
 
 I was tired --- exhausted, even; and sleep sounded good. I found a nice tree to climb,
-and took out a length of cord I'd found in my looting. Climbing was easier than I recalled,
+and took out a length of twine I'd found in my looting. Climbing was easier than I recalled,
 and I located a nice-ish place on a crooked section of trunk to seat myself on with relative
 comfort.
 <% bump %w[Practice Athletics Climbing] %>
 
 Using the cord, I tied myself into place so as to not tumble to my death, and leaned back
 against the trunk. Sleep took me quickly.
-<% bump %w[Knowledge Survival Temperate] %>
+<% bump %w[Knowledge Survival Shelter] %>
 
 ----
 
 <div class='right'>
+Typhonian truncated ears and furred tail. It stood as tall as me, its hot breath on my
+face smelled of fresh kill.
 
-<%= skill_table %>
+I asked him what was going on.
 
+Truncated ears, but on a man so dark-skinned he was blue. He was the god of desert
+storms and violence and foreigners. 
+
+He said something in Egyptian. I didn't understand. He was sorry, for what happened
+to me; but he couldn't do anything to help. Gods weren't. Not anymore, never again.
+
+I asked him if Thessa and Emanuel woke to find me missing.
+<% bump %w[Cognition Identity Ontology] %>
+
+He said something in Egyptian. I still didn't understand. My mind had been copied;
+wholesale, and transplanted. Integration with my new soul was lagging behind,
+but he was working on it. He apologized, and assured me he had attempted to
+sweeten the raw deal for me.
+
+I asked him if I could get to be an immortal wizard.
+<% bump %w[Cognition Identity Values] %>
+
+He said something in Egyptian. He was willing to mete out
+a few boons, if I'd do my best. For now, my soul should be fully integrated;
+by my wish, I could enjoy the boon of self-knowledge equal to any mortal of this
+realm.
+
+I asked him what he wished for me to do.
+
+He said something in Egyptian. I didn't undertstand.
 </div>
+
+----
+
+There was a sudden jerk of vertigo, and I jolted awake; the only thing keeping me
+from a nasty fall being the twine tying me down. Righting myself took effort, but
+at least I could get to a position where I could untie myself.
+
+I was still cold, but not shivering.
+
+Another strange dream. Twice was coincidence.
+<% bump %w[Cognition Hygeine Criticism] %>
+

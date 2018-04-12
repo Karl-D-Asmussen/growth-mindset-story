@@ -32,6 +32,7 @@ Tieflings got to add to Intellect, one, and to Charisma, two.
 
 With trembling hand I wrote:
 <% specify_abilities 15.00, 15.00, 15.00, 23.00, 25.00, 24.00; compute_aptitudes %>
+<% make_body %>
 <%= ability_aptitude_table %>
 
 Set was a man, and also a Typhonian beast.
@@ -187,7 +188,7 @@ landmines --- I found no evidence that this conflict wasn't between giants and
 humans.
 <% bump %w[Knowledge Politics Race\ Relations] %>
 
-Relieving the gigantic man was a challenge.
+Relieving the gigantic man of his coat was a challenge.
 <% roll %w[Ability Strength], %w[Practice Athletics Lifting], tag: "Giant butt" %>
 It took me several minutes to get him out of it.
 <% bump %w[Practice Athletics Lifting] %>
