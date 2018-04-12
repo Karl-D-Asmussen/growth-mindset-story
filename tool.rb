@@ -84,7 +84,7 @@ def stat(*dig, at: nil)
   end
 end
 
-$BUMP
+$BUMP=0.01
 def bump(*dig, by: $BUMP)
   raise TypeError, "#{by} is not a Float" unless
     by.is_a?(Float)

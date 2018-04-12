@@ -13,13 +13,14 @@ def tiefling
 
   stat %w[Race Features Resistances Freezing], at: 0.50
   stat %w[Race Features Resistances Fire], at: 0.50
+  stat %w[Race Features Resistances Radiant], at: 1.50
   stat %w[Race Features Senses Darkvision], at: 10.00
 end
 
 DAMAGE_TYPES = %w[Blunt Sharp Piercing Fire Freezing Acid Toxic Thunder Lightning Entropic Radiant Force Void Psychic]
 def make_body
   DAMAGE_TYPES.each do |type|
-    stat %w[Body Resistance], type, at: dig_soft(%w[Race Features Resistances], type)
+    stat %w[Body Resistance], type, at: dig_soft(%w[Race Features Resistances], type, default: 1.00)
   end
   str, agi, frt, cha, wis, int = dig_abilities
   stat %w[Body Health], at: [str, agi, frt].max
