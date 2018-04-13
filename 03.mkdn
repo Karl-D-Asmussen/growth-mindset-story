@@ -1,0 +1,40 @@
+<% Random.srand(3); $BUMP=0.10 %>
+
+<!-- # Long Jacket -->
+
+The three soldiers led me back, in silence. The trenches were dug every half
+mile or so, and we crossed them on wooden bridges, while I got a look at the
+soldiers huddled below. Further from the front, the trenches were reinforced
+with wood. I saw the first artillery emplacements there as well.
+Primitive-looking breech-loading canons, but with rifling and aerodynamics shells.
+Nowhere did I see radios or wires --- there was no electricity.
+<% bump %w[Knowledge Technology Artillery] %>
+
+Eventually we reached a trench, and I was ordered into it.
+
+"Corporal Alling, fetch a Wizard," the sargeant said.
+
+I was still a stranger to their military system; in common military parlance,
+a sargeant would be the leader of a platoon; anywhere from twenty to fifty men.
+This guy seemingly had two people with him, and the wiry man who bound me wore
+the same insignia as the woman.
+<% bump %w[Knowledge Military Rank] %>
+
+Thinking back, if indeed I had 25 Wisdom, which I _knew_ was related to alertness,
+then these three sneaking up on me as extensively as they had, was rather impressive.
+<% bump %w[Knowledge Military Soldiers] %>
+
+I was led to a bunker, dug into the side of the trench, which at this point was
+rather deep. Inside was a head quarters; office, storage, maps, documents. I didn't
+have much time to look around, because the officerers inside demanded my attention.
+One sitting, another standing. Their insignias suggested the sitting one --- a burly 
+mustached man with tan skin --- was higher rank that the standing --- a slender man
+with long pointe ears.
+<% bump %w[Knowledge Military Rank] %>
+<% bump %w[Knowledge Races Elves] %>
+
+"Major, Sergeant Moore reporting," the sargeant said. "On my patrol, I caught this
+suspicious woman snooping around." He gestured to me, and the wiry corporal pushed me
+forwards.
+
+"What's a Tiefling doing here?" the major asked. 

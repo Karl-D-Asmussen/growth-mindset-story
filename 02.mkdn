@@ -255,7 +255,7 @@ I began moving for the human side.
 ----
 
 <% roll %w[Ability Wisdom], %w[Cognition Attention Awareness], tag: 'Notice' %>
-<% roll +13.00, +5,00, tag: 'Hide' %>
+<% roll +13.00, +5.00, tag: 'Hide' %>
 
 I heard a rustle behind me, and turned to look. I saw three men approaching
 me, rifles aimed at me.
@@ -264,6 +264,7 @@ me, rifles aimed at me.
 
 "You're wearing Gigante colors," the foremost soldier said. He was probably mid-thirties,
 dark-skinned, dressed in a battledress jacket, puttees, and a pan-shaped steel helmet.
+<% bump %w[Knowledge Races Humans] %>
 
 "I'm not affiliated with them," I said. "I took it because I'm obviously not nine feet tall,
 and I don't want to look like I'm with you and get shot by a Gigante solder. I'm also unarmed."
@@ -271,6 +272,7 @@ and I don't want to look like I'm with you and get shot by a Gigante solder. I'm
 
 "Sarge, I don't think she's lying," one of the other two said. A woman, dark skinned as well.
 "I think she's a Tiefling. They're common out west."
+<% bump %w[Knowledge Races Tieflings] %>
 
 The sergeant lowered his gun. "You're from out west, private? What manner of folk are they?" he asked.
 
@@ -281,11 +283,14 @@ continued. "I say we kill her."
 It smacked of conspiracy theories and populist scapegoating; I knew what it looked like,
 quite intimately. Somehow, I hoped I wouldn't have to witness a Final Solution type scenario
 down the line. I didn't envy my great-grandmother that.
+<% bump %w[Knowledge Politics Race\ Relations] %>
 
 "She's not Gigante, and she's bearing a white flag. If we kill her, we'll be murderers,"
 the sergeant said. "Ma'am you are under arrest for looting --- that's one of
 our haversacks and folding spades. Imperial property, which we will have to confiscate."
+<% bump %w[Knowledge Law War] %>
 
 "I'll come willingly," I said.
+<% bump %w[Practice Rhetoric Logos] %>
 
 He turned to the other soldier, a lighter skinned and wiry-looking man. "Tie her hands."

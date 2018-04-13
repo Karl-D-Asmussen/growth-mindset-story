@@ -201,6 +201,7 @@ the whole thing hung to my ankles with ludicrously long sleeves. Using my knife,
 cut the sleeves to a more appropriate length; there was no lining in the sleeves, making that
 a lot easier. In the inner pocket I found a white kerchief two feet to a side.
 <% bump %w[Practice Tailor Field] %>
+<% bump %w[Practice Tool Knife] %>
 
 It would serve as a white flag, if anything. If white flags was a thing used around these parts.
 With some difficulty, I tied two opposite corners of kerchief to each of my horn tips, adorning
@@ -295,6 +296,7 @@ pointed to an oblong object sown into the lining of the jacket itself. Gingerly,
 and extracted a five-inch iron nail from it, around the mid-point of it, sat a clay ball covered
 in faintly glowing glyphs.
 <% bump %w[Knowledge Magic Artifice] %>
+<% bump %w[Practice Tool Scissors] %>
 
 I was _really_ wasn't in Kansas. I looked at him. "I'm not familiar with this," I said.
 <% bump %w[Cognition Identity Ontology] %>

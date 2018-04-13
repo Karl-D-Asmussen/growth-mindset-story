@@ -5,7 +5,7 @@ require './tool'
 def seed(x) Random.srand(x.hash) end
 
 def tiefling
-  list %w[Race Name], this: ['Tiefling', 'Concubus', 'Setite']
+  list %w[Race Name], this: ['Tiefling', 'Setite']
   stat %w[Race Speed], at: 20.00
   stat %w[Race Imagination], at: 5.00
   stat %w[Race Ability Charisma], at: 2.00
@@ -113,14 +113,14 @@ end
 
 def roll(*digs, tag: nil)
   fields = digs.select { |x| x.is_a? Array }
-  bonuses = digs.select { |x| x.is_a? Float }
+  bonuses = digs.select { |x| x.respond_to?(:to_f) }.map(&:to_f)
   pretty = fields.map { |x| x.join(':') }
   values = fields.map { |x| q = dig_soft x, default: 0.0;
                         raise TypeError, "#{x.join(':')} is not a number" unless q.is_a? Float;
                         q }
 
   line = caller_locations(1,1).first.lineno
-
+        
   t = values.sum + bonuses.sum
  
   r = Random.rand while (r ||= 1.0) == 1.0
