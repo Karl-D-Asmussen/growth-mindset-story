@@ -36,6 +36,7 @@ With trembling hand I wrote:
 <%= ability_aptitude_table %>
 
 Set was a man, and also a Typhonian beast.
+<% bump %w[Knowledge Mythology Egyptian] %>
 
 The man took my hand, took me where I couldn't stand, burned the land, boiled the sea,
 took the sky away from me.

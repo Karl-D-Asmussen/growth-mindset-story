@@ -80,3 +80,13 @@ I was still cold, but not shivering.
 Another strange dream. Twice was coincidence.
 <% bump %w[Cognition Hygeine Criticism] %>
 
+I idly wondered what the dream might have meant --- integrating my mind and soul? Self-knowledge
+equal to any mortal of this realm? Sweeten the deal? In my wonderings, I found a mental levver ---
+one I hadn't noticed, in the same way as you don't notice your ability to do sums. With the same
+effort as knowing my name was Clara, I knew...
+
+<%= show_race %>
+<%= ability_aptitude_table %>
+<%= body_table %>
+<%= show_list(%w[Body Conditions], title: "_Conditions_\n\n") %>
+

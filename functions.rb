@@ -5,16 +5,28 @@ require './tool'
 def seed(x) Random.srand(x.hash) end
 
 def tiefling
-  list %w[Race Name], this: ['Tiefling']
+  list %w[Race Name], this: ['Tiefling', 'Concubus', 'Setite']
   stat %w[Race Speed], at: 20.00
   stat %w[Race Imagination], at: 5.00
   stat %w[Race Ability Charisma], at: 2.00
   stat %w[Race Ability Intellect], at: 1.00
 
-  stat %w[Race Features Resistances Freezing], at: 0.50
-  stat %w[Race Features Resistances Fire], at: 0.50
-  stat %w[Race Features Resistances Radiant], at: 1.50
-  stat %w[Race Features Senses Darkvision], at: 10.00
+  list %w[Race Feature List], this: [
+    'Resilience',
+    'Darkvision',
+    'Keen Smell',
+    'Magic Talent',
+  ]
+  stat %w[Race Feature Resistances Freezing], at: 0.50
+  stat %w[Race Feature Resistances Fire], at: 0.50
+  stat %w[Race Feature Resistances Radiant], at: 1.50
+  stat %w[Race Feature Senses Darkvision], at: 10.00
+  stat %w[Race Feature Senses Olfaction], at: 10.00
+end
+
+def show_race
+  
+  show_list(%w[Race Feature List], title: "_#{dig(%w[Race Name]).join(', ')}:_")
 end
 
 DAMAGE_TYPES = %w[Blunt Sharp Piercing Fire Freezing Acid Toxic Thunder Lightning Entropic Radiant Force Void Psychic]
@@ -146,8 +158,22 @@ def skill_table
   tables
 end
 
-def show_list(*dig, title: nil)
+def dig_body
+  [dig(%w[Body Health]), dig(%w[Body Sanity]), dig(%w[Hit Points]), dig(%w[Mad Points])]
+end
+
+def body_table
+  ht, san, hp, mp = dig_body
+  <<END % [ht, hp, san, mp]
+| | | | |
+|-:|:-:|-:|:-:|
+| _Health_ | %.02f | _Don't Get Hit Points_ | %.02f |
+| _Sanity_ | %.02f | _Don't Go Mad Points_ | %.02f |
+END
+end
+
+def show_list(*dig, title: nil, tpl: "- _%s_\n")
   list(*dig) 
   
-  ("_#{title}_\n\n" if title).to_s + dig(*dig).map { |i| "- _#{i}_" }.join("\n")
+  title.to_s + dig(*dig).map { |i| tpl % i }.join
 end
