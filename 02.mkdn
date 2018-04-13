@@ -67,7 +67,7 @@ realm.
 
 I asked him what he wished for me to do.
 
-He said something in Egyptian. I didn't undertstand.
+He said something in Egyptian. I didn't understand.
 </div>
 
 ----
@@ -79,10 +79,10 @@ at least I could get to a position where I could untie myself.
 I was still cold, but not shivering.
 
 Another strange dream. Twice was coincidence.
-<% bump %w[Cognition Hygeine Criticism] %>
+<% bump %w[Cognition Hygiene Criticism] %>
 
 I idly wondered what the dream might have meant --- integrating my mind and soul? Self-knowledge
-equal to any mortal of this realm? Sweeten the deal? In my wonderings, I found a mental levver ---
+equal to any mortal of this realm? Sweeten the deal? In my wondering, I found a mental lever ---
 one I hadn't noticed, in the same way as you don't notice your ability to do sums. With the same
 effort as knowing my name was Clara, I knew...
 
@@ -113,13 +113,13 @@ ability to remember my own name at any rate --- it wasn't really well-defined to
 something like that, as it led to Cartesian Solipsism pretty quickly.
 <% bump %w[Cognition Identity Mental\ Integrity] %>
 <% bump %w[Cognition Identity Ontology] %>
-<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Cognition Hygiene Humility] %>
 <% bump %w[Knowledge Philosophy Applied] %>
 
 _Knowledge: Philosophy (Applied) ↑_
 
 I hesitated at the appearance of the tiny intrusive thought, and consulted my --- well, 'character sheet'
-was an apt monicker --- again.
+was an apt moniker --- again.
 
 <%= skill_table /Knowledge/, /Philosophy/ %>
 
@@ -130,7 +130,7 @@ did the work of adding risk of failure.
 _Draw from logarithmic normal distribution with mean 10 and logarithmic standard deviation 1.
 Roll-under target number, skill-modified ability score with circumstance bonus or penalty._
 
-This information was also just something I _knew_. I could even draw the probablility distribution
+This information was also just something I _knew_. I could even draw the probability distribution
 curve in my mind's eye.
 
 <% bump %w[Knowledge Meta Mechanics] %>
@@ -162,7 +162,7 @@ Thinking it over, I untied myself and climbed down, not helped by sore muscles a
 <% bump %w[Practice Fastening Knots] %>
 <% bump %w[Practice Athletics Climbing] %>
 
-Finally having solid ground under my feet, I stretched out and libered up. The air was fresh and cool,
+Finally having solid ground under my feet, I stretched out and limbered up. The air was fresh and cool,
 and there was a subtle fragrance of morning dew in the air. The forest was quiet, but for the occasional
 bird call. Perhaps it was spring?
 
@@ -180,7 +180,7 @@ Calling up the skills again, I knew that two new entries lurked in the _Tool_ se
 
 <%= skill_table /Practice/, /Tool/ %>
 
-So those were logged, but I hadn't recieved notifications. Willing them away had stifled them,
+So those were logged, but I hadn't received notifications. Willing them away had stifled them,
 I guessed.
 
 Several new questions popped into my mind: was I getting better at these things, or was
@@ -212,7 +212,7 @@ land here --- nor that they weren't softening up the landscape.
 <% bump %w[Knowledge Strategy Bombardment] %>
 
 What they didn't show in war movies, was the waiting. I laid there for what must have been ten minutes,
-loamy soil an inche from my face. The fire kept up, but at no point came the whistling of falling shells,
+loamy soil an inch from my face. The fire kept up, but at no point came the whistling of falling shells,
 or deafening explosions anywhere nearby.
 <% bump %w[Knowledge Strategy Entrenchment] %>
 
@@ -242,7 +242,7 @@ and then a number of the giants, not carrying rifles, cast their spells.
 <% bump %w[Knowledge Magic Identification] %>
 
 It was obvious that was what they did --- even at this distance I _felt_ it. The earthquake-like rumble
-was confirmation. At once, the human-sized trenches unraveled themsevles, widening and deepending, leaving
+was confirmation. At once, the human-sized trenches unraveled themselves, widening and deepening, leaving
 the humans without a good line of fire.
 <% bump %w[Knowledge Strategy Entrenchment] %>
 
@@ -262,7 +262,7 @@ me, rifles aimed at me.
 
 "I'm not a combatant," I said, slowly raising my hands above my head.
 
-"You're wearing Gigante colors," the foremost soldir said. He was probably mid-thirties,
+"You're wearing Gigante colors," the foremost soldier said. He was probably mid-thirties,
 dark-skinned, dressed in a battledress jacket, puttees, and a pan-shaped steel helmet.
 
 "I'm not affiliated with them," I said. "I took it because I'm obviously not nine feet tall,
@@ -272,18 +272,20 @@ and I don't want to look like I'm with you and get shot by a Gigante solder. I'm
 "Sarge, I don't think she's lying," one of the other two said. A woman, dark skinned as well.
 "I think she's a Tiefling. They're common out west."
 
-The sargeant lowered his gun. "You're from out west, private? What manner of folk are they?" he asked.
+The sergeant lowered his gun. "You're from out west, private? What manner of folk are they?" he asked.
 
-"Their ancestors were Low people, so they're usuall an evil lot; infiltrates
+"Their ancestors were Low people, so they're usually an evil lot; infiltrates
 the banks and the government with the help of devils and demons," the woman
 continued. "I say we kill her."
 
-It smacked of conspiracy theories and anti-semitism.
+It smacked of conspiracy theories and populist scapegoating; I knew what it looked like,
+quite intimately. Somehow, I hoped I wouldn't have to witness a Final Solution type scenario
+down the line. I didn't envy my great-grandmother that.
 
 "She's not Gigante, and she's bearing a white flag. If we kill her, we'll be murderers,"
-the sargeant said. "Ma'am you are under arrest for looting --- that's one of
+the sergeant said. "Ma'am you are under arrest for looting --- that's one of
 our haversacks and folding spades. Imperial property, which we will have to confiscate."
 
 "I'll come willingly," I said.
 
-He turned to the other soldier, a lighter skinned and wiry-lookng man. "Tie her hands."
+He turned to the other soldier, a lighter skinned and wiry-looking man. "Tie her hands."
