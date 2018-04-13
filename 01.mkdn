@@ -165,6 +165,7 @@ a half-full flask of water --- which I greedily emptied. I left her knapsack
 and packed it all in her haversack. The footwraps took some doing to figure
 out; fortunately the ground was dry.
 <% bump %w[Practice Equipment Kit] %>
+<% bump %w[Practice Tool Knife] %>
 <% bump %w[Practice Dress Footwraps] %>
 <% bump %w[Practice Dress Casual\ Wear] %>
 

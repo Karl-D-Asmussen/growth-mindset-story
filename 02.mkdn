@@ -5,7 +5,7 @@
 Night fell, and I opened a can of beans to eat. My main problem was the cold.
 My breath was showing. If it got much colder, I was going to die of hypothermia if I
 went to sleep.
-<% bump %w[Knowledge Survival Temperate] %>
+<% bump %w[Knowledge Survival Climate] %>
 
 Then again... I stopped to consider myself. It was cold, sure, but I didn't feel
 cold. My ears weren't numb, my fingers weren't stiff. The chill bit at my exposed
@@ -33,6 +33,7 @@ comfort.
 Using the cord, I tied myself into place so as to not tumble to my death, and leaned back
 against the trunk. Sleep took me quickly.
 <% bump %w[Knowledge Survival Shelter] %>
+<% bump %w[Practice Fastening Knots] %>
 
 ----
 
@@ -85,8 +86,204 @@ equal to any mortal of this realm? Sweeten the deal? In my wonderings, I found a
 one I hadn't noticed, in the same way as you don't notice your ability to do sums. With the same
 effort as knowing my name was Clara, I knew...
 
-<%= show_race %>
-<%= ability_aptitude_table %>
-<%= body_table %>
-<%= show_list(%w[Body Conditions], title: "_Conditions_\n\n") %>
+----
 
+<%= show_race %>
+
+----
+
+<%= ability_aptitude_table %>
+
+----
+
+<%= body_table %>
+
+----
+
+<%= show_list(%w[Body Conditions], title: "_Conditions:_\n\n") %>
+
+----
+
+<%= skill_table %>
+
+----
+
+I reeled a little from the information load. Was this _real?_ Well, as real as my
+ability to remember my own name at any rate --- it wasn't really well-defined to ask
+something like that, as it led to Cartesian Solipsism pretty quickly.
+<% bump %w[Cognition Identity Mental\ Integrity] %>
+<% bump %w[Cognition Identity Ontology] %>
+<% bump %w[Cognition Hygeine Humility] %>
+<% bump %w[Knowledge Philosophy Applied] %>
+
+_Knowledge: Philosophy (Applied) ↑_
+
+I hesitated at the appearance of the tiny intrusive thought, and consulted my --- well, 'character sheet'
+was an apt monicker --- again.
+
+<%= skill_table /Knowledge/, /Philosophy/ %>
+
+I pondered the implications of that. The existence of numbers implied, the _use_ of numbers. In most
+role playing games there was an element of 'roll' playing where dice or some other source of randomness
+did the work of adding risk of failure.
+
+_Draw from logarithmic normal distribution with mean 10 and logarithmic standard deviation 1.
+Roll-under target number, skill-modified ability score with circumstance bonus or penalty._
+
+This information was also just something I _knew_. I could even draw the probablility distribution
+curve in my mind's eye.
+
+<% bump %w[Knowledge Meta Mechanics] %>
+<% bump %w[Knowledge Meta Design] %>
+<% bump %w[Knowledge Math Statistics] %>
+_Knowledge: Meta (Mechanics, Design), Math (Statistics) ↑_
+
+And apparently I could just _think_ my way to new skills. Experimenting, I hummed a few bars of
+Beethoven's Moonlight Sonata.
+
+<% bump %w[Practice Music Song] %>
+<% bump %w[Cognition Identity Aesthetics] %>
+_Practice: Music (Song) ↑. Cognition: Identity (Aesthetics) ↑_
+
+There was a strange separation of concerns, there. Knowledge seemed to be background fact; practice
+seemed to be things that could be trained and all ingrained methodology; cognition seemed to be everything related
+to reasoning and values. It was very strange to see a direct exposition of what I was good at and what I was
+not --- excepting the fact that the only things listed were things I had already done.
+
+<% bump %w[Cognition Identity Memory] %>
+_Cognition: Identity (Memory) ↑_
+
+And it was pretty irritating to constantly get those little notifications. I waited a little, for another one,
+then remembered I had to do something new to unlock it.
+<% bump %w[Cognition Identity Mental\ Integrity] %>
+<% bump %w[Cognition Identity Memory] %>
+
+Thinking it over, I untied myself and climbed down, not helped by sore muscles and aching back and joints.
+<% bump %w[Practice Fastening Knots] %>
+<% bump %w[Practice Athletics Climbing] %>
+
+Finally having solid ground under my feet, I stretched out and libered up. The air was fresh and cool,
+and there was a subtle fragrance of morning dew in the air. The forest was quiet, but for the occasional
+bird call. Perhaps it was spring?
+
+Laying idle musings aside, I got to work on getting another notification.
+
+The folding-spade had a sharpened edge, and the spade itself was rather sturdy, lending to the
+conclusion that it was meant to be used as an ax as well. Unfolding it, I brandished it and swung
+as if at an opponent.
+<% bump %w[Practice Tool Ax] %>
+
+Nothing. I set about digging a small hole.
+<% bump %w[Practice Tool Spade] %>
+
+Calling up the skills again, I knew that two new entries lurked in the _Tool_ section.
+
+<%= skill_table /Practice/, /Tool/ %>
+
+So those were logged, but I hadn't recieved notifications. Willing them away had stifled them,
+I guessed.
+
+Several new questions popped into my mind: was I getting better at these things, or was
+it just a description of my extant abilities? My mind leapt to the _[REDACTED]_ I'd found in
+the details about Tieflinghood.
+<% bump %w[Knowledge Meta Mechanics] %>
+
+There was no good way of testing that now --- working up some physical skill would take too much
+energy, and I couldn't get lost in thought while I was lost in the wilderness.
+
+<% bump %w[Practice Athletics Hiking] %>
+<% bump %w[Cognition Attention Awareness] %>
+<% bump %w[Cognition Attention Vigilance] %>
+
+----
+
+Trekking through the forest, keeping away from signs of battle, seemed like a good way not
+to get shot, but by noon, I was out of water, and I had no civilization in sight. At this rate
+I might have to pee in my flask to retain fluids.
+
+<% bump %w[Knowledge Survival Health] %>
+<% bump %w[Knowledge Medicine Nephrology] %>
+
+This train of thought was interrupted when I heard the explosions. It was a low rumble,
+like thunder but shorter. Immediately I dived for a depression in the dirt, by a tree,
+like I'd seen them do in war movies. The forest was deserted, but that didn't mean a stray shell couldn't
+land here --- nor that they weren't softening up the landscape.
+<% bump %w[Knowledge Technology Artillery] %>
+<% bump %w[Knowledge Strategy Bombardment] %>
+
+What they didn't show in war movies, was the waiting. I laid there for what must have been ten minutes,
+loamy soil an inche from my face. The fire kept up, but at no point came the whistling of falling shells,
+or deafening explosions anywhere nearby.
+<% bump %w[Knowledge Strategy Entrenchment] %>
+
+Once it abated, I crawled out from my shelter and went towards the site of impacts --- not that I was suicidal,
+but there would be people there; and presumably water. As I neared, the report of rifle-fire became apparent,
+along with rare explosions. There was no staccato of automatic fire. Just what was the tech level around here?
+<% bump %w[Knowledge History Technology] %>
+
+Finally the battlefield crept into view, and I beheld a grisly scene. It was another entrenched battle. I
+must have walked something like fifteen miles, so if I was still near the battle I must have walked parallel to
+the front --- at least if this was anything like the first World War.
+<% bump %w[Knowledge History Warfare] %>
+
+Creeping in behind a tree, I observed the flow of battle. On one side were the giants; on the other,
+humans. Thinking it over, it made little sense, this form of trench warfare: the trenches that fit those
+nine-feet-tall people, and those that fit humans, were fundamentally incompatible. They needed to be
+wider and deeper, and thus needed to be dug or filled as they were captured, which would be nearly impossible.
+
+No sooner had I thought that thought, than I observed a charge: a hundred giants vaulted into the open, and ran
+across the field at incredible speed. It was an almost even mix of the long-limbed ones, and ones built far
+more powerfully and with human-like proportions, but still massive.
+<% bump %w[Knowledge Races Giant\ Kin] %>
+
+The humans returned fire, and a few fell, but over half made it there ---
+and then a number of the giants, not carrying rifles, cast their spells.
+<% bump %w[Knowledge Strategy Magery] %>
+<% bump %w[Knowledge Magic Identification] %>
+
+It was obvious that was what they did --- even at this distance I _felt_ it. The earthquake-like rumble
+was confirmation. At once, the human-sized trenches unraveled themsevles, widening and deepending, leaving
+the humans without a good line of fire.
+<% bump %w[Knowledge Strategy Entrenchment] %>
+
+Next came grenades. I looked away.
+
+Weighing my options, I decided to side with the humans. I had no weapons, no training, and no magic, but I
+was reasonably certain that giants didn't have much kindness for human-sized things. Slowly, staying low,
+I began moving for the human side.
+
+----
+
+<% roll %w[Ability Wisdom], %w[Cognition Attention Awareness], tag: 'Notice' %>
+<% roll +13.00, +5,00, tag: 'Hide' %>
+
+I heard a rustle behind me, and turned to look. I saw three men approaching
+me, rifles aimed at me.
+
+"I'm not a combatant," I said, slowly raising my hands above my head.
+
+"You're wearing Gigante colors," the foremost soldir said. He was probably mid-thirties,
+dark-skinned, dressed in a battledress jacket, puttees, and a pan-shaped steel helmet.
+
+"I'm not affiliated with them," I said. "I took it because I'm obviously not nine feet tall,
+and I don't want to look like I'm with you and get shot by a Gigante solder. I'm also unarmed."
+<% bump %w[Practice Rhetoric Logos] %>
+
+"Sarge, I don't think she's lying," one of the other two said. A woman, dark skinned as well.
+"I think she's a Tiefling. They're common out west."
+
+The sargeant lowered his gun. "You're from out west, private? What manner of folk are they?" he asked.
+
+"Their ancestors were Low people, so they're usuall an evil lot; infiltrates
+the banks and the government with the help of devils and demons," the woman
+continued. "I say we kill her."
+
+It smacked of conspiracy theories and anti-semitism.
+
+"She's not Gigante, and she's bearing a white flag. If we kill her, we'll be murderers,"
+the sargeant said. "Ma'am you are under arrest for looting --- that's one of
+our haversacks and folding spades. Imperial property, which we will have to confiscate."
+
+"I'll come willingly," I said.
+
+He turned to the other soldier, a lighter skinned and wiry-lookng man. "Tie her hands."

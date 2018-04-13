@@ -12,21 +12,21 @@ def tiefling
   stat %w[Race Ability Intellect], at: 1.00
 
   list %w[Race Feature List], this: [
-    'Resilience',
+    'Elemental Resilience',
+    'Radiance Sensitivity',
     'Darkvision',
-    'Keen Smell',
     'Magic Talent',
+    '[REDACTED]'
   ]
   stat %w[Race Feature Resistances Freezing], at: 0.50
   stat %w[Race Feature Resistances Fire], at: 0.50
   stat %w[Race Feature Resistances Radiant], at: 1.50
   stat %w[Race Feature Senses Darkvision], at: 10.00
-  stat %w[Race Feature Senses Olfaction], at: 10.00
 end
 
 def show_race
   
-  show_list(%w[Race Feature List], title: "_#{dig(%w[Race Name]).join(', ')}:_")
+  show_list(%w[Race Feature List], title: "_#{dig(%w[Race Name]).join(', ')}:_\n\n")
 end
 
 DAMAGE_TYPES = %w[Blunt Sharp Piercing Fire Freezing Acid Toxic Thunder Lightning Entropic Radiant Force Void Psychic]
@@ -104,8 +104,8 @@ def ability_aptitude_table
 |||||||||
 |-:|:-:|-:|:-:|:-|-:|:-:|-:|:-:|
 | _Strength_ | _%.02f_ | _Charisma_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Vim_ | _%.02f_ | _Speed_ | _%.02f_ |
-| _Agility_ | _%.02f_ | _Wisdom_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Reflex_ | _%.02f_ | _Imagination_ | _%.02f_ |
-| _Fortitude_ | _%.02f_ | _Intellect_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Will_ | _%.02f_ | _Pulchritude_ | _%.02f_ |
+| _Agility_ | _%.02f_ | _Wisdom_ | _%.02f_ | | _Reflex_ | _%.02f_ | _Imagination_ | _%.02f_ |
+| _Fortitude_ | _%.02f_ | _Intellect_ | _%.02f_ | | _Will_ | _%.02f_ | _Pulchritude_ | _%.02f_ |
 IT
 
   tables % [str, cha, vim, spd, agi, wis, rfx, ima, frt, int, wil, pul]
@@ -121,7 +121,7 @@ def roll(*digs, tag: nil)
 
   line = caller_locations(1,1).first.lineno
 
-  t = values.sum
+  t = values.sum + bonuses.sum
  
   r = Random.rand while (r ||= 1.0) == 1.0
   r = Distribution::LogNormal::GSL_::p_value(r, Math.log(10), 1).round(2)
@@ -137,19 +137,21 @@ def roll(*digs, tag: nil)
   $stderr.puts("    #{r} vs. #{t} = #{r <= t ? 'success' : 'failure'} by #{(r - t).abs.round(2)}")
 end
 
-def skill_table
+def skill_table(cat=//, sub=//)
 
   tables = "| | | |\n|:-:|:-:|:-:|\n"
   
   %w[Cognition Practice Knowledge Willworking].each do |c|
+    next unless cat =~ c
     prof = dig_soft c, default: nil
-    next unless prof
+    next unless prof 
     tables << "| | | |\n"
-    tables << "| --------- | --- ___#{c}___ --- | --------- |\n"
+    tables << "| --------- | --- _#{c}_ --- | --------- |\n"
     prof.each.sort_by { |k, v| k }.each do |k, v|
-    tables << "| | | |\n"
-    tables << "| --- | _#{k}_ | --- |\n"
-    v.each.sort_by {|k, v| k}.each_slice(3) do |sl|
+      next unless sub =~ k
+      tables << "| | | |\n"
+      tables << "| --- | _#{k}_ | --- |\n"
+      v.each.sort_by {|k, v| k}.each_slice(3) do |sl|
         tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(4-sl.size) + "\n"
       end
     end
@@ -159,16 +161,16 @@ def skill_table
 end
 
 def dig_body
-  [dig(%w[Body Health]), dig(%w[Body Sanity]), dig(%w[Hit Points]), dig(%w[Mad Points])]
+  [dig(%w[Body Health]), dig(%w[Body Sanity]), dig(%w[Body Hit\ Points]), dig(%w[Body Mad\ Points])]
 end
 
 def body_table
   ht, san, hp, mp = dig_body
   <<END % [ht, hp, san, mp]
-| | | | |
-|-:|:-:|-:|:-:|
-| _Health_ | %.02f | _Don't Get Hit Points_ | %.02f |
-| _Sanity_ | %.02f | _Don't Go Mad Points_ | %.02f |
+| | | | | |
+|-:|:-:|:-:|-:|:-:|
+| _Health_ | _%.02f_ | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | _Don't Get Hit Points_ | _%.02f_ |
+| _Sanity_ | _%.02f_ | | _Don't Go Mad Points_ | _%.02f_ |
 END
 end
 
