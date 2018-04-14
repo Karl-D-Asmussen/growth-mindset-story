@@ -12,7 +12,7 @@ Nowhere did I see radios or wires --- there was no electricity.
 
 Eventually we reached a trench, and I was ordered into it.
 
-"Corporal Alling, fetch a Wizard," the sargeant said.
+"Corporal Alling, go request a wizard to assess the prisoner," the sargeant said.
 
 I was still a stranger to their military system; in common military parlance,
 a sargeant would be the leader of a platoon; anywhere from twenty to fifty men.
@@ -29,12 +29,124 @@ rather deep. Inside was a head quarters; office, storage, maps, documents. I did
 have much time to look around, because the officerers inside demanded my attention.
 One sitting, another standing. Their insignias suggested the sitting one --- a burly 
 mustached man with tan skin --- was higher rank that the standing --- a slender man
-with long pointe ears.
+with long, pointed ears.
 <% bump %w[Knowledge Military Rank] %>
 <% bump %w[Knowledge Races Elves] %>
 
-"Major, Sergeant Moore reporting," the sargeant said. "On my patrol, I caught this
+"Major Clifford, Sergeant Moore reporting," the sargeant said. "On my patrol, I caught this
 suspicious woman snooping around." He gestured to me, and the wiry corporal pushed me
 forwards.
 
-"What's a Tiefling doing here?" the major asked. 
+"What's a Tiefling doing here?" the major asked.
+
+I bristled a little at his tone. He didn't even address me directly.
+<% bump %w[Cognition Hygiene Composure] %>
+
+"I'm asking myself that, Major. I've sent a request for a wizard to do a
+loyalty assessment," sergeant Moor said. "To make sure she's not a Gigante spy.
+We arrested her for looting; she came willingly."
+
+The major nodded, and the elven lieutenant's eyes caught mine. The look he gave
+me was one of indifference. I winked at him, which seemed to unnerve him some.
+<% bump %w[Cognition Social Provocation] %>
+
+"What was that, Lieutenant?" the major asked.
+
+"Nothing; I suspect the prisoner is playing mind-games with me," the elf said.
+
+The major looked at me, and I met his stern gaze. "What's your name?" he asked.
+
+"Clara," I replied. "Gesner."
+
+"Miss Gesner, if that is your real name," the major said, "the penalty for looting
+is fifty lashes. The penalty for espionage is death."
+
+There was a knock on the door, and the unnamed corporal opened. A human woman
+of small stature in battle dress with a live crow perched on her shoulder came
+in. "Specialist Meyer, reporting," she said.
+<% bump %w[Knowledge Magic Mages] %>
+
+"Please examine the loyalties and capabilities of this prisoner," the major said, gesturing to me.
+
+She nodded, and approached me. Her pale hand pressed against my forehead.
+
+Quite soon after that, she drew it away, with a surprised look on her face.
+
+"Specialist, report," the major ordered.
+
+"Her worldline terminates a dozen miles north of here --- which could be an
+anti-divinatory measure, but it seems unusually thorough," the specialist
+said. "She has a wide, shallow spread of skills, none to indicate being a
+trained spy. Seems like animatory excision at first glance. She has unusually
+high ability scores," the specialist rattled off. "She has no traces of subversive
+engrams that I can detect."
+
+<% bump %w[Knowledge Magic Limitations] %>
+
+"How high?"
+
+"Physicals are all fifteen, mentals are all twenty five."
+
+There was a wide spread of reaction from them. Apparently everyone had access to their
+ability scores. This was probably what 'every mortal' had access to. "Is that unusual?" I asked.
+
+"It's better physical abilities than most warrant officers, and your mental scores outstrip
+most archmages," the specialist said.
+
+"Don't answer her questions, specialist," the major said.
+
+She muttered a 'apologies, sir' and stepped aside.
+
+"Miss Gesner, I'm prepared to waive the penalty for your looting, conditional on your conscription
+into the Imperial forces under my command," he said.
+
+"Sir, if I may, the woman may still be a spy," the lieutenant said.
+
+"Good point, Lieutenant. Specialist?" the major asked.
+
+"All intelligence indicates that the Gigante regime lags behind us in advanced magery.
+If they could produce something like this ---" she gestured to me "--- then they would put
+that level of magery to better use and we would have already lost."
+
+"Good rebuttal."
+
+"I'll take the waiver of conscription," I said. I wasn't really keen on getting fifty lashes;
+not unless antiseptics were above and beyond what I was expecting. And what would happen
+afterwards was also up in the air. Maybe I'd be let go, maybe some of these soldiers would
+do something nasty to me first. Although the force seemed co-ed, I wasn't sure there wasn't
+some despicable and sexually desperate men among them. And I wasn't sure there was much _jus in bello_
+to be had.
+<% 3.times { bump %w[Cognition Hygiene Pessimism] } %>
+<% bump %w[Knowledge Law Warfare] %>
+
+"Sir, if I may," the specialist said. "Miss Gesner here is probably a technical intelligence asset;
+analysis of her condition may yield innovations of strategic importance."
+
+The major nodded. "She will be made available for the wizarding squad. If preliminary analsysis shows
+nothing of note, I'm putting a rifle in her hands. Corporal Meyers, find Conscript Gesner a real kit."
+
+----
+
+Corporal Meyers led me down the trench to a different shed-like bunker, dug into the clay-rich soil.
+Inside were stacks of supply crates, and he quickly assembled me a proper battledress --- sans insignia,
+apparenly indicating my status as conscript. I had to cut a hole through both my underwear and my pants
+for my tail, and got to change into it while he blocked the door, My
+request for him to turn around was denied; as if I'd steal a gun and shoot him while his back was turned.
+<% bump %w[Practice Tailor Field] %>
+
+I kept an eye on him when I took off my shirt, and all I saw was a look of casual disinterest.
+
+"Corporal Meyers, are you gay?" I asked.
+
+"Shut up and change," he bit back.
+
+While I was enjoying boots that actually fit,
+he confiscated all my looted gear, and disposed of my old clothes. I recieved a
+backpack and haversack, a change of underclothes, a flask, a knife, a folding
+spade, a mess kit, a bandage kit, and a women's kit --- a stack of absorbant
+rags. No food, no guns, no helmet --- although my horns would be in the way.
+<% bump %w[Knowledge Equipment Kit] %>
+<% bump %w[Practice Equipment Kit] %>
+
+Once I was kitted out, he led me in silence down to the other end of the base, where another
+bunker was dug out.
