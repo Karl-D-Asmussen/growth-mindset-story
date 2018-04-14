@@ -142,11 +142,41 @@ I kept an eye on him when I took off my shirt, and all I saw was a look of casua
 
 While I was enjoying boots that actually fit,
 he confiscated all my looted gear, and disposed of my old clothes. I recieved a
-backpack and haversack, a change of underclothes, a flask, a knife, a folding
+backpack and haversack, a change of underclothes, a waxed cloak, a flask, a knife, a folding
 spade, a mess kit, a bandage kit, and a women's kit --- a stack of absorbant
 rags. No food, no guns, no helmet --- although my horns would be in the way.
 <% bump %w[Knowledge Equipment Kit] %>
 <% bump %w[Practice Equipment Kit] %>
 
 Once I was kitted out, he led me in silence down to the other end of the base, where another
-bunker was dug out.
+bunker was dug out. The inside was more spacious, but also more crowded. It seemed like both
+the sleeping quarters --- judging by the bunk beds --- and the work space of at least five people.
+
+Two were there, one was the specialist from the officer's bunker, the other was a dark-skinned man,
+asleep in a bunk.
+
+"Ah, thank you Corporal," the specialist said.
+
+With a nod, the Corporal turned and left, leaving me alone with the small woman.
+
+"So, what does this entail?" I asked.
+
+"I get to examine you, and if you're worth it, we ship you back to the capital," she said.
+
+I froned. The implication was probably that I'd be a guinea pig. "What was it you did
+to know where I came from? Was it a spell?" I asked.
+
+She smirked. "Interested in magic, are you?" she said.
+
+"I have a racial predisposition towards it, and I like to think I am a fast learner," I replied.
+
+The crown on her shoulder began cleaning its feathers. "I won't teach you anything. The first we need to
+ascertain is who you are and where you came from. See that circle on the floor? Please stand in it."
+
+I looked at it. Painted on the dirt floor was a complex sigil, circular, about three feet across. Little
+specks of light shimmered near its edge.
+
+"What is it?" I asked. "Divination?"
+
+"Zone of truth," she said. "Needs regular maintenance, hence why it's in our quarters. Good for interrogations.
+Now go --- and before you get any ideas, I have lethal spells in my repetoire."

@@ -10,3 +10,5 @@ Lieutenant Enno Moradriel: elf, man, slender, blonde, tan
 Sergeant Innogen Moore: human, man, tall, tan
 Corporal ? Alling: human, woman, tan
 Corporal ? Meyers: human, man, pale, wiry
+
+Specialist ? Meyer: human, woman, pale, red hair, crow familiar
