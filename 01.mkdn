@@ -244,7 +244,7 @@ was his trouser leg. And his hand. And his sleeve. And the ground.
 "Wh-what--- are you some kind of devil come to steal the souls of my friends?!"
 
 My train of thought nearly derailed. "Pardon?" I asked.
-<% post %w[Languages], this: 'Common' %>
+<% post %w[Cognition Languages], this: 'Common' %>
 
 "Like, from the underworld! From the Seven Hells and the Ash--- Abyss?!" he continued.
 

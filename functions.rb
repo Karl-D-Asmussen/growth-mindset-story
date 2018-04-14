@@ -121,7 +121,7 @@ def roll(*digs, tag: nil)
 
   line = caller_locations(1,1).first.lineno
         
-  t = values.sum + bonuses.sum
+  t = [values.sum + bonuses.sum, 0.01].max.round(2)
  
   r = Random.rand while (r ||= 1.0) == 1.0
   r = Distribution::LogNormal::GSL_::p_value(r, Math.log(10), 1).round(2)

@@ -149,7 +149,9 @@ def _run(filename)
     else
       $FIRST_RUN = true
     end
-    _pandoc(f.to_s, ERB.new(f.read(), nil, '<> > -').result)
+    erb = ERB.new(f.read(), nil, '<> > -', )
+    erb.filename = f.to_s
+    _pandoc(f.to_s, erb.result)
     $stderr = STDERR
     _export(f.to_s)
   else

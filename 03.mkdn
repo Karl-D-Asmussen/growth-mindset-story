@@ -1,4 +1,4 @@
-<% Random.srand(3); $BUMP=0.10 %>
+<% import('02.mkdn'); Random.srand(3); $BUMP=0.10; %>
 
 <!-- # Long Jacket -->
 
@@ -179,4 +179,49 @@ specks of light shimmered near its edge.
 "What is it?" I asked. "Divination?"
 
 "Zone of truth," she said. "Needs regular maintenance, hence why it's in our quarters. Good for interrogations.
-Now go --- and before you get any ideas, I have lethal spells in my repetoire."
+Now go --- and before you get any ideas, I have offensive spells in my repetoire."
+
+I nodded. I had figured as much by the fact that she was unarmed in a warzone. I found that imprudent,
+though. Always better to be armed than not.
+
+Willingly I stepped into the circle, and a notification popped up in the back of my mind.
+
+_Condition: Truthful._
+<% post %w[Body Conditions], this: 'Truthful' %>
+
+I poked it and recieved an explanation: it made it near impossible to lie.
+
+"What do you want to know?" I asked.
+
+"Are you affiliated with the Gigante?"
+
+"Could you ask me a control question?" I asked back.
+<% roll %w[Ability Charisma], %w[Cognition Social Provocation], -5.00, tag: 'Evasion' %>
+
+Meyer looked at me, eyes narrowing. "Are you a tiefling?"
+
+<% roll %w[Ability Charisma], %w[Cognition Reason Duction], -20.00, tag: 'Lie 1' %>
+Trying to say 'no' was eerie. I knew how to say it, and that I wanted to do so, but
+my larynx and my lips wouldn't obey. "Yes," I said. "Okay, this thing works."
+
+"Of course it does. Are you affiliated with the Gigante?"
+
+Even subvocalizing 'yes' was impossible. "No," I said.
+<% roll %w[Ability Charisma], %w[Cognition Reason Duction], -20.00, tag: 'Lie 2' %>
+
+"Are you affiliated with the Gigante?"
+
+"No," I repeated. "Why the repeat question?"
+
+"Historically, there has been no case where someone beat a Zone twice in a row on
+the same question," she said. "Do you suspect you may be manipulated by the Gigantes
+without your knowledge?"
+
+"No," I answered.
+
+"Okay. Where are you from?" she asked.
+
+<% roll %w[Ability Charisma], %w[Cognition Reason Duction], tag: 'Omission' %>
+"I'd prefer not to say," I said.
+
+"How come your
