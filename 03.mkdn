@@ -195,19 +195,18 @@ I poked it and recieved an explanation: it made it near impossible to lie.
 
 "Are you affiliated with the Gigante?"
 
-"Could you ask me a control question?" I asked back.
-<% roll %w[Ability Charisma], %w[Cognition Social Provocation], -5.00, tag: 'Evasion' %>
+"Wait, could you ask me a control question?" I asked back. 
 
 Meyer looked at me, eyes narrowing. "Are you a tiefling?"
 
-<% roll %w[Ability Charisma], %w[Cognition Reason Duction], -20.00, tag: 'Lie 1' %>
+<% roll %w[Aptitude Will], -5.00, tag: 'Lie 1' %>
 Trying to say 'no' was eerie. I knew how to say it, and that I wanted to do so, but
 my larynx and my lips wouldn't obey. "Yes," I said. "Okay, this thing works."
 
 "Of course it does. Are you affiliated with the Gigante?"
 
 Even subvocalizing 'yes' was impossible. "No," I said.
-<% roll %w[Ability Charisma], %w[Cognition Reason Duction], -20.00, tag: 'Lie 2' %>
+<% roll %w[Aptitude Will], -5.00, tag: 'Lie 2' %>
 
 "Are you affiliated with the Gigante?"
 
@@ -221,7 +220,10 @@ without your knowledge?"
 
 "Okay. Where are you from?" she asked.
 
-<% roll %w[Ability Charisma], %w[Cognition Reason Duction], tag: 'Omission' %>
+<% roll %w[Aptitude Will], -1.00, tag: 'Omission' %>
 "I'd prefer not to say," I said.
 
-"How come your
+"How come you don't have any skills over one?"
+
+I shrugged. I had theories, but it seemd to be possible to evade the truth a lot
+more easily with gestures.
