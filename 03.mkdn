@@ -12,10 +12,10 @@ Nowhere did I see radios or wires --- there was no electricity.
 
 Eventually we reached a trench, and I was ordered into it.
 
-"Corporal Alling, go request a wizard to assess the prisoner," the sargeant said.
+"Corporal Alling, go request a wizard to assess the prisoner," the sergeant said.
 
 I was still a stranger to their military system; in common military parlance,
-a sargeant would be the leader of a platoon; anywhere from twenty to fifty men.
+a sergeant would be the leader of a platoon; anywhere from twenty to fifty men.
 This guy seemingly had two people with him, and the wiry man who bound me wore
 the same insignia as the woman.
 <% bump %w[Knowledge Military Rank] %>
@@ -26,15 +26,15 @@ then these three sneaking up on me as extensively as they had, was rather impres
 
 I was led to a bunker, dug into the side of the trench, which at this point
 was rather deep. Inside was a head quarters; office, storage, maps, documents;
-a smell of clay and lamp oil permating the air. I didn't have much time to
-look around, because the officerers inside demanded my attention. One sitting,
+a smell of clay and lamp oil permeating the air. I didn't have much time to
+look around, because the officers inside demanded my attention. One sitting,
 another standing. Their insignias suggested the sitting one --- a burly
 mustached man with tan skin --- was higher rank that the standing --- a slender
 man with long, pointed ears.
 <% bump %w[Knowledge Military Rank] %>
 <% bump %w[Knowledge Races Elves] %>
 
-"Major Clifford, Sergeant Moore reporting," the sargeant said. "On my patrol, I caught this
+"Major Clifford, Sergeant Moore reporting," the sergeant said. "On my patrol, I caught this
 suspicious woman snooping around." He gestured to me, and the wiry corporal pushed me
 forwards.
 
@@ -123,7 +123,7 @@ to be had.
 "Sir, if I may," the specialist said. "Miss Gesner here is probably a technical intelligence asset;
 analysis of her condition may yield innovations of strategic importance."
 
-The major nodded. "She will be made available for the wizarding squad. If preliminary analsysis shows
+The major nodded. "She will be made available for the wizard squad. If preliminary analysis shows
 nothing of note, I'm putting a rifle in her hands. Corporal Meyers, find Conscript Gesner a real kit."
 
 ----
@@ -133,7 +133,7 @@ Inside were stacks of supply crates, and a smell of gun oil and mothballs to go 
 scent of clay.
 
 He quickly assembled me a proper battledress --- sans insignia,
-apparenly indicating my status as conscript. I had to cut a hole through both my underwear and my pants
+apparently indicating my status as conscript. I had to cut a hole through both my underwear and my pants
 for my tail, and got to change into it while he blocked the door, My
 request for him to turn around was denied; as if I'd steal a gun and shoot him while his back was turned.
 <% bump %w[Practice Tailor Field] %>
@@ -145,9 +145,9 @@ I kept an eye on him when I took off my shirt, and all I saw was a look of casua
 "Shut up and change," he bit back.
 
 While I was enjoying boots that actually fit,
-he confiscated all my looted gear, and disposed of my old clothes. I recieved a
+he confiscated all my looted gear, and disposed of my old clothes. I received a
 backpack and haversack, a change of underclothes, a waxed cloak, a flask, a knife, a folding
-spade, a mess kit, a bandage kit, a roll of toilet paper, and a women's kit --- a stack of absorbant
+spade, a mess kit, a bandage kit, a roll of toilet paper, and a women's kit --- a bundle of absorbent
 rags. No food, no guns, no helmet --- although my horns would be in the way.
 
 <% bump %w[Knowledge Equipment Kit] %>
@@ -156,7 +156,7 @@ rags. No food, no guns, no helmet --- although my horns would be in the way.
 Once I was kitted out, he led me in silence down to the other end of the base, where another
 bunker was dug out. The inside was more spacious, but also more crowded. It seemed like both
 the sleeping quarters --- judging by the bunk beds --- and the work space of at least five people.
-It smelled, inconguously, like _lavender._
+It smelled, incongruously, like _lavender._
 
 Two were there, one was the specialist from the officer's bunker, the other was a dark-skinned man,
 asleep in a bunk.
@@ -169,7 +169,7 @@ With a nod, the Corporal turned and left, leaving me alone with the small woman.
 
 "I get to examine you, and if you're worth it, we ship you back to the capital," she said.
 
-I froned. The implication was probably that I'd be a guinea pig. "What was it you did
+I frowned. The implication was probably that I'd be a guinea pig. "What was it you did
 to know where I came from? Was it a spell?" I asked.
 
 She smirked. "Interested in magic, are you?" she said.
@@ -185,9 +185,9 @@ specks of light shimmered near its edge.
 "What is it?" I asked. "Divination?"
 
 "Zone of truth," she said. "Needs regular maintenance, hence why it's in our quarters. Good for interrogations.
-Now go --- and before you get any ideas, I have offensive spells in my repetoire."
+Now go --- and before you get any ideas, I have offensive spells in my repertoire."
 
-I nodded. I had figured as much by the fact that she was unarmed in a warzone. I found that imprudent,
+I nodded. I had figured as much by the fact that she was unarmed in a war zone. I found that imprudent,
 though. Always better to be armed than not.
 
 Willingly I stepped into the circle, and a notification popped up in the back of my mind.
@@ -195,7 +195,7 @@ Willingly I stepped into the circle, and a notification popped up in the back of
 _Condition: Truthful._
 <% post %w[Body Conditions], this: 'Truthful' %>
 
-I poked it and recieved an explanation: it made it near impossible to lie.
+I questioned the notion and received an explanation: it made it near impossible to lie.
 
 "What do you want to know?" I asked.
 
@@ -285,20 +285,23 @@ I was pretty sure the specialist counted as my superior, and that sitting down a
 <% bump %w[Cognition Identity Body\ Integrity] %>
 
 Looking for something to distract myself with, I took to fiddling with my new
-knife, this one a fixed-blade bayonet-style thing --- spinning it in my palm,
-holding it by the blade, palming it. I very quickly grew good at it. I kept it
-up for an hour, legs crossed, until Meyers finally stirred.
+knife, this one a fixed-blade bayonet-style thing. As an experiment, I let the
+little pop-ups return.
+
+_Practice: Dexterirty (Prestidigitation), Tool (Knife) ↑_
+
+Spinning it in my palm, holding it by the blade, palming it, tossing it in the air
+and catching it. I very quickly grew good at it, accompanied by the little messages.
+I kept it up for an hour, legs crossed, until Meyers finally stirred.
 
 <% bump %w[Cognition Attention Awareness] %>
 <% 50.times { bump %w[Practice Dexterity Prestidigitation] } %>
 <% 10.times { bump %w[Practice Tool Knife] } %>
 
-All she had done, was turn pages; her trance persisiting. Now she looked over at me. "What are you doing?"
+All she had done, was turn pages; her trance persisting. Now she looked over at me. "What are you doing?"
 
 <% roll %w[Ability Agility], %w[Practice Dexterity Prestidigitation], %w[Practice Tool Knife], tag:'Knife trick' %>
 I tossed the knife in the air with backspin letting it flip thrice, before catching it.
 "Keeping my boredom at bay. Permission to go relieve myself?"
 
 Specialist Meyer narrowed her eyes at me. "Be back here in five minutes."
-
-
