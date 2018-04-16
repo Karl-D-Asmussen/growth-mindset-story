@@ -152,7 +152,12 @@ def skill_table(cat=//, sub=//)
       tables << "| | | |\n"
       tables << "| --- | _#{k}_ | --- |\n"
       v.each.sort_by {|k, v| k}.each_slice(3) do |sl|
-        tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(4-sl.size) + "\n"
+        begin
+          tables << '| ' + sl.map(&'_%s %.02f_ '.method(:%)).join('| ') + '| '*(4-sl.size) + "\n"
+        rescue => e
+          $stderr.puts sl.to_s
+          raise
+        end
       end
     end
   end
