@@ -24,12 +24,13 @@ Thinking back, if indeed I had 25 Wisdom, which I _knew_ was related to alertnes
 then these three sneaking up on me as extensively as they had, was rather impressive.
 <% bump %w[Knowledge Military Soldiers] %>
 
-I was led to a bunker, dug into the side of the trench, which at this point was
-rather deep. Inside was a head quarters; office, storage, maps, documents. I didn't
-have much time to look around, because the officerers inside demanded my attention.
-One sitting, another standing. Their insignias suggested the sitting one --- a burly 
-mustached man with tan skin --- was higher rank that the standing --- a slender man
-with long, pointed ears.
+I was led to a bunker, dug into the side of the trench, which at this point
+was rather deep. Inside was a head quarters; office, storage, maps, documents;
+a smell of clay and lamp oil permating the air. I didn't have much time to
+look around, because the officerers inside demanded my attention. One sitting,
+another standing. Their insignias suggested the sitting one --- a burly
+mustached man with tan skin --- was higher rank that the standing --- a slender
+man with long, pointed ears.
 <% bump %w[Knowledge Military Rank] %>
 <% bump %w[Knowledge Races Elves] %>
 
@@ -128,7 +129,10 @@ nothing of note, I'm putting a rifle in her hands. Corporal Meyers, find Conscri
 ----
 
 Corporal Meyers led me down the trench to a different shed-like bunker, dug into the clay-rich soil.
-Inside were stacks of supply crates, and he quickly assembled me a proper battledress --- sans insignia,
+Inside were stacks of supply crates, and a smell of gun oil and mothballs to go with the ever-present
+scent of clay.
+
+He quickly assembled me a proper battledress --- sans insignia,
 apparenly indicating my status as conscript. I had to cut a hole through both my underwear and my pants
 for my tail, and got to change into it while he blocked the door, My
 request for him to turn around was denied; as if I'd steal a gun and shoot him while his back was turned.
@@ -143,14 +147,16 @@ I kept an eye on him when I took off my shirt, and all I saw was a look of casua
 While I was enjoying boots that actually fit,
 he confiscated all my looted gear, and disposed of my old clothes. I recieved a
 backpack and haversack, a change of underclothes, a waxed cloak, a flask, a knife, a folding
-spade, a mess kit, a bandage kit, and a women's kit --- a stack of absorbant
+spade, a mess kit, a bandage kit, a roll of toilet paper, and a women's kit --- a stack of absorbant
 rags. No food, no guns, no helmet --- although my horns would be in the way.
+
 <% bump %w[Knowledge Equipment Kit] %>
 <% bump %w[Practice Equipment Kit] %>
 
 Once I was kitted out, he led me in silence down to the other end of the base, where another
 bunker was dug out. The inside was more spacious, but also more crowded. It seemed like both
 the sleeping quarters --- judging by the bunk beds --- and the work space of at least five people.
+It smelled, inconguously, like _lavender._
 
 Two were there, one was the specialist from the officer's bunker, the other was a dark-skinned man,
 asleep in a bunk.
@@ -199,14 +205,14 @@ I poked it and recieved an explanation: it made it near impossible to lie.
 
 Meyer looked at me, eyes narrowing. "Are you a tiefling?"
 
-<% roll %w[Aptitude Will], -5.00, tag: 'Lie 1' %>
+<% roll %w[Aptitude Will], -3.00, tag: 'Lie 1' %>
 Trying to say 'no' was eerie. I knew how to say it, and that I wanted to do so, but
 my larynx and my lips wouldn't obey. "Yes," I said. "Okay, this thing works."
 
 "Of course it does. Are you affiliated with the Gigante?"
 
 Even subvocalizing 'yes' was impossible. "No," I said.
-<% roll %w[Aptitude Will], -5.00, tag: 'Lie 2' %>
+<% roll %w[Aptitude Will], -3.00, tag: 'Lie 2' %>
 
 "Are you affiliated with the Gigante?"
 
@@ -223,7 +229,76 @@ without your knowledge?"
 <% roll %w[Aptitude Will], -1.00, tag: 'Omission' %>
 "I'd prefer not to say," I said.
 
-"How come you don't have any skills over one?"
+"How come you don't have any skills above 1.00?"
 
-I shrugged. I had theories, but it seemd to be possible to evade the truth a lot
-more easily with gestures.
+<% roll %w[Aptitude Will], -1.0, tag: 'Haptic' %>
+I shrugged. I had theories. "This thing" --- I pointed to the circle --- "do you use
+it in court rooms?"
+
+"Since last year, yes," she answered.
+<% roll %w[Ability Wisdom], %w[Cognition Social Empathy], tag: 'Read her 1' %>
+
+I wondered at that --- there was a seeming compulsion to answer. "That doesn't seem very ethical,"
+I mused.
+
+"It's not," she agreed. "Used to be we used a Zone of Honesty, and the Truth was
+reserved for military use. But the Emperor decreed it to protect against dangerous criminals
+who could evade justice just by shutting up."
+<% roll %w[Ability Wisdom], %w[Cognition Social Empathy], tag: 'Read her 2' %>
+
+That sounded like a classical fascist tyrant to me. Under the guise of justice, stomp on
+civil liberties.
+<% bump %w[Knowledge Politics Imperial] %>
+
+"Did you really not know any of this?" she asked.
+
+<% roll %w[Aptitude Will], 1.0, tag: 'Hyperbole' %>
+"No," I said. "I don't know anything about anything."
+
+"You can go ahead and step out of the circle now," she said. I did.
+A prickly feeling came over my skin as I passed the boundary.
+<% delete %w[Body Conditions], mat: /Truth/ %>
+
+"We're gonna need you to have a physical exam, but Doc ---" she jabbed a thumb at the sleeping
+man "--- is sleeping. I'm just the interrogator. Go sit down over there and shut up."
+
+I did as instructed, putting down my knapsack.
+
+Meyer went over to the desk, by an uneven book case, and pulled a book. I kept a keen eye on
+her as she began reading.
+<% bump %w[Cognition Attention Focus] %>
+
+<% roll %w[Ability Wisdom], %w[Cognition Attention Focus], %w[Cognition Social Empathy], -3.0, tag: 'Notice trance'%>
+Her pupils dilated, and her breathing slowed. A trance state?
+<% bump %w[Knowledge Magic Wizardry] %>
+
+She kept it up for two minutes, and I grew bored.
+I drew my knife and began cleaning my nails with it, while keeping half an ear on Meyer.
+<% bump %w[Cognition Attention Vigilance] %>
+<% bump %w[Cognition Attention Awareness] %>
+<% bump %w[Practice Tool Knife] %>
+
+Now that I wasn't lost in the wilderness, and
+wasn't being put through a gauntlet of interrogation, I noticed that I had to relieve myself. Unfortunately,
+I was pretty sure the specialist counted as my superior, and that sitting down and shutting up was a direct order.
+<% bump %w[Cognition Attention Grounding] %>
+<% bump %w[Cognition Identity Body\ Integrity] %>
+
+Looking for something to distract myself with, I took to fiddling with my new
+knife, this one a fixed-blade bayonet-style thing --- spinning it in my palm,
+holding it by the blade, palming it. I very quickly grew good at it. I kept it
+up for an hour, legs crossed, until Meyers finally stirred.
+
+<% bump %w[Cognition Attention Awareness] %>
+<% 50.times { bump %w[Practice Dexterity Prestidigitation] } %>
+<% 10.times { bump %w[Practice Tool Knife] } %>
+
+All she had done, was turn pages; her trance persisiting. Now she looked over at me. "What are you doing?"
+
+<% roll %w[Ability Agility], %w[Practice Dexterity Prestidigitation], %w[Practice Tool Knife], tag:'Knife trick' %>
+I tossed the knife in the air with backspin letting it flip thrice, before catching it.
+"Keeping my boredom at bay. Permission to go relieve myself?"
+
+Specialist Meyer narrowed her eyes at me. "Be back here in five minutes."
+
+

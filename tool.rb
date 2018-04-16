@@ -126,8 +126,26 @@ def post(*dig, this:)
   end
 end
 
-def delete(*dig, ix: nil)
-   
+def delete(*dig, ix: nil, mat: nil) 
+  if ix
+    list(*dig)
+    with(*dig) do |it|
+      $stderr.puts("deleted #{dig.flatten.join(':')} [#{ix}] = #{it.slice!(ix)}")
+      it
+    end
+  elsif mat
+    list(*dig)
+    with(*dig) do |it|
+      $stderr.puts("deleted #{dig.flatten.join(':')} [#{mat}] = #{it.grep(mat)}")
+      it.grep_v(mat)
+    end
+  else
+    namespace(*(dig[0...-1]))
+    with(*(dig[0...-1])) do |it|
+      $stderr.puts("deleted #{dig.flatten.join(':')} = #{it.delete(dig.last)}")
+      it
+    end
+  end
 end
 
 def _capture
