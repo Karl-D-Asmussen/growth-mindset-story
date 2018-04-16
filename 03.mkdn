@@ -1,6 +1,6 @@
 <% import('02.mkdn'); Random.srand(3); $BUMP=0.10; %>
 
-<!-- # Long Jacket -->
+<!-- # Sharp as a Tack -->
 
 The three soldiers led me back, in silence. The trenches were dug every half
 mile or so, and we crossed them on wooden bridges, while I got a look at the
