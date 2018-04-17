@@ -75,7 +75,6 @@ end
 
 def compute_aptitudes
   str, agi, frt, cha, wis, int = dig_abilities
-  $stderr.puts "#{str} #{agi} #{frt} #{cha} #{wis} #{int}"
   
   stat %w[Aptitude Vim], at: (str+cha)/4.00
   stat %w[Aptitude Reflex], at: (agi+wis)/4.00

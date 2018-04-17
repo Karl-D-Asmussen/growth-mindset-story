@@ -1,0 +1,52 @@
+<% import('03.mkdn'); $BUMP=0.1; Random.srand(4) %>
+
+<!-- # Eyes That Burn -->
+
+The latrines were quite a lot nicer than a shit-smelling hole in the ground that
+I had expected. It was a hole in the ground, to be sure, but it didn't smell --- in
+fact it smelled of lavender, leading me to believe someone of the wizard squad
+had done something.
+
+Privacy was provided by the alcove dug into the side of the trench, allowing only
+a narrow section of the open trench full view of the seat --- a wooden board
+with a hole in it. At least there was a roll of coarse paper to go with it, and
+a roof overhead.
+
+This was the point where I began to realise that I might have to go very long
+without the amenities of twenty-first century Earth. Hell, I didn't even know
+what this planet was called.
+
+Sitting on there, I thought about all the weird inconsistencies. The front-loaded
+revolver and the paper cartridges were particularly jarring. Hadn't they invented brass
+casings? The fighting I had caught a brief glimpse of --- the giants effortlessly
+taking a trench --- was nothing like I remembered about World War One. Where were
+the land mines and barbed wire and machine guns?
+<% bump %w[Knowledge History Warfare] %>
+<% bump %w[Knowledge History Technology] %>
+
+On the other hand, perhaps it was good that these idiots didn't have that; even
+if it gave the giants an unfair advantage.
+
+Then there was the magic. Seemingly abundant enough for there to be a wizard squad
+with this company --- or so I assumed from the highest ranked officer being a major ---
+which made it between five and eight wizards in anywhere from eighty to a hundred and fifty
+soldiers. From three to ten percent.
+<% bump %w[Knowlege Magic Socio-Economics] %>
+<% bump %w[Knowlege Military Organization] %>
+
+The specialist had said that this side of the conflict
+were a lot better than the giants --- and I had seen a handful of giants turn a human-sized
+trench into a giant-sized on in fifteen seconds!
+
+"Hey, are you done thinking on the shitter?"
+
+I looked up and saw another soldier, standing by the entry to the latrine.
+
+"Yeah, sorry, give me a second."
+
+----
+
+I was back with the specialist in six minutes.
+<% bump %w[Cognition Attention Time] %>
+
+

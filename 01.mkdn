@@ -359,7 +359,8 @@ discarded nearby, and I spent a moment inspecting it. I didn't know a lot about 
 but this one didn't seem to have a magazine --- indeed fiddling with it, I found the
 opening mechanism which revealed it to be a breech loader. The cartridge inside was
 thick paper, rather than brass, and the bullet was more like a deer slug. Opening it
-with my knife revealed it to contain black powder, rather than more modern
+with my knife revealed it to contain smokeless gunpowder of some description --- it didn't
+smell of sulfur.
 <% bump %w[Practice Aim Long\ Gun] %>
 <% bump %w[Knowledge Technology Small\ Arms] %>
 <% bump %w[Knowledge History Technology] %>
