@@ -40,6 +40,7 @@ The specialist had said that this side of the conflict
 were a lot better than the giants --- and I had seen a handful of giants turn a human-sized
 trench into a giant-sized on in fifteen seconds!
 <% bump %w[Knowlege Magic Limitation] %>
+<% bump %w[Knowlege Magic Capability] %>
 
 "Hey, are you done thinking on the shitter?"
 
@@ -125,4 +126,71 @@ Meyer shook her head. "I think we should teach her magic."
 "Not _wizardry_, just willworking."
 
 <% bump %w[Knowledge Magic Willworking] %>
-I remained silent
+I remained silent, as the two began to bicker.
+
+"It is still too dangerous," Edrossi said. "If she is as good at learning
+willworking as she is knives... With evocation she could be throwing cutting-field enhanced, stabilized
+knives, at bullet-speeds and have them return to her hand! With transmutation, why she might make
+explosives! With conjuration, it doesn't even matter that we're not supposed to give her guns!"
+
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Capability] %>
+
+"Which is why we're teaching her abjuration and _maybe_ divination."
+
+Edrossi calmed down somewhat. "All right. But if she ends up defecting, I'm blaming you."
+
+"Okay, then. How does this work?" I asked.
+
+Meyer turned to me. "Hold out your hand."
+
+I did, and she put her hand on min, and then I felt abjuration. I wasn't a
+synaesthete, and so it hadn't a color --- not even octarine --- it was just
+as much abjuration, as red was red and cold was cold.
+<% 5.times { bump %w[Willworking Abjuration Banishment] } %>
+<% 5.times { bump %w[Willworking Abjuration Protection] } %>
+<% 5.times { bump %w[Willworking Abjuration Warding] } %>
+
+"Now do it yourself," she said.
+
+I focused on the sensasion I had just felt and attempted to force it at her hand.
+<% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing' %>
+<% bump %w[Willworking Abjuration Banishment] %>
+There was something --- like trying to flex specific muscles in your face on purpose, or grasp a
+poorly described concept. Meyer didn't react.
+<% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing 2' %>
+<% bump %w[Willworking Abjuration Banishment] %>
+Trying agian gave me the same sensation of 'almost-but-not-quite.'
+
+It took me a third try to 'get' it, and I felt it _flow_ this time.
+<% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing 3' %>
+<% bump %w[Willworking Abjuration Banishment] %>
+
+Meyer withdrew her hand, shaking it a little. "Okay, she's got it. Okay, what you need to
+know about abjuration is there's three aspects to it --- every kind of magic has ---
+banishment, the active aspect; protection, the orthogonal aspect; and warding, the passive
+aspect."
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Abjuration] %>
+
+"Are you an abjurer?" I asked.
+
+Meyer shaked her head. "I'm a fascinator and diviner but more importantly, I'm a wizard.
+Jefferson is our warder; I just know the basics. What you just threw at me was banishment ---
+at the extreme, banishment can effect pain, involuntary movement, restriction of latent magics
+in the body, up to and including disruption of body-rhythms and death. It also acts as a universal
+counter to other kinds of magic."
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Abjuration] %>
+
+I nodded along, and held up a hand, channelling the feeling of flow in my hand. Anti-magic.
+Definitely one of the most useful kinds.
+<% bump %w[Willworking Abjuration Banishment] %>
+
+"The orthogonal aspect of protection, is... _difficult_ to experience. The most common
+training method is to hand someone a set of dice and let them figure out how to affect
+the roll. Sometimes channelling banishment _can_ affect it."
+
+
