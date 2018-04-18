@@ -183,3 +183,48 @@ def show_list(*dig, title: nil, tpl: "- _%s_\n")
   
   title.to_s + dig(*dig).map { |i| tpl % i }.join
 end
+
+def repeat(n, tag: nil)
+  r = Random.rand(n)
+  line = caller_locations(1,1).first.lineno
+  if tag
+    tag = "#{tag} (#{line})"
+  else
+    tag = line.to_s
+  end
+  
+  $stderr.puts "#{tag} repeating #{r} times"
+  r.times { yield }
+end
+
+def roll_many(*digs, n: 10, tag: nil)
+  fields = digs.select { |x| x.is_a? Array }
+  bonuses = digs.select { |x| x.respond_to?(:to_f) }.map(&:to_f)
+  pretty = fields.map { |x| x.join(':') }
+  values = fields.map { |x| q = dig_soft x, default: 0.0;
+                        raise TypeError, "#{x.join(':')} is not a number" unless q.is_a? Float;
+                        q }
+
+  line = caller_locations(1,1).first.lineno
+        
+  t = [values.sum + bonuses.sum, 0.01].max.round(2)
+
+  p = Distribution::LogNormal::GSL_::cdf(t, Math.log(10), 1).round(2)
+  
+  s = n.times.collect {
+    r = Random.rand while (r ||= 1.0) == 1.0
+    r = Distribution::LogNormal::GSL_::p_value(r, Math.log(10), 1).round(2)
+    (t - r).round(2)
+  }
+
+  if tag
+    tag = "#{tag} (#{line})"
+  else
+    tag = line.to_s
+  end
+
+  $stderr.puts("--- #{tag} ---")
+  $stderr.puts("    #{pretty.join ' '} #{bonuses.map(&:to_s).join(' ')}")
+  $stderr.puts("    Binom(#{n}, #{p}) = #{s.collect { |x| ((x <=> 0) + 1) <=> 0 }.sum} successes")
+  $stderr.puts("    Cumulative success/failure margin = #{s.sum}")
+end

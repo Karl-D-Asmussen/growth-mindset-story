@@ -295,8 +295,8 @@ and catching it. I very quickly grew good at it, accompanied by the little messa
 I kept it up for an hour, legs crossed, until Meyers finally stirred.
 
 <% bump %w[Cognition Attention Awareness] %>
-<% 50.times { bump %w[Practice Dexterity Prestidigitation] } %>
-<% 10.times { bump %w[Practice Tool Knife] } %>
+<% repeat(50..60, tag: 'presto') { bump %w[Practice Dexterity Prestidigitation] } %>
+<% repeat(10..20, tag: 'knife') { bump %w[Practice Tool Knife] } %>
 
 All she had done, was turn pages; her trance persisting. Now she looked over at me. "What are you doing?"
 

@@ -6,6 +6,7 @@ The latrines were quite a lot nicer than a shit-smelling hole in the ground that
 I had expected. It was a hole in the ground, to be sure, but it didn't smell --- in
 fact it smelled of lavender, leading me to believe someone of the wizard squad
 had done something.
+<% bump %w[Knowlege Magic Identification] %>
 
 Privacy was provided by the alcove dug into the side of the trench, allowing only
 a narrow section of the open trench full view of the seat --- a wooden board
@@ -15,6 +16,7 @@ a roof overhead.
 This was the point where I began to realise that I might have to go very long
 without the amenities of twenty-first century Earth. Hell, I didn't even know
 what this planet was called.
+<% bump %w[Knowledge Common World] %>
 
 Sitting on there, I thought about all the weird inconsistencies. The front-loaded
 revolver and the paper cartridges were particularly jarring. Hadn't they invented brass
@@ -37,6 +39,7 @@ soldiers. From three to ten percent.
 The specialist had said that this side of the conflict
 were a lot better than the giants --- and I had seen a handful of giants turn a human-sized
 trench into a giant-sized on in fifteen seconds!
+<% bump %w[Knowlege Magic Limitation] %>
 
 "Hey, are you done thinking on the shitter?"
 
@@ -49,4 +52,77 @@ I looked up and saw another soldier, standing by the entry to the latrine.
 I was back with the specialist in six minutes.
 <% bump %w[Cognition Attention Time] %>
 
+I found her arguing animatedly with the man who had been asleep. He was tall, well-built, and
+his short beard was frizzy and black.
 
+"--- it's still impossible," he finished. He had a difficult-to-describe accent.
+
+The specialist saw me and held up a hand. "Conscript. This is Specialist Edrossi, medical wizard."
+
+"Pleasure," I said.
+
+"If you would, we would like to subject you to an inspection like Meyer did earlier," he said.
+
+He was a lot more polite, and less suspicious than anyone else had been. I marked him as a potential
+ally. "Of course," I said, stepping forward.
+
+Meyer came up to me and put a finger on my forehead once more. I looked over my skills and found
+the stark improvement my hour-long faffing about session must have yielded.
+
+<%= skill_table /Practice/, /Tool|Dexterity/ %>
+
+"Yeah, knives up to almost two, prestidigitation to almost six!" Meyers said.
+
+"And you're certain---" Edrossi began, then stopped when Meyers shot him a look "---of course you are.
+Interesting."
+
+"Okay, I have a question," I said.
+
+They both looked at me. <% roll %w[Ability Wisdom], %w[Cognition Social Empathy], tag: 'detect animosity' %>
+And I backpedaled my familiar tone a little. "Are skill ratings prescriptive or descriptive?"
+<% bump %w[Cognition Social Empathy] %>
+
+"What?" Edrossi asked.
+
+<% roll %w[Ability Intellect], %w[Cognition Hygeine Criticism], tag: 'see cognitive error' %>
+I paused to consider what I had just said. I was thinking in prescriptivism versus descriptivism _because_
+I was experiencing unnaturrally fast mastery; in essence I was taking the numbers ticking up as a prescriptive
+thing because it happened to regularly; but what if it was my ability to learn that was fast, and the numbers
+were descriptive of that? There would be no difference.
+<% bump %w[Cognition Hygeine Criticism]; bump %w[Cognition Hygeine Deboxing] %>
+
+"Let me rephrase: how fast do people usually master knifeplay?" I asked.
+
+"What's the adage; it takes three years become an expert?" Meyer asked looking at Edrossi.
+
+He nodded. "I'd say; if life doesn't get in the way."
+
+I drew the bayonet knife and balanced it on one finger. "So this isn't normal," I concluded out loud.
+"Does it warrant further testing? Or are you going to send me away from the front?"
+<% bump %w[Practice Rethoric Baiting] %>
+
+<% roll %w[Ability Charisma], %w[Cognition Social Provocation], %w[Practice Rhetoric Baiting], -7.5, tag: 'baiting' %>
+"We are going to do more tests," Meyer said. "For now, could you practice knife throwing for us?"
+
+----
+
+Edrossi drew a circle in coal on the wood wall, and I spent the next ten minutes tossing my bayonet at the
+given target.
+<% roll_many %w[Ability Agility], %w[Practice Tool Knife], %w[Practice Athletics Throwing], +3.0, n: 30, tag: 'knife throws' %>
+<% repeat(30..35) { bump %w[Practice Athletics Throwing] } %>
+<% repeat(10..15) { bump %w[Practice Tool Knife] } %>
+<% roll_many %w[Ability Agility], %w[Practice Tool Knife], %w[Practice Athletics Throwing], +3.0, n: 30, tag: 'knife throws 2' %>
+
+I hit the circle on the wall some twenty-four times in thirty throws; and after the first ten, I got the knife to hit
+nearly perfectly point-first on every time.
+
+"Should we give her a gun?" Edrossi asked. "Might be interesting to see how she fares."
+
+Meyer shook her head. "I think we should teach her magic."
+
+"That might be dangerous," Edrossi said.
+
+"Not _wizardry_, just willworking."
+
+<% bump %w[Knowledge Magic Willworking] %>
+I remained silent
