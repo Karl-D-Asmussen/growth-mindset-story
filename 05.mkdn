@@ -23,7 +23,8 @@ important to use animation when creating wards?"
 
 "Yes. Integral. Without it, wards dissipate in moments."
 
-She was very terse.
+She was very terse, and not nearly as hostile or suspicious as Meyer or Edrossi.
+It was a welcome change.
 
 "I still don't understand the distinction between warding and protection," I confessed.
 
@@ -31,11 +32,27 @@ Jefferson smiled. I liked her smile. "Protection protects from undesirable outco
 she said and took one of the dice. "Six sides, so you would think, six outcomes. This is
 not so."
 
-Dropping it, somehow it landede --- or she _made_ it land --- in a crevice between the
-planks of the table. "Dice can land on the edge, on the floor, and so on. To protect against
+Dropping it, somehow it landed --- or she _made_ it land --- in a crevice between the
+planks of the table. "Dice can land on an edge, on the floor, and so on. To protect against
 every way the die can land is too time consuming. Warding is restricting the possibilities to
-just the six sides." She gestured to my ensouled die. "That thing can still land on the floor,
-or the edge."
+just the six sides." She gestured to my ensouled die. "That die can still land on the floor,
+or an edge."
 <% bump %w[Knowledge Magic Abjuration] %>
 
 That was a very neat way of looking at it.
+
+"Could you poke me with some animation so I get a feeling for how it's done?" I asked.
+
+Jefferson laughed. "Sure, but don't get your hopes up about learning it."
+
+She put a single broad finger on the back of my hand and channeled. I felt the... resonance,
+within me, and mirrored it.
+<% 5.times { bump %w[Willworking Animation Ensouling];
+bump %w[Willworking Animation Enchanting]; bump %w[Willworking Animation Enervating] } %>
+
+"Got it," I said. "So, what are the active, orthogonal, and passive aspects of animation?"
+
+"Ensouling is giving dead matter come alive with magic. Enervating is draining it away again.
+Enchantment is the chisel with which one hammers out a framework that can support warding --- or
+other, lesser spells. Knowing the willworking is a theoretical exercise, every competent
+enchanter uses a forge wand and wizardry."
