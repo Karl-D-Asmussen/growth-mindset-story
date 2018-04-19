@@ -142,16 +142,16 @@ Edrossi calmed down somewhat. "All right. But if she ends up defecting, I'm blam
 
 "Okay, then. How does this work?" I asked.
 
-Meyer turned to me. "Hold out your hand."
+Edrossi turned to me. "Hold out your hand."
 
-I did, and she put her hand on min, and then I felt abjuration. I wasn't a
+I did, and he put his hand on mine, and then I felt abjuration. I wasn't a
 synaesthete, and so it hadn't a color --- not even octarine --- it was just
 as much abjuration, as red was red and cold was cold.
 <% 5.times { bump %w[Willworking Abjuration Banishment] } %>
 <% 5.times { bump %w[Willworking Abjuration Protection] } %>
 <% 5.times { bump %w[Willworking Abjuration Warding] } %>
 
-"Now do it yourself," she said.
+"Now do it yourself," he said.
 
 I focused on the sensasion I had just felt and attempted to force it at her hand.
 <% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing' %>
@@ -166,7 +166,9 @@ It took me a third try to 'get' it, and I felt it _flow_ this time.
 <% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing 3' %>
 <% bump %w[Willworking Abjuration Banishment] %>
 
-Meyer withdrew her hand, shaking it a little. "Okay, she's got it. Okay, what you need to
+Edrossi withdrew his hand, shaking it a little.
+
+Meyer cleared her throat. "Okay, what you need to
 know about abjuration is there's three aspects to it --- every kind of magic has ---
 banishment, the active aspect; protection, the orthogonal aspect; and warding, the passive
 aspect."
@@ -176,7 +178,7 @@ aspect."
 
 "Are you an abjurer?" I asked.
 
-Meyer shaked her head. "I'm a fascinator and diviner but more importantly, I'm a wizard.
+Meyer shooke her head. "I'm a fascinator and diviner but more importantly, I'm a wizard.
 Jefferson is our warder; I just know the basics. What you just threw at me was banishment ---
 at the extreme, banishment can effect pain, involuntary movement, restriction of latent magics
 in the body, up to and including disruption of body-rhythms and death. It also acts as a universal
@@ -191,6 +193,103 @@ Definitely one of the most useful kinds.
 
 "The orthogonal aspect of protection, is... _difficult_ to experience. The most common
 training method is to hand someone a set of dice and let them figure out how to affect
-the roll. Sometimes channelling banishment _can_ affect it."
+the roll. The way Jefferson tells it, it's very conceptually dependent.
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Abjuration] %>
 
+"I'm a diviner, and so I work with worldlines a lot. The way Jefferson tells it,
+protection is about choosing which future worldline you occupy --- at least that's
+part of it. The common definition is that the abjurer's will rejects undesirable outcomes."
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Abjuration] %>
+<% bump %w[Knowledge Magic Divination] %>
 
+Immediately a concept from back home sprung to mind: quantum immortality.
+
+"Warding is..." Meyer faltered. "Man, I don't know enough about abjuration."
+
+"Warding," Edrossi said, "is an understanding of space and possibility, wherein
+the things that can be banished and protected happen. It's a very general and
+difficult-to-master discipline."
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Abjuration] %>
+
+I opened my mouth to ask, and Edrossi held up a hand. "Wait until Jefferson gets back.
+She can tell it much better."
+
+----
+
+Edrossi left, and Meyer consulted some ongoing spells and took notes, while casually explaining
+divinatory willwork to me. Again I was endowed with a shot of magic, this time divination, administered
+via Meyer poking my eye.
+<% 5.times { bump %w[willworking divination future] } %>
+<% 5.times { bump %w[willworking divination present] } %>
+<% 5.times { bump %w[willworking divination past] } %>
+
+Eyes, hands, mouth, to a lesser extent feet, and --- interestgly ---
+genitals, were significant in willworking. It mapped fairly well to what I
+remembered about the cortical homonculus. The organs in the body had powerful
+latent magics, especially the brain and the uterus.
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Anatomy] %>
+<% bump %w[Knowledge Magic Willworking] %>
+
+Divination had the aspects past, present, and future, as the passive, orthogonal, and active
+aspects respectively.
+<% bump %w[Knowledge Magic Theory] %>
+<% bump %w[Knowledge Magic Willworking] %>
+<% bump %w[Knowledge Magic Divination] %>
+Meyer was amazed at my ability to grasp that reconstructing past events from evidence, and
+predicting the future from facts were mirror images of each other, and even more blown away
+by my ability to grasp special relativity which was important in sensing the present.
+<% bump %w[Knowledge Physics Special\ Relativity] %>
+<% bump %w[Knowledge Physics Causality] %>
+
+Then, needing to go give a report, I was left alone. She left me a handful of six-sided dice
+and I used my tin cup as a shaker; which left me with the problem of coming up with my own exercises.
+<% bump %w[Knowledge Magic Teaching] %>
+
+The future-aspect was easy enough. Channeling the divinatory feeling in my
+mind --- as opposed to my hand --- while guessing at the outcome of the die
+roll before shaking the cup with a single die in it. Keeping track mentally,
+my prediction rate seemed much higher than random --- two dice would make the
+most common outcome seven pips; a single die had a roughly uniform probability
+mass, and so any guess was as good as any other.
+<% repeat(10..20) { bump %w[Willworking Divination Future] } %>
+
+The present-aspect was harder, but I figured out that the dice could be used for that as well:
+I channeled the feeling in my eyes, while trying my very best to see the outcome of the dice
+through the metal of my cup.
+<% repeat(10..20) { bump %w[Willworking Divination Present] } %>
+
+And exercise about the past was harder to construe. Rifling through the boxes and piles of stuff
+the wizard squad kept in their quarters, I managed to find a blank sheet of paper and a pen. Taking notes, I rolled
+the dice a bunch of times, careful not to think too hard about the outcomes. Once I had about fifty
+rolls, I ripped the paper in half, turned the half with the numbers upside down on the table, and focused
+on the die in the cup, trying to tease it's roll history out; chanelling divination all the while,
+writing down my guesses as I went. I got a fair portion of them right --- better than random.
+<% repeat(10..20) { bump %w[Willworking Divination Past] } %>
+
+Thinking about what had been said about abjuration, I tried to alter the dice so they would only roll
+sixes. It took minutes of willwork to get any result, and it faded after a few rolls.
+<% bump %w[Willworking Abjuration Protection] %>
+<% bump %w[Willworking Abjuration Warding] %>
+<% roll %w[Ability Intellect], %w[Knowledge Magic Willworking], -2.00, tag:'cross-disciplinary lackings' %>
+It seemed likely that I was lacking some cross-disciplinary willworking ability. I kept the exercise up
+until my mental exhaustion racked up.
+<% repeat(10..20) { bump %w[Willworking Abjuration Protection] } %>
+<% repeat(10..20) { bump %w[Willworking Abjuration Warding] } %>
+<% stat %w[Bonus Body Mad\ Points], at: -10.0 %>
+
+<%= body_table %>
+
+Thinking it over while playing with my knife, it was obvious that a _very_ powerful thing had fallen
+into my lap. Even a minor information advantage could be leveraged, and I had the impression that magic
+wasn't all that common, considering that having a squad of wizards to a company was the standard.
+<% bump %w[Practice Tool Knife] %>
+
+Then Jefferson arrived. She was a tall, well-built woman, tan skin, bald shaven, hard features,
+carrying a metal staff. "You must be the conscript," she said. "Show me what you can do."
