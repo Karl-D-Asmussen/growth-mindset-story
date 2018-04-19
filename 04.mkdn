@@ -170,7 +170,7 @@ Edrossi withdrew his hand, shaking it a little.
 
 Meyer cleared her throat. "Okay, what you need to
 know about abjuration is there's three aspects to it --- every kind of magic has ---
-banishment, the active aspect; protection, the orthogonal aspect; and warding, the passive
+banishment, the active aspect; warding, the orthogonal aspect; and protection, the passive
 aspect."
 <% bump %w[Knowledge Magic Theory] %>
 <% bump %w[Knowledge Magic Willworking] %>
@@ -191,7 +191,7 @@ I nodded along, and held up a hand, channelling the feeling of flow in my hand. 
 Definitely one of the most useful kinds.
 <% bump %w[Willworking Abjuration Banishment] %>
 
-"The orthogonal aspect of protection, is... _difficult_ to experience. The most common
+"The passive aspect of protection, is... _difficult_ to experience. The most common
 training method is to hand someone a set of dice and let them figure out how to affect
 the roll. The way Jefferson tells it, it's very conceptually dependent.
 <% bump %w[Knowledge Magic Theory] %>

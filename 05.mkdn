@@ -1,0 +1,41 @@
+<% $BUMP=0.10; import('04.mkdn'); Random.srand(4) %>
+
+<!-- # -->
+
+"You can't imbue abjuration in dead things," specialist Jefferson
+said with a chuckle, after I explained her my trouble with the dice.
+<% bump %w[Knowledge Magic Abjuration] %>
+
+She leaned forward and touched one of the dice with a finger. "At least
+not without help." She picked it up and handed it to me.
+
+There was _something_ coming off the die now. "What did you do?" I asked.
+
+"Animation. Ensouling. I gave it magic; now it will accept a lingering effect."
+<% bump %w[Knowledge Magic Animation] %>
+
+I focused on the die, and chanelled abjuration into it.
+<% bump %w[Willworking Abjuration Warding] %>
+<% bump %w[Willworking Abjuration Protection] %>
+
+Rolling it, it came up six four times in a row. "You seem proficient, is it
+important to use animation when creating wards?"
+
+"Yes. Integral. Without it, wards dissipate in moments."
+
+She was very terse.
+
+"I still don't understand the distinction between warding and protection," I confessed.
+
+Jefferson smiled. I liked her smile. "Protection protects from undesirable outcomes,"
+she said and took one of the dice. "Six sides, so you would think, six outcomes. This is
+not so."
+
+Dropping it, somehow it landede --- or she _made_ it land --- in a crevice between the
+planks of the table. "Dice can land on the edge, on the floor, and so on. To protect against
+every way the die can land is too time consuming. Warding is restricting the possibilities to
+just the six sides." She gestured to my ensouled die. "That thing can still land on the floor,
+or the edge."
+<% bump %w[Knowledge Magic Abjuration] %>
+
+That was a very neat way of looking at it.
