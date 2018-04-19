@@ -165,8 +165,8 @@ def skill_table(cat=//, sub=//)
 end
 
 BODY = %w[Health Sanity Hit\ Points Mad\ Points]
-def dig_body
-  BODY.map { |s| dig('Body', s) + dig_soft(%w[Bonus Body], s, default: 0.0) }
+def dig_body(base: false)
+  BODY.map { |s| dig('Body', s) + (if base then 0.0 else dig_soft(%w[Bonus Body], s, default: 0.0) end) }
 end
 
 def body_table

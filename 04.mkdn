@@ -285,6 +285,7 @@ until my mental exhaustion racked up.
 <% stat %w[Bonus Body Mad\ Points], at: -10.0 %>
 
 <%= body_table %>
+I was down ten don't-go-mad points. Probably a good time to take a load off.
 
 Thinking it over while playing with my knife, it was obvious that a _very_ powerful thing had fallen
 into my lap. Even a minor information advantage could be leveraged, and I had the impression that magic
