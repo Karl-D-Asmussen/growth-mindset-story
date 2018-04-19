@@ -2,33 +2,33 @@
 Proficiency:
   Willworking:
     Abjuration:
-      Banishment: removal of unwanted things
-      Protection: bending fate for favorable outcomes
-      Warding: protection of area or objects
+      Banishment: removal of effects (active)
+      Warding: removal of space (ortho)
+      Protection: removal of possibility (passive)
     Animation:
-      Ensoul: granting soul and self-direction
-      Enchant: altering soul and values
-      Enervate: removing soul and life
+      Ensoul: granting soul and magic (active)
+      Enchant: altering soul and magic (ortho)
+      Enervate: removing soul and magic (passive)
     Conjuration:
-      Ex Nihilo: falsifying
-      Ex Alio: summoning
-      Ex Anima: form giving
+      Ex Nihilo: falsifying (active)
+      Ex Anima: form giving (ortho)
+      Ex Alio: summoning (passive)
     Divination:
-      Future: self-explanatory
-      Present: self-explanatory
-      Past: self-explanatory
+      Future: self-explanatory (active)
+      Present: self-explanatory (ortho)
+      Past: self-explanatory (passive)
     Evocation:
-      Making: creation
-      Shaking: bending
-      Taking: destruction
+      Making: creation (act)
+      Shaking: bending (ortho)
+      Taking: destruction (pass)
     Fascination:
-      Geas: alter actions
-      Lure: alter desires
-      Bond: communicate
+      Geas: control actions (a)
+      Bond: communicate (o)
+      Lure: alter desires (p)
     Illusion:
-      Presence: thought forms
-      Experience: sensory manipulation
-      Absence: attention bending
+      Pretence: memes (a)
+      Divergence: confabulation (o)
+      Absence: anti-memes (p)
     Transmutation:
       Alkayest: Concrete alteration
       Alkami: Conceptual alteration
