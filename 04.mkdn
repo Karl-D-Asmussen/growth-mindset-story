@@ -6,7 +6,7 @@ The latrines were quite a lot nicer than a shit-smelling hole in the ground that
 I had expected. It was a hole in the ground, to be sure, but it didn't smell --- in
 fact it smelled of lavender, leading me to believe someone of the wizard squad
 had done something.
-<% bump %w[Knowlege Magic Identification] %>
+<% bump %w[Knowledge Magic Identification] %>
 
 Privacy was provided by the alcove dug into the side of the trench, allowing only
 a narrow section of the open trench full view of the seat --- a wooden board
@@ -33,14 +33,14 @@ Then there was the magic. Seemingly abundant enough for there to be a wizard squ
 with this company --- or so I assumed from the highest ranked officer being a major ---
 which made it between five and eight wizards in anywhere from eighty to a hundred and fifty
 soldiers. From three to ten percent.
-<% bump %w[Knowlege Magic Socio-Economics] %>
-<% bump %w[Knowlege Military Organization] %>
+<% bump %w[Knowledge Magic Socio-Economics] %>
+<% bump %w[Knowledge Military Organization] %>
 
 The specialist had said that this side of the conflict
 were a lot better than the giants --- and I had seen a handful of giants turn a human-sized
 trench into a giant-sized on in fifteen seconds!
-<% bump %w[Knowlege Magic Limitation] %>
-<% bump %w[Knowlege Magic Capability] %>
+<% bump %w[Knowledge Magic Limitation] %>
+<% bump %w[Knowledge Magic Capability] %>
 
 "Hey, are you done thinking on the shitter?"
 
@@ -85,14 +85,14 @@ And I backpedaled my familiar tone a little. "Are skill ratings prescriptive or 
 
 "What?" Edrossi asked.
 
-<% roll %w[Ability Intellect], %w[Cognition Hygeine Criticism], tag: 'see cognitive error' %>
+<% roll %w[Ability Intellect], %w[Cognition Hygiene Criticism], tag: 'see cognitive error' %>
 I paused to consider what I had just said. I was thinking in prescriptivism versus descriptivism _because_
-I was experiencing unnaturrally fast mastery; in essence I was taking the numbers ticking up as a prescriptive
+I was experiencing unnaturally fast mastery; in essence I was taking the numbers ticking up as a prescriptive
 thing because it happened to regularly; but what if it was my ability to learn that was fast, and the numbers
 were descriptive of that? There would be no difference.
-<% bump %w[Cognition Hygeine Criticism]; bump %w[Cognition Hygeine Deboxing] %>
+<% bump %w[Cognition Hygiene Criticism]; bump %w[Cognition Hygiene Deboxing] %>
 
-"Let me rephrase: how fast do people usually master knifeplay?" I asked.
+"Let me rephrase: how fast do people usually master knife play?" I asked.
 
 "What's the adage; it takes three years become an expert?" Meyer asked looking at Edrossi.
 
@@ -100,7 +100,7 @@ He nodded. "I'd say; if life doesn't get in the way."
 
 I drew the bayonet knife and balanced it on one finger. "So this isn't normal," I concluded out loud.
 "Does it warrant further testing? Or are you going to send me away from the front?"
-<% bump %w[Practice Rethoric Baiting] %>
+<% bump %w[Practice Rhetoric Baiting] %>
 
 <% roll %w[Ability Charisma], %w[Cognition Social Provocation], %w[Practice Rhetoric Baiting], -7.5, tag: 'baiting' %>
 "We are going to do more tests," Meyer said. "For now, could you practice knife throwing for us?"
@@ -153,7 +153,7 @@ as much abjuration, as red was red and cold was cold.
 
 "Now do it yourself," he said.
 
-I focused on the sensasion I had just felt and attempted to force it at her hand.
+I focused on the sensation I had just felt and attempted to force it at her hand.
 <% roll %w[Ability Charisma], %w[Willworking Abjuration Banishment], tag: 'pushing' %>
 <% bump %w[Willworking Abjuration Banishment] %>
 There was something --- like trying to flex specific muscles in your face on purpose, or grasp a
@@ -178,7 +178,7 @@ aspect."
 
 "Are you an abjurer?" I asked.
 
-Meyer shooke her head. "I'm a fascinator and diviner but more importantly, I'm a wizard.
+Meyer shook her head. "I'm a fascinator and diviner but more importantly, I'm a wizard.
 Jefferson is our warder; I just know the basics. What you just threw at me was banishment ---
 at the extreme, banishment can effect pain, involuntary movement, restriction of latent magics
 in the body, up to and including disruption of body-rhythms and death. It also acts as a universal
@@ -198,7 +198,7 @@ the roll. The way Jefferson tells it, it's very conceptually dependent.
 <% bump %w[Knowledge Magic Willworking] %>
 <% bump %w[Knowledge Magic Abjuration] %>
 
-"I'm a diviner, and so I work with worldlines a lot. The way Jefferson tells it,
+"I'm a diviner, and so I work with world lines a lot. The way Jefferson tells it,
 protection is about choosing which future worldline you occupy --- at least that's
 part of it. The common definition is that the abjurer's will rejects undesirable outcomes."
 <% bump %w[Knowledge Magic Theory] %>
@@ -223,16 +223,18 @@ She can tell it much better."
 ----
 
 Edrossi left, and Meyer consulted some ongoing spells and took notes, while casually explaining
-divinatory willwork to me. Again I was endowed with a shot of magic, this time divination, administered
+divinatory willworking to me. Again I was endowed with a shot of magic, this time divination, administered
 via Meyer poking my eye.
-<% 5.times { bump %w[willworking divination future] } %>
-<% 5.times { bump %w[willworking divination present] } %>
-<% 5.times { bump %w[willworking divination past] } %>
+<% 5.times { bump %w[Willworking Divination Future] } %>
+<% 5.times { bump %w[Willworking Divination Present] } %>
+<% 5.times { bump %w[Willworking Divination Past] } %>
 
-Eyes, hands, mouth, to a lesser extent feet, and --- interestgly ---
+Eyes, hands, mouth, to a lesser extent feet, and --- interestingly ---
 genitals, were significant in willworking. It mapped fairly well to what I
 remembered about the cortical homonculus. The organs in the body had powerful
 latent magics, especially the brain and the uterus.
+<% bump %w[Knowledge Anatomy Brain] %>
+<% bump %w[Knowledge Neurology Sensory-Motor] %>
 <% bump %w[Knowledge Magic Theory] %>
 <% bump %w[Knowledge Magic Anatomy] %>
 <% bump %w[Knowledge Magic Willworking] %>
@@ -269,15 +271,15 @@ And exercise about the past was harder to construe. Rifling through the boxes an
 the wizard squad kept in their quarters, I managed to find a blank sheet of paper and a pen. Taking notes, I rolled
 the dice a bunch of times, careful not to think too hard about the outcomes. Once I had about fifty
 rolls, I ripped the paper in half, turned the half with the numbers upside down on the table, and focused
-on the die in the cup, trying to tease it's roll history out; chanelling divination all the while,
+on the die in the cup, trying to tease it's roll history out; channelling divination all the while,
 writing down my guesses as I went. I got a fair portion of them right --- better than random.
 <% repeat(10..20) { bump %w[Willworking Divination Past] } %>
 
 Thinking about what had been said about abjuration, I tried to alter the dice so they would only roll
-sixes. It took minutes of willwork to get any result, and it faded after a few rolls.
+sixes. It took minutes of willworking to get any result, and it faded after a few rolls.
 <% bump %w[Willworking Abjuration Protection] %>
 <% bump %w[Willworking Abjuration Warding] %>
-<% roll %w[Ability Intellect], %w[Knowledge Magic Willworking], -2.00, tag:'cross-disciplinary lackings' %>
+<% roll %w[Ability Intellect], %w[Knowledge Magic Willworking], -2.00, tag:'cross-disciplinary lacking' %>
 It seemed likely that I was lacking some cross-disciplinary willworking ability. I kept the exercise up
 until my mental exhaustion racked up.
 <% repeat(10..20) { bump %w[Willworking Abjuration Protection] } %>
