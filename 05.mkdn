@@ -56,3 +56,13 @@ bump %w[Willworking Animation Enchanting]; bump %w[Willworking Animation Enervat
 Enchantment is the chisel with which one hammers out a framework that can support warding --- or
 other, lesser spells. Knowing the willworking is a theoretical exercise, every competent
 enchanter uses a forge wand and wizardry."
+
+I nodded. "And that metal staff is a forge wand?"
+
+She nodded.
+<% bump %w[Knowledge Magic Artifice] %>
+
+I'd hoped she'd offer an explanation, but she didn't.
+
+
+
