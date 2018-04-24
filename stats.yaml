@@ -1,0 +1,47 @@
+---
+
+Ability:
+  Strength:
+    Abbrv: STR
+  Agility:
+    Abbrv: AGI
+  Fortitude:
+    Abbrv: FORT
+  Charisma:
+    Abbrv: CHA
+  Wisdom:
+    Abbrv: WIS
+  Intellect:
+    Abbrv: INT
+
+Aptitude:
+  Saves:
+    Vim: [STR, CHA, sum, 4, div]
+    Reflex: [AGI, WIS, sum, 4, div]
+    Will: [FRT, INT, sum, 4, div]
+  Other:
+    Movement: [STR, AGI, max, RACE, sum]
+    Pulchritude: [FRT, CHA, max]
+    Imagination: [INT, WIS, max, RACE, sum]
+  Body:
+    Sanity: [CHA, WIS, INT, max3]
+    Don't Go Mad: [CHA, WIS, INT, sum3]
+    Health: [STR, AGI, FRT, max3]
+    Don't Get Hit: [STR, AGI, FRT, sum3]
+
+Race:
+  Ability:
+    ?Strength
+    ?Agility
+    ?Fortitude
+    ?Charisma
+    ?Wisdom
+    ?Intellect
+  Aptitude:
+    ?Movement
+    ?Imagination
+    ?Sanity
+    ?Health
+  Height: feet
+  Weight: pounds
+  Special: []

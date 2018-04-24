@@ -1,0 +1,204 @@
+---
+
+Template:
+  Race:
+    Height: 1, 100, feet
+    Weight: 1, 1000, pounds
+    Abilities:
+      Strength:  10
+      Agility:   10
+      Fortitude: 10
+      Charisma:  10
+      Wisdom:    10
+      Intellect: 10
+    Aptitudes:
+      Movement: 20
+      Imagination: 0
+    Resistances:
+      Sharp: 1
+      Blunt: 1
+      Pointy: 1
+      Fire: 1
+      Freezing: 1
+      Toxin: 1
+      Acid: 1
+      Lightning: 1
+      Thunder: 1
+      Radiant: 1
+      Necrotic: 1
+      Sorcery: 1
+      Void: 1
+    Special: []
+
+Gigantes:
+  Longfolk:
+    Height: 9, 12, feet
+    Weight: 200, 350, pounds
+    Abilities:
+      Strength:  12
+      Agility:   12
+      Fortitude: 12
+      Charisma:  12
+      Wisdom:    10
+      Intellect: 10
+    Aptitudes:
+      Movement: 30
+      Imagination: 10
+    Recistances: {}
+    Special: []
+    
+  Bigfolk:
+    Height: 8, 10, feet
+    Weight: 300, 500, pounds
+    Abilities:
+      Strength:  18
+      Agility:   10
+      Fortitude: 13
+      Charisma:  12
+      Wisdom:    10
+      Intellect: 10
+    Aptitudes:
+      Movement: 20
+      Imagination: 5
+    Recistances:
+      Sharp: .5
+      Blunt: .5
+      Pointy: .5
+
+  Bagfolk:
+    Height: 7, 9, feet
+    Weight: 250, 350, pounds
+    Abilities:
+      Strength:  13
+      Agility:   10
+      Fortitude: 18
+      Charisma:  10
+      Wisdom:    13
+      Intellect: 10
+    Aptitudes:
+      Movement: 20
+      Imagination: 5
+    Recistances:
+      Fire: .5
+      Ice: .5
+
+  Hill Giants:
+    Height: 15, 18, feet
+    Weight: 700, 1000, pounds
+    Abilities:
+      Strength:  20
+      Agility:   10
+      Fortitude: 20
+      Charisma:  10
+      Wisdom:    10
+      Intellect: 10
+    Aptitudes:
+      Movement: 40
+      Imagination: 0
+
+  Stone Giants:
+    Height: 18, 22, feet
+    Weight: 1000, 1300, pounds
+    Abilities:
+      Strength:  25
+      Agility:   10
+      Fortitude: 25
+      Charisma:  10
+      Wisdom:    10
+      Intellect: 12
+    Aptitudes:
+      Movement: 40
+      Imagination: 0
+
+  Fire Giants:
+    Height: 22, 25, feet
+    Weight: 1300, 1600, pounds
+    Abilities:
+      Strength:  30
+      Agility:   10
+      Fortitude: 30
+      Charisma:  12
+      Wisdom:    10
+      Intellect: 12
+    Aptitudes:
+      Movement: 50
+      Imagination: 0
+
+  Storm Giants:
+    Height: 25, 28, feet
+    Weight: 1600, 2000, pounds
+    Abilities:
+      Strength:  30
+      Agility:   15
+      Fortitude: 30
+      Charisma:  15
+      Wisdom:    15
+      Intellect: 15
+    Aptitudes:
+      Movement: 50
+      Imagination: 0
+
+Humans:
+  Dwargs:
+    Height: 4, 5, feet
+    Weight: 100, 150, pounds
+    Abilities:
+      Strength: 12
+      Fortitude: 12
+    Aptitudes:
+      Movement: 15
+      Imagination: 10
+
+  Folk:
+    Height: 5, 7, feet
+    Weight: 100, 250, pounds
+    Abilities:
+      Fortitude: 12
+      Charisma: 12
+    Aptitudes:
+      Movement: 20
+      Imagination: 10
+
+  Aulder:
+    Height: 5, 7, feet
+    Weight: 80, 180, pounds
+    Abilities:
+      Wisdom: 12
+      Intellect: 12
+    Special:
+      Magic Talent: 2.5
+    Aptitudes:
+      Movement: 20
+      Imagination: 5
+
+Otherspawn:
+  Tyfling:
+  Faeling:
+  Rieling:
+
+Smallfolk:
+  Gnomes:
+    Height: 3, 5, feet
+    Weight: 50, 150, poundsa
+    Abilities:
+      Strength: 8
+      Agility: 12
+      Charisma: 12
+      Wisdom: 15
+      Intellect: 15
+    Aptitudes:
+      Movement: 15 
+      Imagination: 20
+    Special:
+      Magic Talent: 1.5
+
+Orcs:
+  Pulse Orcs:
+    Height: 6, 10, feet
+    Weight: 120, 300, pounds
+    Abilities:
+      Strength: 15
+      Wisdom: 12
+    Aptitudes:
+      Movement: 25
+      Imagination: 5
